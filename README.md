@@ -27,4 +27,4 @@ HENLA is built around a symbolic-experiential core, focusing on:
 See [README_REPRODUCIBILITY.md](README_REPRODUCIBILITY.md) for installation and testing instructions.
 
 ## License
-MIT (or as specified in LICENSE file)
+This project is licensed under the **HENLA Non-Commercial Research License**. See the [LICENSE](LICENSE) file for details. It is free for research and educational use; commercial use is strictly prohibited.
