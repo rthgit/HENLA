@@ -1,0 +1,56 @@
+{
+  "suite": "open_ended_intelligence_oe1_oe12",
+  "verdict": "open-ended controlled",
+  "criteria_met": 10,
+  "criteria_total": 10,
+  "benchmarks": {
+    "OE-1  Unknown Workspace": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-2  Cold Start": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-4  Long Horizon": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-5  Tool Use": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-6  Language Grounding": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-7  World Model": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-3  Representation Discovery": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-10 Cross-Domain Transfer": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-8  Neuralization": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-9  Self-Curriculum": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-11 Independent Eval": {
+      "status": "passed",
+      "passed": true
+    },
+    "OE-12 Review Gate": {
+      "status": "passed",
+      "passed": true
+    }
+  }
+}

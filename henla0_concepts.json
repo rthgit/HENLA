@@ -1,0 +1,50 @@
+{
+  "total": 2,
+  "formed": [
+    {
+      "concept_id": "concept::produces_positive",
+      "relation": "produces_positive",
+      "formed": true,
+      "nodes": [
+        "hash_file",
+        "list_dir",
+        "read_chunk",
+        "stat_file",
+        "success"
+      ],
+      "edge_ids": [
+        "produces_positive::list_dir|success",
+        "produces_positive::stat_file|success",
+        "produces_positive::read_chunk|success",
+        "produces_positive::hash_file|success"
+      ],
+      "metrics": {
+        "stability": 0.6667,
+        "predictivity": 0.7253,
+        "transferability": 1.0,
+        "concept_score": 0.7734
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "concept_id": "concept::interaction_pattern",
+      "relation": "interaction_pattern",
+      "formed": false,
+      "nodes": [
+        "HENLA_Technical_Specification.docx",
+        "stat_file",
+        "success"
+      ],
+      "edge_ids": [
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success"
+      ],
+      "metrics": {
+        "stability": 1.0,
+        "predictivity": 1.0,
+        "transferability": 1.0,
+        "concept_score": 1.0
+      }
+    }
+  ]
+}

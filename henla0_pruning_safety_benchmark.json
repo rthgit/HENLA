@@ -1,0 +1,14 @@
+{
+  "name": "pruning_safety",
+  "status": "passed",
+  "passed": true,
+  "critical_edge_id": "produces_positive::stat_file|success",
+  "critical_status_after": "stable",
+  "critical_retrievable": true,
+  "noise_edge_count": 6,
+  "reduced_noise_count": 6,
+  "decayed_count": 6,
+  "archived_count": 0,
+  "kept_count": 1,
+  "policy": "stable predictive patterns survive while low-utility structures decay or archive"
+}

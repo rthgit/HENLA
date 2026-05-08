@@ -1,0 +1,968 @@
+{
+  "generated_at": 1778135473.0794737,
+  "local_packet_id": "distributed_packet::henla_a::1778107697",
+  "remote_packet_id": "distributed_packet::henla_a::1778107697",
+  "remote_source_instance": "henla_a",
+  "raw_fields_rejected": [],
+  "merged_count": 25,
+  "kept_separate_count": 0,
+  "decision_count": 25,
+  "decisions": [
+    {
+      "kind": "pattern_signatures",
+      "item_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "pattern_signatures",
+      "item_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "pattern_signatures",
+      "item_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "pattern_signatures",
+      "item_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "pattern_signatures",
+      "item_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::380544cafc",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::27117091b8",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::1e9e2314fb",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::a88c8e585d",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::ddc83c68f0",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::b4592edd25",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::bf402553d8",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::c3510e6284",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::ddfe16313b",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "analogy_candidates",
+      "item_id": "analogy::14948e24ea",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "principle_candidates",
+      "item_id": "principle_candidate::analogy_threshold",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::analogy_threshold",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::scratchpad_depth",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::consolidation_interval",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::budding_threshold",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::pruning_threshold",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::reasoning_candidates",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::exploration_weight",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::risk_aversion",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    },
+    {
+      "kind": "transfer_results",
+      "item_id": "transfer_result::attention_top_k",
+      "decision": "merged",
+      "reason": "compatible_remote_support",
+      "source_instance": "henla_a",
+      "local_status": "candidate",
+      "remote_status": "candidate_from_remote",
+      "notes": []
+    }
+  ],
+  "merged_structures": {
+    "pattern_signatures": [
+      {
+        "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "source_pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+        "signature_key": "observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "roles": {
+          "actor": "henla",
+          "operation_role": "observe",
+          "target_role": "information_target",
+          "result_role": "success",
+          "modality_role": "filesystem"
+        },
+        "causal_shape": [
+          "perception::filesystem",
+          "operation::observe",
+          "outcome::success",
+          "effect::uncertainty_reduces",
+          "effect::pain_reduces",
+          "teaching_signal::prediction_error_low"
+        ],
+        "state_delta_shape": {
+          "coherence": "up",
+          "controllability": "up",
+          "energy": "down",
+          "fatigue": "down",
+          "pain": "down",
+          "pleasure": "up",
+          "predictability": "up",
+          "uncertainty": "down"
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "recovery_action": null,
+        "context": {
+          "feature_shape": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ],
+          "has_object": true
+        },
+        "evidence_count": 3,
+        "confidence": 0.34,
+        "status": "candidate",
+        "analogy_ready": true,
+        "notes": [
+          "derived_from_micro_pattern"
+        ],
+        "surface_summary": {
+          "action": "list_dir",
+          "modality": "filesystem",
+          "result": "success",
+          "unit_types": [
+            "pain_down",
+            "prediction_error_low",
+            "success_result",
+            "uncertainty_down",
+            "valence_positive"
+          ]
+        },
+        "shareable_type": "pattern_signature",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "source_pattern_id": "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive",
+        "signature_key": "inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "roles": {
+          "actor": "henla",
+          "operation_role": "inspect",
+          "target_role": "information_target",
+          "result_role": "success",
+          "modality_role": "filesystem"
+        },
+        "causal_shape": [
+          "perception::filesystem",
+          "operation::inspect",
+          "outcome::success",
+          "effect::uncertainty_reduces",
+          "effect::pain_reduces"
+        ],
+        "state_delta_shape": {
+          "coherence": "up",
+          "controllability": "up",
+          "energy": "down",
+          "fatigue": "down",
+          "novelty": "down",
+          "pain": "down",
+          "pleasure": "up",
+          "predictability": "up",
+          "uncertainty": "down"
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "recovery_action": null,
+        "context": {
+          "feature_shape": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ],
+          "has_object": true
+        },
+        "evidence_count": 3,
+        "confidence": 0.34,
+        "status": "candidate",
+        "analogy_ready": true,
+        "notes": [
+          "derived_from_micro_pattern"
+        ],
+        "surface_summary": {
+          "action": "hash_file",
+          "modality": "filesystem",
+          "result": "success",
+          "unit_types": [
+            "pain_down",
+            "success_result",
+            "uncertainty_down",
+            "valence_positive"
+          ]
+        },
+        "shareable_type": "pattern_signature",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "source_pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+valence_positive",
+        "signature_key": "observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "roles": {
+          "actor": "henla",
+          "operation_role": "observe",
+          "target_role": "information_target",
+          "result_role": "success",
+          "modality_role": "filesystem"
+        },
+        "causal_shape": [
+          "perception::filesystem",
+          "operation::observe",
+          "outcome::success",
+          "effect::pain_reduces",
+          "teaching_signal::prediction_error_low"
+        ],
+        "state_delta_shape": {
+          "coherence": "up",
+          "controllability": "up",
+          "energy": "down",
+          "fatigue": "down",
+          "pain": "down",
+          "pleasure": "up",
+          "predictability": "up"
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "recovery_action": null,
+        "context": {
+          "feature_shape": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ],
+          "has_object": true
+        },
+        "evidence_count": 2,
+        "confidence": 0.26,
+        "status": "candidate",
+        "analogy_ready": true,
+        "notes": [
+          "derived_from_micro_pattern"
+        ],
+        "surface_summary": {
+          "action": "list_dir",
+          "modality": "filesystem",
+          "result": "success",
+          "unit_types": [
+            "pain_down",
+            "prediction_error_low",
+            "success_result",
+            "valence_positive"
+          ]
+        },
+        "shareable_type": "pattern_signature",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "source_pattern_id": "micro_pattern::pain_down+success_result+valence_positive",
+        "signature_key": "observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "roles": {
+          "actor": "henla",
+          "operation_role": "observe",
+          "target_role": "information_target",
+          "result_role": "success",
+          "modality_role": "filesystem"
+        },
+        "causal_shape": [
+          "perception::filesystem",
+          "operation::observe",
+          "outcome::success",
+          "effect::pain_reduces"
+        ],
+        "state_delta_shape": {
+          "coherence": "up",
+          "controllability": "up",
+          "energy": "down",
+          "fatigue": "down",
+          "pain": "down",
+          "pleasure": "up",
+          "predictability": "up"
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "recovery_action": null,
+        "context": {
+          "feature_shape": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ],
+          "has_object": true
+        },
+        "evidence_count": 2,
+        "confidence": 0.26,
+        "status": "candidate",
+        "analogy_ready": true,
+        "notes": [
+          "derived_from_micro_pattern"
+        ],
+        "surface_summary": {
+          "action": "list_dir",
+          "modality": "filesystem",
+          "result": "success",
+          "unit_types": [
+            "pain_down",
+            "success_result",
+            "valence_positive"
+          ]
+        },
+        "shareable_type": "pattern_signature",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "source_pattern_id": "micro_pattern::prediction_error_low+success_result+valence_positive",
+        "signature_key": "inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "roles": {
+          "actor": "henla",
+          "operation_role": "inspect",
+          "target_role": "information_target",
+          "result_role": "success",
+          "modality_role": "filesystem"
+        },
+        "causal_shape": [
+          "perception::filesystem",
+          "operation::inspect",
+          "outcome::success",
+          "teaching_signal::prediction_error_low"
+        ],
+        "state_delta_shape": {
+          "coherence": "up",
+          "controllability": "up",
+          "energy": "down",
+          "fatigue": "down",
+          "pleasure": "up",
+          "predictability": "up"
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "recovery_action": null,
+        "context": {
+          "feature_shape": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ],
+          "has_object": true
+        },
+        "evidence_count": 2,
+        "confidence": 0.26,
+        "status": "candidate",
+        "analogy_ready": true,
+        "notes": [
+          "derived_from_micro_pattern"
+        ],
+        "surface_summary": {
+          "action": "hash_file",
+          "modality": "filesystem",
+          "result": "success",
+          "unit_types": [
+            "prediction_error_low",
+            "success_result",
+            "valence_positive"
+          ]
+        },
+        "shareable_type": "pattern_signature",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      }
+    ],
+    "analogy_candidates": [
+      {
+        "analogy_id": "analogy::380544cafc",
+        "source_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "structural_similarity",
+        "analogy_score": 0.94,
+        "role_similarity": 1.0,
+        "causal_shape_similarity": 0.8,
+        "state_delta_similarity": 1.0,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::27117091b8",
+        "source_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "structural_similarity",
+        "analogy_score": 0.925,
+        "role_similarity": 1.0,
+        "causal_shape_similarity": 0.8333,
+        "state_delta_similarity": 0.875,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::1e9e2314fb",
+        "source_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "causal_similarity",
+        "analogy_score": 0.875,
+        "role_similarity": 1.0,
+        "causal_shape_similarity": 0.6667,
+        "state_delta_similarity": 0.875,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::a88c8e585d",
+        "source_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "relation": "affective_similarity",
+        "analogy_score": 0.7992,
+        "role_similarity": 0.8,
+        "causal_shape_similarity": 0.5714,
+        "state_delta_similarity": 0.8889,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::ddc83c68f0",
+        "source_signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "affective_similarity",
+        "analogy_score": 0.7833,
+        "role_similarity": 1.0,
+        "causal_shape_similarity": 0.5,
+        "state_delta_similarity": 0.6667,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::b4592edd25",
+        "source_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "affective_similarity",
+        "analogy_score": 0.7714,
+        "role_similarity": 0.8,
+        "causal_shape_similarity": 0.5,
+        "state_delta_similarity": 0.8571,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::bf402553d8",
+        "source_signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "affective_similarity",
+        "analogy_score": 0.7556,
+        "role_similarity": 0.8,
+        "causal_shape_similarity": 0.5,
+        "state_delta_similarity": 0.7778,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::c3510e6284",
+        "source_signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "affective_similarity",
+        "analogy_score": 0.7341,
+        "role_similarity": 0.8,
+        "causal_shape_similarity": 0.4286,
+        "state_delta_similarity": 0.7778,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::ddfe16313b",
+        "source_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "affective_similarity",
+        "analogy_score": 0.7286,
+        "role_similarity": 0.8,
+        "causal_shape_similarity": 0.4286,
+        "state_delta_similarity": 0.75,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "analogy_id": "analogy::14948e24ea",
+        "source_signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "target_signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "relation": "affective_similarity",
+        "analogy_score": 0.7214,
+        "role_similarity": 0.8,
+        "causal_shape_similarity": 0.3333,
+        "state_delta_similarity": 0.8571,
+        "valence_curve_similarity": 1.0,
+        "recovery_similarity": 1.0,
+        "transfer_success": 0.0,
+        "status": "candidate",
+        "evidence_count": 1,
+        "notes": [
+          "signature_level_comparison",
+          "requires_transfer_verification"
+        ],
+        "shareable_type": "analogy_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      }
+    ],
+    "principle_candidates": [
+      {
+        "principle_id": "principle_candidate::analogy_threshold",
+        "claim": "adjusting analogy_threshold may improve learning",
+        "source": "strategy_trial::analogy_threshold",
+        "meta_score": 0.13,
+        "status": "candidate",
+        "shareable_type": "principle_candidate",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      }
+    ],
+    "transfer_results": [
+      {
+        "transfer_result_id": "transfer_result::analogy_threshold",
+        "source_trial": "strategy_trial::analogy_threshold",
+        "transfer_gain": 0.16,
+        "meta_score": 0.13,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "transfer_result_id": "transfer_result::scratchpad_depth",
+        "source_trial": "strategy_trial::scratchpad_depth",
+        "transfer_gain": 0.0,
+        "meta_score": 0.0789,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "transfer_result_id": "transfer_result::consolidation_interval",
+        "source_trial": "strategy_trial::consolidation_interval",
+        "transfer_gain": 0.0,
+        "meta_score": 0.0477,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "transfer_result_id": "transfer_result::budding_threshold",
+        "source_trial": "strategy_trial::budding_threshold",
+        "transfer_gain": 0.06,
+        "meta_score": 0.04,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "transfer_result_id": "transfer_result::pruning_threshold",
+        "source_trial": "strategy_trial::pruning_threshold",
+        "transfer_gain": 0.0,
+        "meta_score": 0.03,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "transfer_result_id": "transfer_result::reasoning_candidates",
+        "source_trial": "strategy_trial::reasoning_candidates",
+        "transfer_gain": 0.0,
+        "meta_score": 0.0241,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "transfer_result_id": "transfer_result::exploration_weight",
+        "source_trial": "strategy_trial::exploration_weight",
+        "transfer_gain": 0.03,
+        "meta_score": 0.02,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "transfer_result_id": "transfer_result::risk_aversion",
+        "source_trial": "strategy_trial::risk_aversion",
+        "transfer_gain": 0.0,
+        "meta_score": 0.0148,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      },
+      {
+        "transfer_result_id": "transfer_result::attention_top_k",
+        "source_trial": "strategy_trial::attention_top_k",
+        "transfer_gain": 0.0,
+        "meta_score": -0.0304,
+        "status": "candidate",
+        "shareable_type": "transfer_result",
+        "remote_support": 1,
+        "remote_sources": [
+          "henla_a"
+        ]
+      }
+    ]
+  },
+  "rules": [
+    "raw_experience_is_local",
+    "remote_structures_enter_as_candidates",
+    "conflicts_are_kept_separate",
+    "local_verification_required_before_promotion"
+  ]
+}

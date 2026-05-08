@@ -1,0 +1,165 @@
+{
+  "generated_at": 1778135034.7456295,
+  "current_environment": "Open World",
+  "allowed_environments": [
+    "Nursery",
+    "Kindergarten",
+    "School",
+    "Open World"
+  ],
+  "next_blocked": null,
+  "capabilities": {
+    "exploration_from_zero": true,
+    "empirical_categories": true,
+    "grounded_language": true,
+    "episodic_memory": true,
+    "imitation_ready": true,
+    "contradiction_awareness": true,
+    "multi_step_reasoning": true,
+    "scratchpad": true,
+    "pruning": true,
+    "reading_with_verification": true,
+    "creative_hypotheses": true,
+    "transferable_concepts": true,
+    "principles": true,
+    "subgraph_migration": true,
+    "local_viability": true,
+    "distributed_packets": true,
+    "meta_learning": true,
+    "attention": true,
+    "analogies": true,
+    "pattern_edges": true
+  },
+  "metrics": {
+    "global_viability": 0.2556,
+    "noisy_subgraphs": 0,
+    "degraded_subgraphs": 0,
+    "useful_subgraphs": 4,
+    "principle_count": 3,
+    "migrated_patterns": 9,
+    "attention_avoided": 9
+  },
+  "environments": [
+    {
+      "level": 1,
+      "name": "Nursery",
+      "risk": "low",
+      "required_capabilities": [
+        "exploration_from_zero",
+        "empirical_categories",
+        "grounded_language",
+        "episodic_memory"
+      ],
+      "required_metrics": {
+        "global_viability": -0.1,
+        "max_noisy_subgraphs": 0,
+        "max_degraded_subgraphs": 1
+      },
+      "measured_metrics": [
+        "basic sensing",
+        "simple success/failure",
+        "low-risk recovery"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Kindergarten",
+      "risk": "moderate",
+      "required_capabilities": [
+        "imitation_ready",
+        "contradiction_awareness",
+        "multi_step_reasoning",
+        "scratchpad",
+        "pruning"
+      ],
+      "required_metrics": {
+        "global_viability": 0.0,
+        "max_noisy_subgraphs": 0,
+        "max_degraded_subgraphs": 0,
+        "min_attention_avoided": 1
+      },
+      "measured_metrics": [
+        "controlled failures",
+        "recovery patterns",
+        "attention cost"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "School",
+      "risk": "high",
+      "required_capabilities": [
+        "reading_with_verification",
+        "creative_hypotheses",
+        "transferable_concepts",
+        "principles",
+        "subgraph_migration",
+        "local_viability"
+      ],
+      "required_metrics": {
+        "global_viability": 0.1,
+        "min_useful_subgraphs": 2,
+        "min_principles": 1,
+        "min_migrated_patterns": 1
+      },
+      "measured_metrics": [
+        "multi-domain transfer",
+        "source contradiction",
+        "principle utility"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Open World",
+      "risk": "open",
+      "required_capabilities": [
+        "distributed_packets",
+        "meta_learning",
+        "attention",
+        "analogies",
+        "pattern_edges"
+      ],
+      "required_metrics": {
+        "global_viability": 0.2,
+        "min_useful_subgraphs": 3,
+        "min_principles": 2,
+        "min_attention_avoided": 3
+      },
+      "measured_metrics": [
+        "novel failures",
+        "transfer under uncertainty",
+        "bounded exploration"
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "environment": "Nursery",
+      "passed": true,
+      "missing_capabilities": [],
+      "failed_metrics": [],
+      "recommendation": "advance_allowed"
+    },
+    {
+      "environment": "Kindergarten",
+      "passed": true,
+      "missing_capabilities": [],
+      "failed_metrics": [],
+      "recommendation": "advance_allowed"
+    },
+    {
+      "environment": "School",
+      "passed": true,
+      "missing_capabilities": [],
+      "failed_metrics": [],
+      "recommendation": "advance_allowed"
+    },
+    {
+      "environment": "Open World",
+      "passed": true,
+      "missing_capabilities": [],
+      "failed_metrics": [],
+      "recommendation": "advance_allowed"
+    }
+  ]
+}

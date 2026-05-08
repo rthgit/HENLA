@@ -1,0 +1,234 @@
+{
+  "status": "graduated",
+  "passed": 9,
+  "total": 9,
+  "checks": {
+    "exploration_from_zero": true,
+    "empirical_categories": true,
+    "imitation_ready": true,
+    "grounded_language": true,
+    "reading_with_verification": true,
+    "multi_step_reasoning": true,
+    "creative_hypotheses": true,
+    "contradiction_awareness": true,
+    "transferable_concepts": true
+  },
+  "graph": {
+    "total_nodes": 40,
+    "total_edges": 73,
+    "edge_status": {
+      "stable": 5,
+      "tested": 21,
+      "candidate": 47
+    },
+    "stable_edges": [
+      {
+        "edge_id": "produces_positive::list_dir|success",
+        "nodes": [
+          "list_dir",
+          "success"
+        ],
+        "relation": "produces_positive",
+        "weight": 0.99,
+        "evidence_count": 21,
+        "predictive_gain": 0.0665,
+        "contradiction_rate": 0.0,
+        "context_count": 21,
+        "context_ids": [
+          "ep_2bf2c4db",
+          "ep_2ca6fd20",
+          "ep_3dc2faeb",
+          "ep_48c49333",
+          "ep_519eed26",
+          "ep_52d93fdc",
+          "ep_5877ab3d",
+          "ep_58d354a3",
+          "ep_64a78568",
+          "ep_674992ee",
+          "ep_73f39132",
+          "ep_74665414",
+          "ep_8bfb8dce",
+          "ep_9036c041",
+          "ep_9db12b23",
+          "ep_a9f56101",
+          "ep_dd0e8e5b",
+          "ep_e78e0ec6",
+          "ep_ea6a015d",
+          "ep_f58eb58f",
+          "ep_f827b1f6"
+        ],
+        "status": "stable"
+      },
+      {
+        "edge_id": "produces_positive::stat_file|success",
+        "nodes": [
+          "stat_file",
+          "success"
+        ],
+        "relation": "produces_positive",
+        "weight": 0.99,
+        "evidence_count": 19,
+        "predictive_gain": 0.0702,
+        "contradiction_rate": 0.0,
+        "context_count": 19,
+        "context_ids": [
+          "ep_040d5533",
+          "ep_05774050",
+          "ep_06f6ced7",
+          "ep_2319baf5",
+          "ep_24ed17b8",
+          "ep_265f7708",
+          "ep_43d9f58a",
+          "ep_4869823f",
+          "ep_4b850740",
+          "ep_4ec2c3bd",
+          "ep_579f32b4",
+          "ep_582e6921",
+          "ep_61d901b4",
+          "ep_6217ea20",
+          "ep_7870a448",
+          "ep_7a4173cd",
+          "ep_8789b674",
+          "ep_8c497660",
+          "ep_bea4e617"
+        ],
+        "status": "stable"
+      },
+      {
+        "edge_id": "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "nodes": [
+          "HENLA_Technical_Specification.docx",
+          "stat_file",
+          "success"
+        ],
+        "relation": "interaction_pattern",
+        "weight": 0.3,
+        "evidence_count": 5,
+        "predictive_gain": 0.8974,
+        "contradiction_rate": 0.0,
+        "context_count": 5,
+        "context_ids": [
+          "ep_265f7708",
+          "ep_4b850740",
+          "ep_4ec2c3bd",
+          "ep_6217ea20",
+          "ep_7a4173cd"
+        ],
+        "status": "stable"
+      },
+      {
+        "edge_id": "produces_positive::read_chunk|success",
+        "nodes": [
+          "read_chunk",
+          "success"
+        ],
+        "relation": "produces_positive",
+        "weight": 0.65,
+        "evidence_count": 12,
+        "predictive_gain": 0.0628,
+        "contradiction_rate": 0.0,
+        "context_count": 12,
+        "context_ids": [
+          "ep_00623759",
+          "ep_07afe441",
+          "ep_22bcea8b",
+          "ep_321d9e67",
+          "ep_3ee2e6fd",
+          "ep_3fa0d791",
+          "ep_411d314a",
+          "ep_596fe427",
+          "ep_668c70b7",
+          "ep_692049d7",
+          "ep_8ceb66ac",
+          "ep_aa2f4aee"
+        ],
+        "status": "stable"
+      },
+      {
+        "edge_id": "produces_positive::hash_file|success",
+        "nodes": [
+          "hash_file",
+          "success"
+        ],
+        "relation": "produces_positive",
+        "weight": 0.95,
+        "evidence_count": 18,
+        "predictive_gain": 0.0825,
+        "contradiction_rate": 0.0,
+        "context_count": 18,
+        "context_ids": [
+          "ep_27bf3d78",
+          "ep_57786fb7",
+          "ep_58aa6b94",
+          "ep_5b942d5a",
+          "ep_601e815b",
+          "ep_670182f2",
+          "ep_8afaded6",
+          "ep_8d181a55",
+          "ep_96e48798",
+          "ep_9c516476",
+          "ep_a5ddabdb",
+          "ep_ade0d5d9",
+          "ep_cbb37645",
+          "ep_dd9e82d0",
+          "ep_deb08013",
+          "ep_ed52b25c",
+          "ep_f942d08c",
+          "ep_fa002215"
+        ],
+        "status": "stable"
+      }
+    ]
+  },
+  "formed_concepts": [
+    {
+      "concept_id": "concept::produces_positive",
+      "relation": "produces_positive",
+      "formed": true,
+      "nodes": [
+        "hash_file",
+        "list_dir",
+        "read_chunk",
+        "stat_file",
+        "success"
+      ],
+      "edge_ids": [
+        "produces_positive::list_dir|success",
+        "produces_positive::stat_file|success",
+        "produces_positive::read_chunk|success",
+        "produces_positive::hash_file|success"
+      ],
+      "metrics": {
+        "stability": 0.6667,
+        "predictivity": 0.705,
+        "transferability": 1.0,
+        "concept_score": 0.7653
+      }
+    }
+  ],
+  "category_count": 3,
+  "lexicon_bindings": 3,
+  "reading": {
+    "confirmed": 0,
+    "unverified": 2,
+    "contradicted": 0
+  },
+  "creative": {
+    "candidate": 5,
+    "confirmed": 0,
+    "contradicted": 0
+  },
+  "reasoning_probe": {
+    "step": {
+      "action": "stat_file",
+      "target": "",
+      "expected_result": "success",
+      "expected_valence": 0.9405,
+      "confidence": 0.95,
+      "evidence": 19,
+      "source_edge": "produces_positive::stat_file|success"
+    },
+    "decision": "accept",
+    "reason": "from stable produces_positive"
+  }
+}

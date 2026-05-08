@@ -1,0 +1,12 @@
+[
+  {
+    "hypothesis_id": "hyp_697fc2b8",
+    "problem": "Unreliable workspace sensing: read_chunk failing repeatedly.",
+    "patch": "Increase read retry limit and check path encoding",
+    "metrics_before": {},
+    "metrics_after": {},
+    "accepted": true,
+    "reason": "Improved performance with integrity",
+    "timestamp": 0.0
+  }
+]

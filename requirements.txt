@@ -1,0 +1,10 @@
+# HENLA Core Dependencies
+# These are minimal dependencies for the current symbolic-experiential core.
+
+pytest>=7.0.0
+pathlib>=1.0.1
+typing-extensions>=4.0.0
+
+# Optional for multimodal/tool grounding
+# numpy>=1.21.0
+# pillow>=9.0.0

@@ -1,0 +1,13 @@
+{
+  "name": "rsi2_hypothesis_generator",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "hypotheses_count": 2,
+    "proposals": [
+      "Increase read retry limit and check path encoding",
+      "Add environment validation before execution"
+    ]
+  },
+  "policy": "RSI-2 verifies that failures are translated into actionable and measurable improvement plans."
+}

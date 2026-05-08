@@ -1,0 +1,12 @@
+{
+  "name": "pd8_domain_expansion_protocol",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "default_domain_ok": true,
+    "gate_enforced": true,
+    "activation_ok": true,
+    "total_domains": 2
+  },
+  "policy": "PD-8 prevents domain creep by requiring explicit risk assessment and activation for new technical territories."
+}

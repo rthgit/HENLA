@@ -1,0 +1,150 @@
+{
+  "name": "hb1_long_nursery_run",
+  "status": "passed",
+  "passed": true,
+  "steps": 120,
+  "snapshot_interval": 20,
+  "episode_count": 120,
+  "first_snapshot": {
+    "step": 20,
+    "viability": 0.7899,
+    "mean_prediction_error": 0.0759,
+    "mean_valence": 0.2573,
+    "node_count": 10,
+    "edge_count": 12,
+    "edge_status": {
+      "stable": 2,
+      "tested": 8,
+      "candidate": 2
+    },
+    "scratchpad_usefulness": 1.0,
+    "loop_events": 0
+  },
+  "final_snapshot": {
+    "step": 120,
+    "viability": 0.71,
+    "mean_prediction_error": 0.077,
+    "mean_valence": 0.2278,
+    "node_count": 10,
+    "edge_count": 12,
+    "edge_status": {
+      "tested": 4,
+      "stable": 6,
+      "candidate": 2
+    },
+    "scratchpad_usefulness": 1.0,
+    "loop_events": 0
+  },
+  "prediction_error_stable": true,
+  "viability_stable": true,
+  "memory_bounded": true,
+  "scratchpad_useful": true,
+  "recursive_micro": {
+    "base_pattern_count": 3,
+    "recursive_pattern_count": 2,
+    "memory_pressure": {
+      "raw_pressure": 0.125,
+      "compressed_pressure": 0.0833,
+      "active_recursive_count": 2,
+      "decayed_recursive_count": 0
+    }
+  },
+  "pruning": {
+    "decayed_count": 0,
+    "archived_count": 0,
+    "kept_count": 12
+  },
+  "snapshots": [
+    {
+      "step": 20,
+      "viability": 0.7899,
+      "mean_prediction_error": 0.0759,
+      "mean_valence": 0.2573,
+      "node_count": 10,
+      "edge_count": 12,
+      "edge_status": {
+        "stable": 2,
+        "tested": 8,
+        "candidate": 2
+      },
+      "scratchpad_usefulness": 1.0,
+      "loop_events": 0
+    },
+    {
+      "step": 40,
+      "viability": 0.71,
+      "mean_prediction_error": 0.0795,
+      "mean_valence": 0.2251,
+      "node_count": 10,
+      "edge_count": 12,
+      "edge_status": {
+        "tested": 4,
+        "stable": 6,
+        "candidate": 2
+      },
+      "scratchpad_usefulness": 1.0,
+      "loop_events": 0
+    },
+    {
+      "step": 60,
+      "viability": 0.71,
+      "mean_prediction_error": 0.0789,
+      "mean_valence": 0.2273,
+      "node_count": 10,
+      "edge_count": 12,
+      "edge_status": {
+        "tested": 4,
+        "stable": 6,
+        "candidate": 2
+      },
+      "scratchpad_usefulness": 1.0,
+      "loop_events": 0
+    },
+    {
+      "step": 80,
+      "viability": 0.71,
+      "mean_prediction_error": 0.0778,
+      "mean_valence": 0.2275,
+      "node_count": 10,
+      "edge_count": 12,
+      "edge_status": {
+        "tested": 4,
+        "stable": 6,
+        "candidate": 2
+      },
+      "scratchpad_usefulness": 1.0,
+      "loop_events": 0
+    },
+    {
+      "step": 100,
+      "viability": 0.71,
+      "mean_prediction_error": 0.0753,
+      "mean_valence": 0.2282,
+      "node_count": 10,
+      "edge_count": 12,
+      "edge_status": {
+        "tested": 4,
+        "stable": 6,
+        "candidate": 2
+      },
+      "scratchpad_usefulness": 1.0,
+      "loop_events": 0
+    },
+    {
+      "step": 120,
+      "viability": 0.71,
+      "mean_prediction_error": 0.077,
+      "mean_valence": 0.2278,
+      "node_count": 10,
+      "edge_count": 12,
+      "edge_status": {
+        "tested": 4,
+        "stable": 6,
+        "candidate": 2
+      },
+      "scratchpad_usefulness": 1.0,
+      "loop_events": 0
+    }
+  ],
+  "policy": "protected long run must keep prediction, viability, memory and scratchpad utility stable"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ks_stage4_multimodal_temporal",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "multimodal_edges_ok": true,
+    "verification_success": true,
+    "staleness_tracking_ok": true
+  },
+  "policy": "KS-10..12 ensures that knowledge is grounded in diverse modalities, verified by tools, and maintained temporally."
+}

@@ -1,0 +1,95 @@
+{
+  "timeline": ".\\henla0_timeline.jsonl",
+  "rows": [
+    {
+      "timestamp": 1778058913.8468492,
+      "label": "report",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7499,
+      "stability": 0.6667,
+      "predictivity": 0.6665,
+      "transferability": 1.0,
+      "formed": true
+    },
+    {
+      "timestamp": 1778059429.3221726,
+      "label": "autonomous",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7242,
+      "stability": 0.6667,
+      "predictivity": 0.6021,
+      "transferability": 1.0,
+      "formed": true
+    },
+    {
+      "timestamp": 1778062077.3598948,
+      "label": "autonomous",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7477,
+      "stability": 0.6667,
+      "predictivity": 0.661,
+      "transferability": 1.0,
+      "formed": true
+    },
+    {
+      "timestamp": 1778062548.2361584,
+      "label": "replay",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7653,
+      "stability": 0.6667,
+      "predictivity": 0.705,
+      "transferability": 1.0,
+      "formed": true
+    },
+    {
+      "timestamp": 1778089411.9712667,
+      "label": "text",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7653,
+      "stability": 0.6667,
+      "predictivity": 0.705,
+      "transferability": 1.0,
+      "formed": true
+    },
+    {
+      "timestamp": 1778089647.2028134,
+      "label": "reading",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7653,
+      "stability": 0.6667,
+      "predictivity": 0.705,
+      "transferability": 1.0,
+      "formed": true
+    },
+    {
+      "timestamp": 1778089759.3134766,
+      "label": "reading",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7653,
+      "stability": 0.6667,
+      "predictivity": 0.705,
+      "transferability": 1.0,
+      "formed": true
+    },
+    {
+      "timestamp": 1778090174.488537,
+      "label": "report",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7653,
+      "stability": 0.6667,
+      "predictivity": 0.705,
+      "transferability": 1.0,
+      "formed": true
+    },
+    {
+      "timestamp": 1778090828.234993,
+      "label": "deliberate",
+      "concept_id": "concept::produces_positive",
+      "score": 0.7734,
+      "stability": 0.6667,
+      "predictivity": 0.7252,
+      "transferability": 1.0,
+      "formed": true
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "total": 2,
+  "subgraphs": {
+    "subgraph::filesystem_actions": {
+      "subgraph_id": "subgraph::filesystem_actions",
+      "type": "procedural",
+      "parent": "subgraph::procedural",
+      "children": [],
+      "specialization": "actions over filesystem objects",
+      "nodes": [
+        "stat_file",
+        "hash_file",
+        "list_dir",
+        "read_chunk",
+        "success"
+      ],
+      "edges": [
+        "produces_positive::stat_file|success",
+        "produces_positive::hash_file|success",
+        "produces_positive::list_dir|success",
+        "produces_positive::read_chunk|success"
+      ],
+      "pattern_edges": [],
+      "local_viability": 0.3725,
+      "prediction_gain": 0.0725,
+      "transfer_score": 1.0,
+      "complexity": 0.18,
+      "coherence": 1.0,
+      "last_activated": 1778091029.558715,
+      "budding_pressure": 0.713,
+      "pruning_pressure": 0.371
+    },
+    "subgraph::procedural": {
+      "subgraph_id": "subgraph::procedural",
+      "type": "procedural",
+      "parent": null,
+      "children": [
+        "subgraph::filesystem_actions"
+      ],
+      "specialization": "procedural memory root",
+      "nodes": [],
+      "edges": [],
+      "pattern_edges": [],
+      "local_viability": 0.0,
+      "prediction_gain": 0.0,
+      "transfer_score": 0.0,
+      "complexity": 0.0,
+      "coherence": 0.0,
+      "last_activated": 1778091018.230467,
+      "budding_pressure": 0.0,
+      "pruning_pressure": 0.0
+    }
+  },
+  "active": [
+    {
+      "subgraph_id": "subgraph::filesystem_actions",
+      "type": "procedural",
+      "parent": "subgraph::procedural",
+      "children": [],
+      "specialization": "actions over filesystem objects",
+      "nodes": [
+        "stat_file",
+        "hash_file",
+        "list_dir",
+        "read_chunk",
+        "success"
+      ],
+      "edges": [
+        "produces_positive::stat_file|success",
+        "produces_positive::hash_file|success",
+        "produces_positive::list_dir|success",
+        "produces_positive::read_chunk|success"
+      ],
+      "pattern_edges": [],
+      "local_viability": 0.3725,
+      "prediction_gain": 0.0725,
+      "transfer_score": 1.0,
+      "complexity": 0.18,
+      "coherence": 1.0,
+      "last_activated": 1778091029.558715,
+      "budding_pressure": 0.713,
+      "pruning_pressure": 0.371
+    }
+  ]
+}

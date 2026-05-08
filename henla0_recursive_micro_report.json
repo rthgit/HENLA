@@ -1,0 +1,108 @@
+{
+  "source_episode_count": 12,
+  "base_pattern_count": 5,
+  "recursive_pattern_count": 4,
+  "memory_pressure": {
+    "raw_pressure": 0.225,
+    "compressed_pressure": 0.15,
+    "active_recursive_count": 4,
+    "decayed_recursive_count": 0
+  },
+  "recursive_patterns": [
+    {
+      "recursive_id": "recursive_micro::pain_down+prediction_error_low+success_result",
+      "source_pattern_ids": [
+        "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+        "micro_pattern::pain_down+prediction_error_low+success_result+valence_positive"
+      ],
+      "shared_unit_types": [
+        "pain_down",
+        "prediction_error_low",
+        "success_result"
+      ],
+      "evidence_count": 5,
+      "mean_valence": 0.293,
+      "prediction_error_mean": 0.0966,
+      "compression_ratio": 0.8333,
+      "activation": 1.0,
+      "decay_pressure": 0.0,
+      "status": "stable_micro_pattern"
+    },
+    {
+      "recursive_id": "recursive_micro::pain_down+success_result+uncertainty_down",
+      "source_pattern_ids": [
+        "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive"
+      ],
+      "shared_unit_types": [
+        "pain_down",
+        "success_result",
+        "uncertainty_down"
+      ],
+      "evidence_count": 3,
+      "mean_valence": 0.3469,
+      "prediction_error_mean": 0.105,
+      "compression_ratio": 1.0,
+      "activation": 1.0,
+      "decay_pressure": 0.0,
+      "status": "candidate"
+    },
+    {
+      "recursive_id": "recursive_micro::pain_down+success_result+valence_positive",
+      "source_pattern_ids": [
+        "micro_pattern::pain_down+success_result+valence_positive"
+      ],
+      "shared_unit_types": [
+        "pain_down",
+        "success_result",
+        "valence_positive"
+      ],
+      "evidence_count": 2,
+      "mean_valence": 0.2675,
+      "prediction_error_mean": 0.1015,
+      "compression_ratio": 0.6667,
+      "activation": 0.8342,
+      "decay_pressure": 0.0,
+      "status": "candidate"
+    },
+    {
+      "recursive_id": "recursive_micro::prediction_error_low+success_result+valence_positive",
+      "source_pattern_ids": [
+        "micro_pattern::prediction_error_low+success_result+valence_positive"
+      ],
+      "shared_unit_types": [
+        "prediction_error_low",
+        "success_result",
+        "valence_positive"
+      ],
+      "evidence_count": 2,
+      "mean_valence": 0.2568,
+      "prediction_error_mean": 0.098,
+      "compression_ratio": 0.6667,
+      "activation": 0.8235,
+      "decay_pressure": 0.0,
+      "status": "candidate"
+    }
+  ],
+  "bridge_to_signatures": [
+    {
+      "recursive_id": "recursive_micro::pain_down+prediction_error_low+success_result",
+      "signature_source": "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+      "status": "candidate_signature_source"
+    },
+    {
+      "recursive_id": "recursive_micro::pain_down+success_result+uncertainty_down",
+      "signature_source": "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive",
+      "status": "candidate_signature_source"
+    },
+    {
+      "recursive_id": "recursive_micro::pain_down+success_result+valence_positive",
+      "signature_source": "micro_pattern::pain_down+success_result+valence_positive",
+      "status": "candidate_signature_source"
+    },
+    {
+      "recursive_id": "recursive_micro::prediction_error_low+success_result+valence_positive",
+      "signature_source": "micro_pattern::prediction_error_low+success_result+valence_positive",
+      "status": "candidate_signature_source"
+    }
+  ]
+}

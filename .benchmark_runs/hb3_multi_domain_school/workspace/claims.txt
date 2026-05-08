@@ -1,0 +1,3 @@
+stat_file produces success
+hash_file produces failure
+watch_change produces success

@@ -1,0 +1,5 @@
+usage: henla.py pruning-safety-benchmark [-h] [--out OUT]
+
+options:
+  -h, --help  show this help message and exit
+  --out OUT   write pruning safety benchmark JSON

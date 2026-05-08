@@ -1,0 +1,175 @@
+{
+  "active_question": "predict action result under uncertainty",
+  "top_k": 5,
+  "consulted_count": 5,
+  "available_subgraphs": 14,
+  "avoided_count": 9,
+  "state_drivers": {
+    "uncertainty": 0.7,
+    "pain": 0.2,
+    "novelty": 0.5,
+    "fatigue": 0.1,
+    "viability": -0.42
+  },
+  "selected": [
+    {
+      "subgraph_id": "subgraph::predictive",
+      "subgraph_type": "predictive",
+      "relevance": 0.637,
+      "local_viability": 0.114,
+      "memory_pressure": 0.05,
+      "budget": 0.832,
+      "reason": "uncertainty,question::predict,question::action",
+      "selected_patterns": [
+        "consolidated_pattern::list_dir::success",
+        "consolidated_pattern::hash_file::success"
+      ]
+    },
+    {
+      "subgraph_id": "subgraph::principles",
+      "subgraph_type": "principle",
+      "relevance": 0.5653,
+      "local_viability": 0.1344,
+      "memory_pressure": 0.15,
+      "budget": 0.7503,
+      "reason": "question::predict",
+      "selected_patterns": [
+        "principle_candidate::repeat_successful_low_error_patterns",
+        "principle_candidate::observe_before_act",
+        "principle_candidate::successful_shape_transfers",
+        "principle::repeat_successful_low_error_patterns"
+      ]
+    },
+    {
+      "subgraph_id": "subgraph::hash_file",
+      "subgraph_type": "procedural",
+      "relevance": 0.5128,
+      "local_viability": 0.4868,
+      "memory_pressure": 0.375,
+      "budget": 0.6753,
+      "reason": "question::action",
+      "selected_patterns": [
+        "consolidated_pattern::hash_file::success"
+      ]
+    },
+    {
+      "subgraph_id": "subgraph::stat_file",
+      "subgraph_type": "procedural",
+      "relevance": 0.5078,
+      "local_viability": 0.5709,
+      "memory_pressure": 0.275,
+      "budget": 0.6803,
+      "reason": "question::action",
+      "selected_patterns": []
+    },
+    {
+      "subgraph_id": "subgraph::filesystem_actions",
+      "subgraph_type": "procedural",
+      "relevance": 0.4995,
+      "local_viability": 0.5273,
+      "memory_pressure": 0.225,
+      "budget": 0.6771,
+      "reason": "question::action",
+      "selected_patterns": []
+    }
+  ],
+  "skipped": [
+    {
+      "subgraph_id": "subgraph::list_dir",
+      "subgraph_type": "procedural",
+      "relevance": 0.4947,
+      "local_viability": 0.4757,
+      "memory_pressure": 0.475,
+      "budget": 0.6472,
+      "reason": "question::action",
+      "selected_patterns": [
+        "consolidated_pattern::list_dir::success"
+      ]
+    },
+    {
+      "subgraph_id": "subgraph::analogical",
+      "subgraph_type": "analogical",
+      "relevance": 0.3727,
+      "local_viability": 0.109,
+      "memory_pressure": 0.1,
+      "budget": 0.5627,
+      "reason": "baseline",
+      "selected_patterns": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ]
+    },
+    {
+      "subgraph_id": "subgraph::success",
+      "subgraph_type": "episodic",
+      "relevance": 0.3701,
+      "local_viability": 0.4472,
+      "memory_pressure": 1.0,
+      "budget": 0.4701,
+      "reason": "uncertainty",
+      "selected_patterns": []
+    },
+    {
+      "subgraph_id": "subgraph::principle",
+      "subgraph_type": "principle",
+      "relevance": 0.3432,
+      "local_viability": 0.119,
+      "memory_pressure": 0.0,
+      "budget": 0.5432,
+      "reason": "question::predict",
+      "selected_patterns": []
+    },
+    {
+      "subgraph_id": "subgraph::procedural",
+      "subgraph_type": "procedural",
+      "relevance": 0.3431,
+      "local_viability": 0.1187,
+      "memory_pressure": 0.0,
+      "budget": 0.5431,
+      "reason": "question::action",
+      "selected_patterns": []
+    },
+    {
+      "subgraph_id": "subgraph::episodic",
+      "subgraph_type": "episodic",
+      "relevance": 0.3409,
+      "local_viability": 0.119,
+      "memory_pressure": 0.0,
+      "budget": 0.541,
+      "reason": "uncertainty",
+      "selected_patterns": []
+    },
+    {
+      "subgraph_id": "subgraph::semantic",
+      "subgraph_type": "semantic",
+      "relevance": 0.3409,
+      "local_viability": 0.119,
+      "memory_pressure": 0.0,
+      "budget": 0.541,
+      "reason": "uncertainty",
+      "selected_patterns": []
+    },
+    {
+      "subgraph_id": "subgraph::affective",
+      "subgraph_type": "affective",
+      "relevance": 0.2307,
+      "local_viability": 0.119,
+      "memory_pressure": 0.0,
+      "budget": 0.4307,
+      "reason": "baseline",
+      "selected_patterns": []
+    },
+    {
+      "subgraph_id": "subgraph::linguistic",
+      "subgraph_type": "linguistic",
+      "relevance": 0.2307,
+      "local_viability": 0.119,
+      "memory_pressure": 0.0,
+      "budget": 0.4307,
+      "reason": "baseline",
+      "selected_patterns": []
+    }
+  ]
+}

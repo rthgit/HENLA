@@ -1,0 +1,76 @@
+{
+  "scratchpad_id": "scratchpad::af813cff",
+  "scope": "current_operation",
+  "active_question": "Which action should handle core?",
+  "state_summary": {
+    "energy": 1.0,
+    "uncertainty": 0.5,
+    "pain": 0.0,
+    "fatigue": 0.0,
+    "viability": 0.0
+  },
+  "opened_at": 1778181586.1818297,
+  "closed_at": 1778181586.1818297,
+  "status": "closed",
+  "activated_nodes": [
+    "list_dir",
+    "core"
+  ],
+  "activated_patterns": [],
+  "retrieved_edges": [
+    {
+      "edge_id": "produces_positive::list_dir|success",
+      "nodes": [
+        "list_dir",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.4,
+      "evidence_count": 7,
+      "predictive_gain": 0.1079,
+      "contradiction_rate": 0.0,
+      "context_count": 7,
+      "context_ids": [
+        "ep_916e4d97",
+        "ep_94f64cdf",
+        "seed::produces_positive::list_dir|success::0",
+        "seed::produces_positive::list_dir|success::1",
+        "seed::produces_positive::list_dir|success::2",
+        "seed::produces_positive::list_dir|success::3",
+        "seed::produces_positive::list_dir|success::4"
+      ],
+      "status": "stable"
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "h1",
+      "claim": "list_dir may produce success",
+      "confidence": 0.95,
+      "source": [
+        "scratchpad_cli",
+        "reasoner"
+      ],
+      "predicted_delta_viability": 0.38
+    }
+  ],
+  "simulations": [
+    {
+      "candidate_action": "list_dir",
+      "target": "core",
+      "predicted_result": "success",
+      "predicted_valence": 0.38,
+      "confidence": 0.95,
+      "risk": 0.0,
+      "decision": "accept",
+      "reason": "from stable produces_positive"
+    }
+  ],
+  "selected_action": "list_dir",
+  "selected_target": "core",
+  "rejected_actions": [],
+  "observed_result": null,
+  "reflection": null,
+  "consolidation_candidates": [],
+  "discarded_notes": []
+}

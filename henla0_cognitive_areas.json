@@ -1,0 +1,261 @@
+{
+  "total": 8,
+  "areas": {
+    "affective": {
+      "area_id": "area::affective",
+      "function": "how good or bad it is",
+      "subgraph_id": "subgraph::affective",
+      "communication_channels": [],
+      "local_viability": 0.0,
+      "budget": 0.5
+    },
+    "analogical": {
+      "area_id": "area::analogical",
+      "function": "what structure resembles another",
+      "subgraph_id": "subgraph::analogical",
+      "communication_channels": [
+        "area::semantic"
+      ],
+      "local_viability": 0.0,
+      "budget": 0.5
+    },
+    "episodic": {
+      "area_id": "area::episodic",
+      "function": "what happened",
+      "subgraph_id": "subgraph::episodic",
+      "communication_channels": [
+        "area::procedural"
+      ],
+      "local_viability": 0.0,
+      "budget": 0.5
+    },
+    "linguistic": {
+      "area_id": "area::linguistic",
+      "function": "how experience is named",
+      "subgraph_id": "subgraph::linguistic",
+      "communication_channels": [],
+      "local_viability": 0.0,
+      "budget": 0.5
+    },
+    "predictive": {
+      "area_id": "area::predictive",
+      "function": "what happens if",
+      "subgraph_id": "subgraph::predictive",
+      "communication_channels": [
+        "area::principle"
+      ],
+      "local_viability": 0.0,
+      "budget": 0.5
+    },
+    "principle": {
+      "area_id": "area::principle",
+      "function": "what holds across domains",
+      "subgraph_id": "subgraph::principle",
+      "communication_channels": [
+        "area::predictive"
+      ],
+      "local_viability": 0.0,
+      "budget": 0.5
+    },
+    "procedural": {
+      "area_id": "area::procedural",
+      "function": "how to do it",
+      "subgraph_id": "subgraph::procedural",
+      "communication_channels": [
+        "area::episodic"
+      ],
+      "local_viability": 0.0,
+      "budget": 0.5
+    },
+    "semantic": {
+      "area_id": "area::semantic",
+      "function": "what it means",
+      "subgraph_id": "subgraph::semantic",
+      "communication_channels": [
+        "area::analogical"
+      ],
+      "local_viability": 0.0,
+      "budget": 0.5
+    }
+  },
+  "registry": {
+    "total": 9,
+    "subgraphs": {
+      "subgraph::affective": {
+        "subgraph_id": "subgraph::affective",
+        "type": "affective",
+        "parent": null,
+        "children": [],
+        "specialization": "how good or bad it is",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::analogical": {
+        "subgraph_id": "subgraph::analogical",
+        "type": "analogical",
+        "parent": null,
+        "children": [],
+        "specialization": "what structure resembles another",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::episodic": {
+        "subgraph_id": "subgraph::episodic",
+        "type": "episodic",
+        "parent": null,
+        "children": [],
+        "specialization": "what happened",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::filesystem_actions": {
+        "subgraph_id": "subgraph::filesystem_actions",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "actions over filesystem objects",
+        "nodes": [
+          "stat_file",
+          "hash_file",
+          "list_dir",
+          "read_chunk",
+          "success"
+        ],
+        "edges": [
+          "produces_positive::stat_file|success",
+          "produces_positive::hash_file|success",
+          "produces_positive::list_dir|success",
+          "produces_positive::read_chunk|success"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.3725,
+        "prediction_gain": 0.0725,
+        "transfer_score": 1.0,
+        "complexity": 0.18,
+        "coherence": 1.0,
+        "last_activated": 1778091029.558715,
+        "budding_pressure": 0.713,
+        "pruning_pressure": 0.371
+      },
+      "subgraph::linguistic": {
+        "subgraph_id": "subgraph::linguistic",
+        "type": "linguistic",
+        "parent": null,
+        "children": [],
+        "specialization": "how experience is named",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::predictive": {
+        "subgraph_id": "subgraph::predictive",
+        "type": "predictive",
+        "parent": null,
+        "children": [],
+        "specialization": "what happens if",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::principle": {
+        "subgraph_id": "subgraph::principle",
+        "type": "principle",
+        "parent": null,
+        "children": [],
+        "specialization": "what holds across domains",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::procedural": {
+        "subgraph_id": "subgraph::procedural",
+        "type": "procedural",
+        "parent": null,
+        "children": [
+          "subgraph::filesystem_actions"
+        ],
+        "specialization": "procedural memory root",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091018.230467,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::semantic": {
+        "subgraph_id": "subgraph::semantic",
+        "type": "semantic",
+        "parent": null,
+        "children": [],
+        "specialization": "what it means",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      }
+    }
+  }
+}

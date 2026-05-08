@@ -1,0 +1,129 @@
+{
+  "name": "ow3_long_horizon_recovery",
+  "status": "passed",
+  "passed": true,
+  "workspace": "E:\\HENLA",
+  "graph_seed_path": "henla0_graph.json",
+  "cycles": 6,
+  "snapshot_interval": 12,
+  "sequence_length": 72,
+  "episode_count": 72,
+  "seeded_prior_count": 20,
+  "failure_count": 12,
+  "recovery_successes": 12,
+  "recovery_rate": 1.0,
+  "context_switch_count": 71,
+  "resumed_task_success_count": 50,
+  "unique_interrupted_tasks": 10,
+  "loop_event_count": 0,
+  "scratchpad_usefulness": 0.8,
+  "prediction_error_stable": true,
+  "viability_stable": true,
+  "mean_prediction_error_final": 0.165,
+  "final_viability": 0.71,
+  "reading_verification": {
+    "confirmed": 4,
+    "unverified": 5,
+    "contradicted": 2
+  },
+  "memory_bounded": true,
+  "compression": {
+    "episode_count": 72,
+    "compressed_pattern_count": 10,
+    "compression_ratio": 0.1389,
+    "compressed_pressure": 0.2167,
+    "retrievable_edge_count": 17,
+    "graph_edge_ratio": 0.2361
+  },
+  "recursive_micro": {
+    "base_pattern_count": 8,
+    "recursive_pattern_count": 5,
+    "memory_pressure": {
+      "raw_pressure": 0.325,
+      "compressed_pressure": 0.2167,
+      "active_recursive_count": 5,
+      "decayed_recursive_count": 0
+    }
+  },
+  "snapshots": [
+    {
+      "step": 12,
+      "episode_count": 12,
+      "mean_prediction_error": 0.103,
+      "viability": 0.4678,
+      "failure_count": 2,
+      "context_switch_count": 11,
+      "resumed_task_success_count": 2,
+      "scratchpad_usefulness": 0.8,
+      "compression_ratio": 0.0,
+      "compressed_pressure": 0.1167,
+      "recursive_pattern_count": 3
+    },
+    {
+      "step": 24,
+      "episode_count": 24,
+      "mean_prediction_error": 0.1213,
+      "viability": 0.7326,
+      "failure_count": 4,
+      "context_switch_count": 23,
+      "resumed_task_success_count": 12,
+      "scratchpad_usefulness": 0.8,
+      "compression_ratio": 0.4167,
+      "compressed_pressure": 0.1667,
+      "recursive_pattern_count": 4
+    },
+    {
+      "step": 36,
+      "episode_count": 36,
+      "mean_prediction_error": 0.1565,
+      "viability": 0.7241,
+      "failure_count": 6,
+      "context_switch_count": 35,
+      "resumed_task_success_count": 21,
+      "scratchpad_usefulness": 0.8,
+      "compression_ratio": 0.2778,
+      "compressed_pressure": 0.2167,
+      "recursive_pattern_count": 5
+    },
+    {
+      "step": 48,
+      "episode_count": 48,
+      "mean_prediction_error": 0.1574,
+      "viability": 0.71,
+      "failure_count": 8,
+      "context_switch_count": 47,
+      "resumed_task_success_count": 31,
+      "scratchpad_usefulness": 0.8,
+      "compression_ratio": 0.2083,
+      "compressed_pressure": 0.2167,
+      "recursive_pattern_count": 5
+    },
+    {
+      "step": 60,
+      "episode_count": 60,
+      "mean_prediction_error": 0.1587,
+      "viability": 0.71,
+      "failure_count": 10,
+      "context_switch_count": 59,
+      "resumed_task_success_count": 41,
+      "scratchpad_usefulness": 0.8,
+      "compression_ratio": 0.1667,
+      "compressed_pressure": 0.2167,
+      "recursive_pattern_count": 5
+    },
+    {
+      "step": 72,
+      "episode_count": 72,
+      "mean_prediction_error": 0.1567,
+      "viability": 0.71,
+      "failure_count": 12,
+      "context_switch_count": 71,
+      "resumed_task_success_count": 50,
+      "scratchpad_usefulness": 0.8,
+      "compression_ratio": 0.1389,
+      "compressed_pressure": 0.2167,
+      "recursive_pattern_count": 5
+    }
+  ],
+  "policy": "OW-3 must remain coherent across a long real-repository session with intermittent failures, recoveries, interrupted task resumes, claim verification and bounded memory pressure"
+}

@@ -1,0 +1,135 @@
+{
+  "total": 5,
+  "hypotheses": [
+    {
+      "source": "hash_file",
+      "target": "HENLA_Technical_Specification.docx",
+      "predicted_result": "success",
+      "relation": "analogical_hypothesis",
+      "novelty": 0.5,
+      "risk": 0.2,
+      "edge": {
+        "edge_id": "analogical_hypothesis::HENLA_Technical_Specification.docx|hash_file|success",
+        "nodes": [
+          "hash_file",
+          "HENLA_Technical_Specification.docx",
+          "success"
+        ],
+        "relation": "analogical_hypothesis",
+        "weight": 0.1,
+        "evidence_count": 1,
+        "predictive_gain": 0.0,
+        "contradiction_rate": 0.0,
+        "context_count": 1,
+        "context_ids": [
+          "creative::5c11fc52"
+        ],
+        "status": "candidate"
+      }
+    },
+    {
+      "source": "hash_file",
+      "target": "PROJECT_LOG.md",
+      "predicted_result": "success",
+      "relation": "analogical_hypothesis",
+      "novelty": 0.5,
+      "risk": 0.2,
+      "edge": {
+        "edge_id": "analogical_hypothesis::PROJECT_LOG.md|hash_file|success",
+        "nodes": [
+          "hash_file",
+          "PROJECT_LOG.md",
+          "success"
+        ],
+        "relation": "analogical_hypothesis",
+        "weight": 0.1,
+        "evidence_count": 1,
+        "predictive_gain": 0.0,
+        "contradiction_rate": 0.0,
+        "context_count": 1,
+        "context_ids": [
+          "creative::5c11fc52"
+        ],
+        "status": "candidate"
+      }
+    },
+    {
+      "source": "hash_file",
+      "target": "__pycache__\\demo_autonomous.cpython-312.pyc",
+      "predicted_result": "success",
+      "relation": "analogical_hypothesis",
+      "novelty": 0.75,
+      "risk": 0.2,
+      "edge": {
+        "edge_id": "analogical_hypothesis::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success",
+        "nodes": [
+          "hash_file",
+          "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "success"
+        ],
+        "relation": "analogical_hypothesis",
+        "weight": 0.1,
+        "evidence_count": 1,
+        "predictive_gain": 0.0,
+        "contradiction_rate": 0.0,
+        "context_count": 1,
+        "context_ids": [
+          "creative::5c11fc52"
+        ],
+        "status": "candidate"
+      }
+    },
+    {
+      "source": "hash_file",
+      "target": "__pycache__\\henla.cpython-312.pyc",
+      "predicted_result": "success",
+      "relation": "analogical_hypothesis",
+      "novelty": 0.75,
+      "risk": 0.2,
+      "edge": {
+        "edge_id": "analogical_hypothesis::__pycache__\\henla.cpython-312.pyc|hash_file|success",
+        "nodes": [
+          "hash_file",
+          "__pycache__\\henla.cpython-312.pyc",
+          "success"
+        ],
+        "relation": "analogical_hypothesis",
+        "weight": 0.1,
+        "evidence_count": 1,
+        "predictive_gain": 0.0,
+        "contradiction_rate": 0.0,
+        "context_count": 1,
+        "context_ids": [
+          "creative::5c11fc52"
+        ],
+        "status": "candidate"
+      }
+    },
+    {
+      "source": "hash_file",
+      "target": "archive\\generated_outputs_2026-05-06",
+      "predicted_result": "success",
+      "relation": "analogical_hypothesis",
+      "novelty": 0.5,
+      "risk": 0.2,
+      "edge": {
+        "edge_id": "analogical_hypothesis::archive\\generated_outputs_2026-05-06|hash_file|success",
+        "nodes": [
+          "hash_file",
+          "archive\\generated_outputs_2026-05-06",
+          "success"
+        ],
+        "relation": "analogical_hypothesis",
+        "weight": 0.1,
+        "evidence_count": 1,
+        "predictive_gain": 0.0,
+        "contradiction_rate": 0.0,
+        "context_count": 1,
+        "context_ids": [
+          "creative::5c11fc52"
+        ],
+        "status": "candidate"
+      }
+    }
+  ]
+}

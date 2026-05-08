@@ -1,0 +1,11 @@
+usage: henla.py large-scale-benchmark [-h] [--episodes EPISODES]
+                                      [--active-window ACTIVE_WINDOW]
+                                      [--min-episodes MIN_EPISODES]
+                                      [--out OUT]
+
+options:
+  -h, --help            show this help message and exit
+  --episodes EPISODES
+  --active-window ACTIVE_WINDOW
+  --min-episodes MIN_EPISODES
+  --out OUT             write large-scale benchmark JSON

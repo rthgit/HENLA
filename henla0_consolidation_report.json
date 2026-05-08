@@ -1,0 +1,579 @@
+{
+  "source_episode_count": 12,
+  "min_evidence": 2,
+  "generated_at": 1778108266.8766494,
+  "procedural_patterns": [
+    {
+      "pattern_id": "consolidated_pattern::hash_file::success",
+      "pattern_type": "procedural",
+      "evidence_count": 4,
+      "action": "hash_file",
+      "result": "success",
+      "targets": [
+        "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "core\\action_selector.py"
+      ],
+      "mean_valence": 0.3019,
+      "mean_prediction_error": 0.1009,
+      "assigned_subgraph": "subgraph::hash_file",
+      "status": "candidate",
+      "notes": [
+        "multi_episode_pattern"
+      ]
+    },
+    {
+      "pattern_id": "consolidated_pattern::list_dir::success",
+      "pattern_type": "procedural",
+      "evidence_count": 7,
+      "action": "list_dir",
+      "result": "success",
+      "targets": [
+        "PROJECT_LOG.md",
+        "archive\\runtime_artifacts_2026-05-06",
+        "henla0_categories.json",
+        "tests"
+      ],
+      "mean_valence": 0.2878,
+      "mean_prediction_error": 0.0974,
+      "assigned_subgraph": "subgraph::list_dir",
+      "status": "tested",
+      "notes": [
+        "multi_episode_pattern"
+      ]
+    }
+  ],
+  "semantic_patterns": [],
+  "affective_patterns": [],
+  "signature_patterns": [
+    {
+      "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+      "evidence_count": 3,
+      "roles": {
+        "actor": "henla",
+        "operation_role": "observe",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::observe",
+        "outcome::success",
+        "effect::uncertainty_reduces",
+        "effect::pain_reduces",
+        "teaching_signal::prediction_error_low"
+      ],
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "status": "candidate",
+      "notes": [
+        "signature_consolidation"
+      ]
+    },
+    {
+      "signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive",
+      "evidence_count": 3,
+      "roles": {
+        "actor": "henla",
+        "operation_role": "inspect",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::inspect",
+        "outcome::success",
+        "effect::uncertainty_reduces",
+        "effect::pain_reduces"
+      ],
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "status": "candidate",
+      "notes": [
+        "signature_consolidation"
+      ]
+    },
+    {
+      "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+valence_positive",
+      "evidence_count": 2,
+      "roles": {
+        "actor": "henla",
+        "operation_role": "observe",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::observe",
+        "outcome::success",
+        "effect::pain_reduces",
+        "teaching_signal::prediction_error_low"
+      ],
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "status": "candidate",
+      "notes": [
+        "signature_consolidation"
+      ]
+    },
+    {
+      "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::pain_down+success_result+valence_positive",
+      "evidence_count": 2,
+      "roles": {
+        "actor": "henla",
+        "operation_role": "observe",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::observe",
+        "outcome::success",
+        "effect::pain_reduces"
+      ],
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "status": "candidate",
+      "notes": [
+        "signature_consolidation"
+      ]
+    },
+    {
+      "signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::prediction_error_low+success_result+valence_positive",
+      "evidence_count": 2,
+      "roles": {
+        "actor": "henla",
+        "operation_role": "inspect",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::inspect",
+        "outcome::success",
+        "teaching_signal::prediction_error_low"
+      ],
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "status": "candidate",
+      "notes": [
+        "signature_consolidation"
+      ]
+    }
+  ],
+  "principle_candidates": [
+    {
+      "principle_id": "principle_candidate::repeat_successful_low_error_patterns",
+      "claim": "repeated successful low-error patterns should be reusable",
+      "source_patterns": [
+        "consolidated_pattern::hash_file::success",
+        "consolidated_pattern::list_dir::success"
+      ],
+      "evidence_count": 11,
+      "status": "candidate"
+    },
+    {
+      "principle_id": "principle_candidate::observe_before_act",
+      "claim": "observation actions repeatedly reduce uncertainty before deeper action",
+      "source_patterns": [
+        "consolidated_pattern::list_dir::success"
+      ],
+      "evidence_count": 7,
+      "status": "candidate"
+    },
+    {
+      "principle_id": "principle_candidate::successful_shape_transfers",
+      "claim": "successful causal shapes with repeated evidence may transfer",
+      "source_patterns": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery"
+      ],
+      "evidence_count": 6,
+      "status": "candidate"
+    }
+  ],
+  "subgraph_assignments": [
+    {
+      "pattern_id": "consolidated_pattern::hash_file::success",
+      "subgraph_id": "subgraph::hash_file",
+      "status": "assigned"
+    },
+    {
+      "pattern_id": "consolidated_pattern::list_dir::success",
+      "subgraph_id": "subgraph::list_dir",
+      "status": "assigned"
+    }
+  ],
+  "registry": {
+    "total": 13,
+    "subgraphs": {
+      "subgraph::affective": {
+        "subgraph_id": "subgraph::affective",
+        "type": "affective",
+        "parent": null,
+        "children": [],
+        "specialization": "how good or bad it is",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::analogical": {
+        "subgraph_id": "subgraph::analogical",
+        "type": "analogical",
+        "parent": null,
+        "children": [],
+        "specialization": "what structure resembles another",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::episodic": {
+        "subgraph_id": "subgraph::episodic",
+        "type": "episodic",
+        "parent": null,
+        "children": [
+          "subgraph::success"
+        ],
+        "specialization": "what happened",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::filesystem_actions": {
+        "subgraph_id": "subgraph::filesystem_actions",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "actions over filesystem objects",
+        "nodes": [
+          "stat_file",
+          "hash_file",
+          "list_dir",
+          "read_chunk",
+          "success"
+        ],
+        "edges": [
+          "produces_positive::stat_file|success",
+          "produces_positive::hash_file|success",
+          "produces_positive::list_dir|success",
+          "produces_positive::read_chunk|success"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.3725,
+        "prediction_gain": 0.0725,
+        "transfer_score": 1.0,
+        "complexity": 0.18,
+        "coherence": 1.0,
+        "last_activated": 1778091029.558715,
+        "budding_pressure": 0.713,
+        "pruning_pressure": 0.371
+      },
+      "subgraph::hash_file": {
+        "subgraph_id": "subgraph::hash_file",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "budded from node hash_file",
+        "nodes": [
+          "hash_file",
+          "HENLA_Technical_Specification.docx",
+          "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "core\\action_selector.py",
+          "core\\state.py",
+          "henla0_graph.json",
+          "success"
+        ],
+        "edges": [
+          "produces_positive::hash_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+          "interaction_pattern::hash_file|henla0_graph.json|success",
+          "interaction_pattern::core\\state.py|hash_file|success",
+          "interaction_pattern::core\\action_selector.py|hash_file|success",
+          "reduces_uncertainty::core\\action_selector.py|hash_file",
+          "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success"
+        ],
+        "pattern_edges": [
+          "consolidated_pattern::hash_file::success"
+        ],
+        "local_viability": 0.7544,
+        "prediction_gain": 0.7116,
+        "transfer_score": 1.0,
+        "complexity": 0.28,
+        "coherence": 0.1429,
+        "last_activated": 1778107862.3814318,
+        "budding_pressure": 0.719,
+        "pruning_pressure": 0.3725
+      },
+      "subgraph::linguistic": {
+        "subgraph_id": "subgraph::linguistic",
+        "type": "linguistic",
+        "parent": null,
+        "children": [],
+        "specialization": "how experience is named",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::list_dir": {
+        "subgraph_id": "subgraph::list_dir",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "budded from node list_dir",
+        "nodes": [
+          "list_dir",
+          ".",
+          "PROJECT_LOG.md",
+          "archive",
+          "archive\\runtime_artifacts_2026-05-06",
+          "core",
+          "henla0_categories.json",
+          "success",
+          "tests"
+        ],
+        "edges": [
+          "produces_positive::list_dir|success",
+          "interaction_pattern::.|list_dir|success",
+          "interaction_pattern::core|list_dir|success",
+          "interaction_pattern::list_dir|success|tests",
+          "interaction_pattern::archive|list_dir|success",
+          "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+          "reduces_uncertainty::PROJECT_LOG.md|list_dir",
+          "interaction_pattern::henla0_categories.json|list_dir|success",
+          "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success"
+        ],
+        "pattern_edges": [
+          "consolidated_pattern::list_dir::success"
+        ],
+        "local_viability": 0.7717,
+        "prediction_gain": 0.7384,
+        "transfer_score": 1.0,
+        "complexity": 0.36,
+        "coherence": 0.1111,
+        "last_activated": 1778107862.3814318,
+        "budding_pressure": 0.7234,
+        "pruning_pressure": 0.3713
+      },
+      "subgraph::predictive": {
+        "subgraph_id": "subgraph::predictive",
+        "type": "predictive",
+        "parent": null,
+        "children": [],
+        "specialization": "what happens if",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::principle": {
+        "subgraph_id": "subgraph::principle",
+        "type": "principle",
+        "parent": null,
+        "children": [],
+        "specialization": "what holds across domains",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::procedural": {
+        "subgraph_id": "subgraph::procedural",
+        "type": "procedural",
+        "parent": null,
+        "children": [
+          "subgraph::filesystem_actions",
+          "subgraph::list_dir",
+          "subgraph::hash_file",
+          "subgraph::stat_file"
+        ],
+        "specialization": "procedural memory root",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091018.230467,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::semantic": {
+        "subgraph_id": "subgraph::semantic",
+        "type": "semantic",
+        "parent": null,
+        "children": [],
+        "specialization": "what it means",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::stat_file": {
+        "subgraph_id": "subgraph::stat_file",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "budded from node stat_file",
+        "nodes": [
+          "stat_file",
+          "HENLA_Technical_Specification.docx",
+          "core\\state.py",
+          "demo_autonomous.py",
+          "success",
+          "tests"
+        ],
+        "edges": [
+          "produces_positive::stat_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+          "interaction_pattern::demo_autonomous.py|stat_file|success",
+          "interaction_pattern::core\\state.py|stat_file|success",
+          "interaction_pattern::stat_file|success|tests"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.8388,
+        "prediction_gain": 0.7188,
+        "transfer_score": 1.0,
+        "complexity": 0.22,
+        "coherence": 0.4,
+        "last_activated": 1778107862.3814318,
+        "budding_pressure": 0.7187,
+        "pruning_pressure": 0.2925
+      },
+      "subgraph::success": {
+        "subgraph_id": "subgraph::success",
+        "type": "episodic",
+        "parent": "subgraph::episodic",
+        "children": [],
+        "specialization": "budded from node success",
+        "nodes": [
+          "success",
+          ".",
+          "HENLA_Technical_Specification.docx",
+          "PROJECT_LOG.md",
+          "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "archive",
+          "archive\\runtime_artifacts_2026-05-06",
+          "core",
+          "core\\__init__.py",
+          "core\\action_selector.py",
+          "core\\state.py",
+          "demo.py",
+          "demo_autonomous.py",
+          "hash_file",
+          "henla.py",
+          "henla0_categories.json",
+          "henla0_graph.json",
+          "list_dir",
+          "read_chunk",
+          "stat_file",
+          "tests",
+          "watch_change"
+        ],
+        "edges": [
+          "produces_positive::list_dir|success",
+          "interaction_pattern::.|list_dir|success",
+          "produces_positive::stat_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+          "interaction_pattern::demo_autonomous.py|stat_file|success",
+          "produces_positive::read_chunk|success",
+          "interaction_pattern::demo.py|read_chunk|success",
+          "interaction_pattern::henla.py|read_chunk|success",
+          "interaction_pattern::core\\__init__.py|read_chunk|success",
+          "produces_positive::hash_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+          "interaction_pattern::hash_file|henla0_graph.json|success",
+          "interaction_pattern::core|list_dir|success",
+          "interaction_pattern::list_dir|success|tests",
+          "interaction_pattern::archive|list_dir|success",
+          "interaction_pattern::core\\state.py|stat_file|success",
+          "interaction_pattern::core\\state.py|hash_file|success",
+          "interaction_pattern::stat_file|success|tests",
+          "interaction_pattern::core\\action_selector.py|hash_file|success",
+          "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+          "interaction_pattern::henla0_categories.json|list_dir|success",
+          "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success",
+          "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success",
+          "produces_positive::success|watch_change"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.7896,
+        "prediction_gain": 0.7271,
+        "transfer_score": 1.0,
+        "complexity": 0.92,
+        "coherence": 0.2083,
+        "last_activated": 1778107862.3814318,
+        "budding_pressure": 0.7265,
+        "pruning_pressure": 0.3466
+      }
+    }
+  }
+}

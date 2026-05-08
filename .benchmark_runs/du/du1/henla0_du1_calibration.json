@@ -1,0 +1,12 @@
+{
+  "name": "du1_extreme_uncertainty_calibration",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "extreme_uncertainty": 1.0,
+    "conflicting_uncertainty": 0.8,
+    "strong_confidence": 0.9,
+    "strong_action": "act"
+  },
+  "policy": "DU-1 ensures that HENLA remains aware of its own ignorance and prevents overconfidence."
+}

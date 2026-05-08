@@ -1,0 +1,35 @@
+{
+  "name": "open_world_review_gate",
+  "status": "passed",
+  "passed": true,
+  "passed_criteria": 5,
+  "total_criteria": 5,
+  "criteria": [
+    {
+      "criterion_id": "pe_reduction_consistency",
+      "passed": true,
+      "details": "OW-1: 0.0039, OW-4: 0.0182"
+    },
+    {
+      "criterion_id": "mean_recovery_rate",
+      "passed": true,
+      "details": "Average recovery: 1.0000 across 4 benchmarks"
+    },
+    {
+      "criterion_id": "memory_boundedness",
+      "passed": true,
+      "details": "OW-3 memory_bounded: True"
+    },
+    {
+      "criterion_id": "deliberative_utility_gain",
+      "passed": true,
+      "details": "OW-2: +0.4219, OW-5: +0.4194"
+    },
+    {
+      "criterion_id": "claim_reliability",
+      "passed": true,
+      "details": "OW-5 corrected claims: {'confirmed': 3, 'unverified': 1, 'contradicted': 0}"
+    }
+  ],
+  "verdict": "HENLA demonstrates limited generalization on real-world workspaces. Key evidence includes consistent prediction error reduction in OOD environments, near 100% recovery rate on real target failures, and stable memory usage under long-horizon stress. Deliberative scratchpad provides measurable utility in task recovery. Limitation: high reliance on initial consolidated priors for efficient OOD transfer."
+}

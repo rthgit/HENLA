@@ -1,0 +1,38 @@
+{
+  "name": "scratchpad_ablation",
+  "status": "passed",
+  "passed": true,
+  "candidate_count": 2,
+  "no_scratchpad_action": "read_chunk",
+  "scratchpad_action": "list_dir",
+  "no_scratchpad_result": "failure",
+  "scratchpad_result": "success",
+  "no_scratchpad_valence": -0.0499,
+  "scratchpad_valence": 0.3469,
+  "deliberation_cost": 0.03,
+  "gross_valence_gain": 0.3968,
+  "net_valence_gain": 0.3668,
+  "simulations": [
+    {
+      "candidate_action": "read_chunk",
+      "target": "missing_config.ini",
+      "predicted_result": "failure",
+      "predicted_valence": -0.255,
+      "confidence": 0.85,
+      "risk": 0.255,
+      "decision": "reject",
+      "reason": "from stable produces_negative"
+    },
+    {
+      "candidate_action": "list_dir",
+      "target": ".",
+      "predicted_result": "success",
+      "predicted_valence": 0.255,
+      "confidence": 0.85,
+      "risk": 0.0,
+      "decision": "accept",
+      "reason": "from stable produces_positive"
+    }
+  ],
+  "policy": "scratchpad must improve action outcome more than its deliberation cost"
+}

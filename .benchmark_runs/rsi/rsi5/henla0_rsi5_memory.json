@@ -1,0 +1,11 @@
+{
+  "name": "rsi5_self_improvement_memory",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "total_trials": 2,
+    "retry_denied_v1": true,
+    "retry_allowed_v2": true
+  },
+  "policy": "RSI-5 ensures that HENLA builds an experience base for its own architectural evolution."
+}

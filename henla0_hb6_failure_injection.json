@@ -1,0 +1,45 @@
+{
+  "name": "hb6_failure_injection",
+  "status": "passed",
+  "passed": true,
+  "failure_repeats": 4,
+  "noise_steps": 4,
+  "episode_count": 28,
+  "failure_count": 4,
+  "recovery_successes": 4,
+  "recovery_rate": 1.0,
+  "negative_edge_count": 3,
+  "loop_event_count": 1,
+  "claim_count": 4,
+  "reading_verification": {
+    "confirmed": 1,
+    "unverified": 1,
+    "contradicted": 2
+  },
+  "has_confirmed_claim": true,
+  "has_contradicted_claim": true,
+  "has_unverified_claim": true,
+  "false_claims_resisted": true,
+  "noise_episode_count": 4,
+  "noise_success_count": 4,
+  "noise_success_rate": 1.0,
+  "selector_prefers_recovery": true,
+  "selector_scores": {
+    "failing_action_score": -0.405,
+    "recovery_action_score": 0.3312
+  },
+  "mean_prediction_error_final": 0.1602,
+  "final_viability": 0.7578,
+  "memory_bounded": true,
+  "recursive_micro": {
+    "base_pattern_count": 5,
+    "recursive_pattern_count": 3,
+    "memory_pressure": {
+      "raw_pressure": 0.2,
+      "compressed_pressure": 0.1333,
+      "active_recursive_count": 3,
+      "decayed_recursive_count": 0
+    }
+  },
+  "policy": "injected failures, false claims and noisy text must not collapse viability; recovery and verification should dominate loops"
+}

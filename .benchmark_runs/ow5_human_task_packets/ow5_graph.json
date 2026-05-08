@@ -1,0 +1,489 @@
+{
+  "nodes": {
+    "stat_file": {
+      "node_id": "stat_file",
+      "node_type": "action",
+      "activation_count": 7,
+      "mean_valence": 0.2617,
+      "first_seen": 1778184367.2994866,
+      "last_seen": 1778184367.5534437
+    },
+    "henla0_ow1_real_open_world.json": {
+      "node_id": "henla0_ow1_real_open_world.json",
+      "node_type": "object",
+      "activation_count": 9,
+      "mean_valence": 0.3279,
+      "first_seen": 1778184367.2994866,
+      "last_seen": 1778184367.3085701
+    },
+    "success": {
+      "node_id": "success",
+      "node_type": "result",
+      "activation_count": 11,
+      "mean_valence": 0.2137,
+      "first_seen": 1778184367.2994866,
+      "last_seen": 1778184367.5544512
+    },
+    "filesystem": {
+      "node_id": "filesystem",
+      "node_type": "modality",
+      "activation_count": 16,
+      "mean_valence": 0.2938,
+      "first_seen": 1778184367.2994866,
+      "last_seen": 1778184367.3256288
+    },
+    "read_chunk": {
+      "node_id": "read_chunk",
+      "node_type": "action",
+      "activation_count": 6,
+      "mean_valence": 0.292,
+      "first_seen": 1778184367.3042185,
+      "last_seen": 1778184367.3256288
+    },
+    "hash_file": {
+      "node_id": "hash_file",
+      "node_type": "action",
+      "activation_count": 5,
+      "mean_valence": 0.2234,
+      "first_seen": 1778184367.3085701,
+      "last_seen": 1778184367.5544512
+    },
+    "henla0_ow4_ood_workspace_transfer.json": {
+      "node_id": "henla0_ow4_ood_workspace_transfer.json",
+      "node_type": "object",
+      "activation_count": 9,
+      "mean_valence": 0.2746,
+      "first_seen": 1778184367.3131242,
+      "last_seen": 1778184367.3213184
+    },
+    "OPEN_WORLD_REAL_ROADMAP.md": {
+      "node_id": "OPEN_WORLD_REAL_ROADMAP.md",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.2714,
+      "first_seen": 1778184367.3256288,
+      "last_seen": 1778184367.3256288
+    },
+    "reading": {
+      "node_id": "reading",
+      "node_type": "modality",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778184367.5534437,
+      "last_seen": 1778184367.5534437
+    },
+    "ow5_initial_claims": {
+      "node_id": "ow5_initial_claims",
+      "node_type": "object",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778184367.5534437,
+      "last_seen": 1778184367.5534437
+    },
+    "list_dir": {
+      "node_id": "list_dir",
+      "node_type": "action",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778184367.5544512,
+      "last_seen": 1778184367.5544512
+    },
+    "failure": {
+      "node_id": "failure",
+      "node_type": "result",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778184367.5544512,
+      "last_seen": 1778184367.5544512
+    },
+    "watch_change": {
+      "node_id": "watch_change",
+      "node_type": "action",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778184367.5544512,
+      "last_seen": 1778184367.5544512
+    }
+  },
+  "edges": {
+    "produces_positive::list_dir|success": {
+      "edge_id": "produces_positive::list_dir|success",
+      "nodes": [
+        "list_dir",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.3417,
+      "evidence_count": 6,
+      "predictive_gain": 0.0622,
+      "contradiction_rate": 0.1667,
+      "context_count": 6,
+      "context_ids": [
+        "read::ow5_initial_claims::46aa5e42",
+        "seed::produces_positive::list_dir|success::0",
+        "seed::produces_positive::list_dir|success::1",
+        "seed::produces_positive::list_dir|success::2",
+        "seed::produces_positive::list_dir|success::3",
+        "seed::produces_positive::list_dir|success::4"
+      ],
+      "status": "stable"
+    },
+    "produces_positive::stat_file|success": {
+      "edge_id": "produces_positive::stat_file|success",
+      "nodes": [
+        "stat_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.5,
+      "evidence_count": 9,
+      "predictive_gain": 0.0831,
+      "contradiction_rate": 0.0,
+      "context_count": 9,
+      "context_ids": [
+        "ep_3323cfe2",
+        "ep_64519e16",
+        "ep_bc8fe3ee",
+        "read::ow5_initial_claims::46aa5e42",
+        "seed::produces_positive::stat_file|success::0",
+        "seed::produces_positive::stat_file|success::1",
+        "seed::produces_positive::stat_file|success::2",
+        "seed::produces_positive::stat_file|success::3",
+        "seed::produces_positive::stat_file|success::4"
+      ],
+      "status": "stable"
+    },
+    "produces_positive::read_chunk|success": {
+      "edge_id": "produces_positive::read_chunk|success",
+      "nodes": [
+        "read_chunk",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.45,
+      "evidence_count": 8,
+      "predictive_gain": 0.0779,
+      "contradiction_rate": 0.0,
+      "context_count": 8,
+      "context_ids": [
+        "ep_c0a438db",
+        "ep_c3442680",
+        "ep_de1ec661",
+        "seed::produces_positive::read_chunk|success::0",
+        "seed::produces_positive::read_chunk|success::1",
+        "seed::produces_positive::read_chunk|success::2",
+        "seed::produces_positive::read_chunk|success::3",
+        "seed::produces_positive::read_chunk|success::4"
+      ],
+      "status": "stable"
+    },
+    "produces_positive::hash_file|success": {
+      "edge_id": "produces_positive::hash_file|success",
+      "nodes": [
+        "hash_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.45,
+      "evidence_count": 8,
+      "predictive_gain": 0.0714,
+      "contradiction_rate": 0.0,
+      "context_count": 8,
+      "context_ids": [
+        "ep_076544c6",
+        "ep_4a20e619",
+        "read::ow5_initial_claims::46aa5e42",
+        "seed::produces_positive::hash_file|success::0",
+        "seed::produces_positive::hash_file|success::1",
+        "seed::produces_positive::hash_file|success::2",
+        "seed::produces_positive::hash_file|success::3",
+        "seed::produces_positive::hash_file|success::4"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::henla0_ow1_real_open_world.json|stat_file|success": {
+      "edge_id": "interaction_pattern::henla0_ow1_real_open_world.json|stat_file|success",
+      "nodes": [
+        "henla0_ow1_real_open_world.json",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9754,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_64519e16"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::henla0_ow1_real_open_world.json|stat_file": {
+      "edge_id": "reduces_uncertainty::henla0_ow1_real_open_world.json|stat_file",
+      "nodes": [
+        "stat_file",
+        "henla0_ow1_real_open_world.json"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_64519e16"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::henla0_ow1_real_open_world.json|read_chunk|success": {
+      "edge_id": "interaction_pattern::henla0_ow1_real_open_world.json|read_chunk|success",
+      "nodes": [
+        "henla0_ow1_real_open_world.json",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.978,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_c3442680"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::henla0_ow1_real_open_world.json|read_chunk": {
+      "edge_id": "reduces_uncertainty::henla0_ow1_real_open_world.json|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "henla0_ow1_real_open_world.json"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.2,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_c3442680"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::hash_file|henla0_ow1_real_open_world.json|success": {
+      "edge_id": "interaction_pattern::hash_file|henla0_ow1_real_open_world.json|success",
+      "nodes": [
+        "henla0_ow1_real_open_world.json",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9711,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_4a20e619"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::henla0_ow4_ood_workspace_transfer.json|stat_file|success": {
+      "edge_id": "interaction_pattern::henla0_ow4_ood_workspace_transfer.json|stat_file|success",
+      "nodes": [
+        "henla0_ow4_ood_workspace_transfer.json",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9647,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_bc8fe3ee"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::henla0_ow4_ood_workspace_transfer.json|read_chunk|success": {
+      "edge_id": "interaction_pattern::henla0_ow4_ood_workspace_transfer.json|read_chunk|success",
+      "nodes": [
+        "henla0_ow4_ood_workspace_transfer.json",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9715,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_c0a438db"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::hash_file|henla0_ow4_ood_workspace_transfer.json|success": {
+      "edge_id": "interaction_pattern::hash_file|henla0_ow4_ood_workspace_transfer.json|success",
+      "nodes": [
+        "henla0_ow4_ood_workspace_transfer.json",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9704,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_076544c6"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::OPEN_WORLD_REAL_ROADMAP.md|stat_file|success": {
+      "edge_id": "interaction_pattern::OPEN_WORLD_REAL_ROADMAP.md|stat_file|success",
+      "nodes": [
+        "OPEN_WORLD_REAL_ROADMAP.md",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9658,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_3323cfe2"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::OPEN_WORLD_REAL_ROADMAP.md|read_chunk|success": {
+      "edge_id": "interaction_pattern::OPEN_WORLD_REAL_ROADMAP.md|read_chunk|success",
+      "nodes": [
+        "OPEN_WORLD_REAL_ROADMAP.md",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9721,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_de1ec661"
+      ],
+      "status": "candidate"
+    },
+    "read_claim::ow5_initial_claims|stat_file|success": {
+      "edge_id": "read_claim::ow5_initial_claims|stat_file|success",
+      "nodes": [
+        "ow5_initial_claims",
+        "stat_file",
+        "success"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow5_initial_claims::46aa5e42"
+      ],
+      "status": "candidate"
+    },
+    "read_claim::hash_file|ow5_initial_claims|success": {
+      "edge_id": "read_claim::hash_file|ow5_initial_claims|success",
+      "nodes": [
+        "ow5_initial_claims",
+        "hash_file",
+        "success"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow5_initial_claims::46aa5e42"
+      ],
+      "status": "candidate"
+    },
+    "produces_negative::failure|list_dir": {
+      "edge_id": "produces_negative::failure|list_dir",
+      "nodes": [
+        "list_dir",
+        "failure"
+      ],
+      "relation": "produces_negative",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow5_initial_claims::46aa5e42"
+      ],
+      "status": "candidate"
+    },
+    "read_claim::failure|list_dir|ow5_initial_claims": {
+      "edge_id": "read_claim::failure|list_dir|ow5_initial_claims",
+      "nodes": [
+        "ow5_initial_claims",
+        "list_dir",
+        "failure"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow5_initial_claims::46aa5e42"
+      ],
+      "status": "candidate"
+    },
+    "produces_positive::success|watch_change": {
+      "edge_id": "produces_positive::success|watch_change",
+      "nodes": [
+        "watch_change",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow5_initial_claims::46aa5e42"
+      ],
+      "status": "candidate"
+    },
+    "read_claim::ow5_initial_claims|success|watch_change": {
+      "edge_id": "read_claim::ow5_initial_claims|success|watch_change",
+      "nodes": [
+        "ow5_initial_claims",
+        "watch_change",
+        "success"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow5_initial_claims::46aa5e42"
+      ],
+      "status": "candidate"
+    }
+  }
+}

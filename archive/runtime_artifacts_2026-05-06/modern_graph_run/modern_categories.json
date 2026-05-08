@@ -1,0 +1,56 @@
+{
+  "total": 3,
+  "categories": [
+    {
+      "category_id": "category::success_patterns",
+      "members": [
+        "hash_file",
+        "list_dir",
+        "read_chunk",
+        "sample.py",
+        "stat_file"
+      ],
+      "evidence_count": 38,
+      "confidence": 1.0,
+      "source_edges": [
+        "produces_positive::list_dir|success",
+        "produces_positive::stat_file|success",
+        "interaction_pattern::sample.py|stat_file|success",
+        "produces_positive::read_chunk|success",
+        "produces_positive::hash_file|success"
+      ],
+      "source_concepts": [
+        "concept::produces_positive"
+      ]
+    },
+    {
+      "category_id": "category::sensing_actions",
+      "members": [
+        "hash_file",
+        "list_dir",
+        "stat_file"
+      ],
+      "evidence_count": 31,
+      "confidence": 1.0,
+      "source_edges": [
+        "interaction_pattern::sample.py|stat_file|success",
+        "produces_positive::hash_file|success",
+        "produces_positive::list_dir|success",
+        "produces_positive::stat_file|success"
+      ],
+      "source_concepts": []
+    },
+    {
+      "category_id": "category::information_actions",
+      "members": [
+        "read_chunk"
+      ],
+      "evidence_count": 7,
+      "confidence": 0.35,
+      "source_edges": [
+        "produces_positive::read_chunk|success"
+      ],
+      "source_concepts": []
+    }
+  ]
+}

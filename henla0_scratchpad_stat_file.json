@@ -1,0 +1,170 @@
+{
+  "scratchpad_id": "scratchpad::1b7db3ef",
+  "scope": "current_operation",
+  "active_question": "Which action should handle HENLA_Technical_Specification.docx?",
+  "state_summary": {
+    "energy": 1.0,
+    "uncertainty": 0.5,
+    "pain": 0.0,
+    "fatigue": 0.0,
+    "viability": 0.0
+  },
+  "opened_at": 1778090703.511494,
+  "closed_at": 1778090703.511494,
+  "status": "closed",
+  "activated_nodes": [
+    "stat_file",
+    "HENLA_Technical_Specification.docx"
+  ],
+  "activated_patterns": [],
+  "retrieved_edges": [
+    {
+      "edge_id": "produces_positive::stat_file|success",
+      "nodes": [
+        "stat_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.99,
+      "evidence_count": 19,
+      "predictive_gain": 0.0702,
+      "contradiction_rate": 0.0,
+      "context_count": 19,
+      "context_ids": [
+        "ep_040d5533",
+        "ep_05774050",
+        "ep_06f6ced7",
+        "ep_2319baf5",
+        "ep_24ed17b8",
+        "ep_265f7708",
+        "ep_43d9f58a",
+        "ep_4869823f",
+        "ep_4b850740",
+        "ep_4ec2c3bd",
+        "ep_579f32b4",
+        "ep_582e6921",
+        "ep_61d901b4",
+        "ep_6217ea20",
+        "ep_7870a448",
+        "ep_7a4173cd",
+        "ep_8789b674",
+        "ep_8c497660",
+        "ep_bea4e617"
+      ],
+      "status": "stable"
+    },
+    {
+      "edge_id": "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+      "nodes": [
+        "HENLA_Technical_Specification.docx",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.3,
+      "evidence_count": 5,
+      "predictive_gain": 0.8974,
+      "contradiction_rate": 0.0,
+      "context_count": 5,
+      "context_ids": [
+        "ep_265f7708",
+        "ep_4b850740",
+        "ep_4ec2c3bd",
+        "ep_6217ea20",
+        "ep_7a4173cd"
+      ],
+      "status": "stable"
+    },
+    {
+      "edge_id": "interaction_pattern::demo_autonomous.py|stat_file|success",
+      "nodes": [
+        "demo_autonomous.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.8994,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_06f6ced7",
+        "ep_7870a448"
+      ],
+      "status": "tested"
+    },
+    {
+      "edge_id": "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+      "nodes": [
+        "HENLA_Technical_Specification.docx",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.3,
+      "evidence_count": 5,
+      "predictive_gain": 0.8974,
+      "contradiction_rate": 0.0,
+      "context_count": 5,
+      "context_ids": [
+        "ep_265f7708",
+        "ep_4b850740",
+        "ep_4ec2c3bd",
+        "ep_6217ea20",
+        "ep_7a4173cd"
+      ],
+      "status": "stable"
+    },
+    {
+      "edge_id": "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+      "nodes": [
+        "HENLA_Technical_Specification.docx",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9096,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_8afaded6",
+        "ep_a5ddabdb"
+      ],
+      "status": "tested"
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "h1",
+      "claim": "stat_file may produce success",
+      "confidence": 0.95,
+      "source": [
+        "scratchpad_cli",
+        "reasoner"
+      ],
+      "predicted_delta_viability": 0.9405
+    }
+  ],
+  "simulations": [
+    {
+      "candidate_action": "stat_file",
+      "target": "HENLA_Technical_Specification.docx",
+      "predicted_result": "success",
+      "predicted_valence": 0.9405,
+      "confidence": 0.95,
+      "risk": 0.0,
+      "decision": "accept",
+      "reason": "from stable produces_positive"
+    }
+  ],
+  "selected_action": "stat_file",
+  "selected_target": "HENLA_Technical_Specification.docx",
+  "rejected_actions": [],
+  "observed_result": null,
+  "reflection": null,
+  "consolidation_candidates": [],
+  "discarded_notes": []
+}

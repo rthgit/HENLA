@@ -1,0 +1,998 @@
+{
+  "threshold": 0.7,
+  "candidate_count": 20,
+  "created_count": 4,
+  "candidates": [
+    {
+      "node_id": "success",
+      "budding_pressure": 0.7265,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0833,
+      "context_diversity": 1.0,
+      "prediction_gain": 0.7271,
+      "valence_variance": 0.5072,
+      "internal_pattern_count": 1.0,
+      "transfer_score": 1.0,
+      "edge_ids": [
+        "produces_positive::list_dir|success",
+        "interaction_pattern::.|list_dir|success",
+        "produces_positive::stat_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "interaction_pattern::demo_autonomous.py|stat_file|success",
+        "produces_positive::read_chunk|success",
+        "interaction_pattern::demo.py|read_chunk|success",
+        "interaction_pattern::henla.py|read_chunk|success",
+        "interaction_pattern::core\\__init__.py|read_chunk|success",
+        "produces_positive::hash_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+        "interaction_pattern::hash_file|henla0_graph.json|success",
+        "interaction_pattern::core|list_dir|success",
+        "interaction_pattern::list_dir|success|tests",
+        "interaction_pattern::archive|list_dir|success",
+        "interaction_pattern::core\\state.py|stat_file|success",
+        "interaction_pattern::core\\state.py|hash_file|success",
+        "interaction_pattern::stat_file|success|tests",
+        "interaction_pattern::core\\action_selector.py|hash_file|success",
+        "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+        "interaction_pattern::henla0_categories.json|list_dir|success",
+        "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success",
+        "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success",
+        "produces_positive::success|watch_change"
+      ],
+      "neighbor_nodes": [
+        ".",
+        "HENLA_Technical_Specification.docx",
+        "PROJECT_LOG.md",
+        "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "archive",
+        "archive\\runtime_artifacts_2026-05-06",
+        "core",
+        "core\\__init__.py",
+        "core\\action_selector.py",
+        "core\\state.py",
+        "demo.py",
+        "demo_autonomous.py",
+        "hash_file",
+        "henla.py",
+        "henla0_categories.json",
+        "henla0_graph.json",
+        "list_dir",
+        "read_chunk",
+        "stat_file",
+        "tests",
+        "watch_change"
+      ],
+      "status": "budded"
+    },
+    {
+      "node_id": "list_dir",
+      "budding_pressure": 0.7234,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0526,
+      "context_diversity": 1.0,
+      "prediction_gain": 0.7384,
+      "valence_variance": 0.5216,
+      "internal_pattern_count": 1.0,
+      "transfer_score": 1.0,
+      "edge_ids": [
+        "produces_positive::list_dir|success",
+        "interaction_pattern::.|list_dir|success",
+        "interaction_pattern::core|list_dir|success",
+        "interaction_pattern::list_dir|success|tests",
+        "interaction_pattern::archive|list_dir|success",
+        "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+        "reduces_uncertainty::PROJECT_LOG.md|list_dir",
+        "interaction_pattern::henla0_categories.json|list_dir|success",
+        "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success"
+      ],
+      "neighbor_nodes": [
+        ".",
+        "PROJECT_LOG.md",
+        "archive",
+        "archive\\runtime_artifacts_2026-05-06",
+        "core",
+        "henla0_categories.json",
+        "success",
+        "tests"
+      ],
+      "status": "budded"
+    },
+    {
+      "node_id": "hash_file",
+      "budding_pressure": 0.719,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0476,
+      "context_diversity": 1.0,
+      "prediction_gain": 0.7116,
+      "valence_variance": 0.527,
+      "internal_pattern_count": 1.0,
+      "transfer_score": 1.0,
+      "edge_ids": [
+        "produces_positive::hash_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+        "interaction_pattern::hash_file|henla0_graph.json|success",
+        "interaction_pattern::core\\state.py|hash_file|success",
+        "interaction_pattern::core\\action_selector.py|hash_file|success",
+        "reduces_uncertainty::core\\action_selector.py|hash_file",
+        "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success"
+      ],
+      "neighbor_nodes": [
+        "HENLA_Technical_Specification.docx",
+        "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "core\\action_selector.py",
+        "core\\state.py",
+        "henla0_graph.json",
+        "success"
+      ],
+      "status": "budded"
+    },
+    {
+      "node_id": "stat_file",
+      "budding_pressure": 0.7187,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.1333,
+      "context_diversity": 1.0,
+      "prediction_gain": 0.7188,
+      "valence_variance": 0.5084,
+      "internal_pattern_count": 0.8333,
+      "transfer_score": 1.0,
+      "edge_ids": [
+        "produces_positive::stat_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "interaction_pattern::demo_autonomous.py|stat_file|success",
+        "interaction_pattern::core\\state.py|stat_file|success",
+        "interaction_pattern::stat_file|success|tests"
+      ],
+      "neighbor_nodes": [
+        "HENLA_Technical_Specification.docx",
+        "core\\state.py",
+        "demo_autonomous.py",
+        "success",
+        "tests"
+      ],
+      "status": "budded"
+    },
+    {
+      "node_id": "read_chunk",
+      "budding_pressure": 0.6851,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0769,
+      "context_diversity": 1.0,
+      "prediction_gain": 0.7077,
+      "valence_variance": 0.4686,
+      "internal_pattern_count": 0.6667,
+      "transfer_score": 1.0,
+      "edge_ids": [
+        "produces_positive::read_chunk|success",
+        "interaction_pattern::demo.py|read_chunk|success",
+        "interaction_pattern::henla.py|read_chunk|success",
+        "interaction_pattern::core\\__init__.py|read_chunk|success"
+      ],
+      "neighbor_nodes": [
+        "core\\__init__.py",
+        "demo.py",
+        "henla.py",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "HENLA_Technical_Specification.docx",
+      "budding_pressure": 0.6795,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.1667,
+      "context_diversity": 1.0,
+      "prediction_gain": 0.9035,
+      "valence_variance": 0.423,
+      "internal_pattern_count": 0.3333,
+      "transfer_score": 0.7,
+      "edge_ids": [
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success"
+      ],
+      "neighbor_nodes": [
+        "hash_file",
+        "stat_file",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "tests",
+      "budding_pressure": 0.6406,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0,
+      "context_diversity": 1.0,
+      "prediction_gain": 0.8866,
+      "valence_variance": 0.4928,
+      "internal_pattern_count": 0.3333,
+      "transfer_score": 0.5,
+      "edge_ids": [
+        "interaction_pattern::list_dir|success|tests",
+        "interaction_pattern::stat_file|success|tests"
+      ],
+      "neighbor_nodes": [
+        "list_dir",
+        "stat_file",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "core\\state.py",
+      "budding_pressure": 0.5989,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.8,
+      "prediction_gain": 0.8775,
+      "valence_variance": 0.5396,
+      "internal_pattern_count": 0.3333,
+      "transfer_score": 0.4,
+      "edge_ids": [
+        "interaction_pattern::core\\state.py|stat_file|success",
+        "interaction_pattern::core\\state.py|hash_file|success"
+      ],
+      "neighbor_nodes": [
+        "hash_file",
+        "stat_file",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "henla.py",
+      "budding_pressure": 0.5463,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.6,
+      "prediction_gain": 0.9227,
+      "valence_variance": 0.5624,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.3,
+      "edge_ids": [
+        "interaction_pattern::henla.py|read_chunk|success"
+      ],
+      "neighbor_nodes": [
+        "read_chunk",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "core\\action_selector.py",
+      "budding_pressure": 0.5223,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.6,
+      "prediction_gain": 0.6466,
+      "valence_variance": 0.5702,
+      "internal_pattern_count": 0.3333,
+      "transfer_score": 0.3,
+      "edge_ids": [
+        "interaction_pattern::core\\action_selector.py|hash_file|success",
+        "reduces_uncertainty::core\\action_selector.py|hash_file"
+      ],
+      "neighbor_nodes": [
+        "hash_file",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "demo.py",
+      "budding_pressure": 0.4968,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.9213,
+      "valence_variance": 0.519,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::demo.py|read_chunk|success"
+      ],
+      "neighbor_nodes": [
+        "read_chunk",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "demo_autonomous.py",
+      "budding_pressure": 0.4925,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.8994,
+      "valence_variance": 0.5094,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::demo_autonomous.py|stat_file|success"
+      ],
+      "neighbor_nodes": [
+        "stat_file",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": ".",
+      "budding_pressure": 0.4809,
+      "normalized_activation_count": 0.9,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.9125,
+      "valence_variance": 0.574,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::.|list_dir|success"
+      ],
+      "neighbor_nodes": [
+        "list_dir",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "henla0_graph.json",
+      "budding_pressure": 0.4741,
+      "normalized_activation_count": 0.9,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.9125,
+      "valence_variance": 0.5052,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::hash_file|henla0_graph.json|success"
+      ],
+      "neighbor_nodes": [
+        "hash_file",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "core\\__init__.py",
+      "budding_pressure": 0.473,
+      "normalized_activation_count": 0.9,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.9242,
+      "valence_variance": 0.4766,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::core\\__init__.py|read_chunk|success"
+      ],
+      "neighbor_nodes": [
+        "read_chunk",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "core",
+      "budding_pressure": 0.4715,
+      "normalized_activation_count": 0.9,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.9183,
+      "valence_variance": 0.4704,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::core|list_dir|success"
+      ],
+      "neighbor_nodes": [
+        "list_dir",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "PROJECT_LOG.md",
+      "budding_pressure": 0.4601,
+      "normalized_activation_count": 1.0,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.5484,
+      "valence_variance": 0.5448,
+      "internal_pattern_count": 0.3333,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+        "reduces_uncertainty::PROJECT_LOG.md|list_dir"
+      ],
+      "neighbor_nodes": [
+        "list_dir",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "henla0_categories.json",
+      "budding_pressure": 0.4157,
+      "normalized_activation_count": 0.6,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.902,
+      "valence_variance": 0.5372,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::henla0_categories.json|list_dir|success"
+      ],
+      "neighbor_nodes": [
+        "list_dir",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "archive\\runtime_artifacts_2026-05-06",
+      "budding_pressure": 0.4143,
+      "normalized_activation_count": 0.6,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.9029,
+      "valence_variance": 0.5218,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success"
+      ],
+      "neighbor_nodes": [
+        "list_dir",
+        "success"
+      ],
+      "status": "candidate"
+    },
+    {
+      "node_id": "__pycache__\\demo_autonomous.cpython-312.pyc",
+      "budding_pressure": 0.4132,
+      "normalized_activation_count": 0.6,
+      "stable_edge_density": 0.0,
+      "context_diversity": 0.4,
+      "prediction_gain": 0.9014,
+      "valence_variance": 0.513,
+      "internal_pattern_count": 0.1667,
+      "transfer_score": 0.2,
+      "edge_ids": [
+        "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success"
+      ],
+      "neighbor_nodes": [
+        "hash_file",
+        "success"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "created": [
+    {
+      "subgraph_id": "subgraph::success",
+      "type": "episodic",
+      "parent": "subgraph::episodic",
+      "children": [],
+      "specialization": "budded from node success",
+      "nodes": [
+        "success",
+        ".",
+        "HENLA_Technical_Specification.docx",
+        "PROJECT_LOG.md",
+        "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "archive",
+        "archive\\runtime_artifacts_2026-05-06",
+        "core",
+        "core\\__init__.py",
+        "core\\action_selector.py",
+        "core\\state.py",
+        "demo.py",
+        "demo_autonomous.py",
+        "hash_file",
+        "henla.py",
+        "henla0_categories.json",
+        "henla0_graph.json",
+        "list_dir",
+        "read_chunk",
+        "stat_file",
+        "tests",
+        "watch_change"
+      ],
+      "edges": [
+        "produces_positive::list_dir|success",
+        "interaction_pattern::.|list_dir|success",
+        "produces_positive::stat_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "interaction_pattern::demo_autonomous.py|stat_file|success",
+        "produces_positive::read_chunk|success",
+        "interaction_pattern::demo.py|read_chunk|success",
+        "interaction_pattern::henla.py|read_chunk|success",
+        "interaction_pattern::core\\__init__.py|read_chunk|success",
+        "produces_positive::hash_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+        "interaction_pattern::hash_file|henla0_graph.json|success",
+        "interaction_pattern::core|list_dir|success",
+        "interaction_pattern::list_dir|success|tests",
+        "interaction_pattern::archive|list_dir|success",
+        "interaction_pattern::core\\state.py|stat_file|success",
+        "interaction_pattern::core\\state.py|hash_file|success",
+        "interaction_pattern::stat_file|success|tests",
+        "interaction_pattern::core\\action_selector.py|hash_file|success",
+        "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+        "interaction_pattern::henla0_categories.json|list_dir|success",
+        "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success",
+        "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success",
+        "produces_positive::success|watch_change"
+      ],
+      "pattern_edges": [],
+      "local_viability": 0.7896,
+      "prediction_gain": 0.7271,
+      "transfer_score": 1.0,
+      "complexity": 0.92,
+      "coherence": 0.2083,
+      "last_activated": 1778107862.3814318,
+      "budding_pressure": 0.7265,
+      "pruning_pressure": 0.3466
+    },
+    {
+      "subgraph_id": "subgraph::list_dir",
+      "type": "procedural",
+      "parent": "subgraph::procedural",
+      "children": [],
+      "specialization": "budded from node list_dir",
+      "nodes": [
+        "list_dir",
+        ".",
+        "PROJECT_LOG.md",
+        "archive",
+        "archive\\runtime_artifacts_2026-05-06",
+        "core",
+        "henla0_categories.json",
+        "success",
+        "tests"
+      ],
+      "edges": [
+        "produces_positive::list_dir|success",
+        "interaction_pattern::.|list_dir|success",
+        "interaction_pattern::core|list_dir|success",
+        "interaction_pattern::list_dir|success|tests",
+        "interaction_pattern::archive|list_dir|success",
+        "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+        "reduces_uncertainty::PROJECT_LOG.md|list_dir",
+        "interaction_pattern::henla0_categories.json|list_dir|success",
+        "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success"
+      ],
+      "pattern_edges": [],
+      "local_viability": 0.7717,
+      "prediction_gain": 0.7384,
+      "transfer_score": 1.0,
+      "complexity": 0.36,
+      "coherence": 0.1111,
+      "last_activated": 1778107862.3814318,
+      "budding_pressure": 0.7234,
+      "pruning_pressure": 0.3713
+    },
+    {
+      "subgraph_id": "subgraph::hash_file",
+      "type": "procedural",
+      "parent": "subgraph::procedural",
+      "children": [],
+      "specialization": "budded from node hash_file",
+      "nodes": [
+        "hash_file",
+        "HENLA_Technical_Specification.docx",
+        "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "core\\action_selector.py",
+        "core\\state.py",
+        "henla0_graph.json",
+        "success"
+      ],
+      "edges": [
+        "produces_positive::hash_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+        "interaction_pattern::hash_file|henla0_graph.json|success",
+        "interaction_pattern::core\\state.py|hash_file|success",
+        "interaction_pattern::core\\action_selector.py|hash_file|success",
+        "reduces_uncertainty::core\\action_selector.py|hash_file",
+        "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success"
+      ],
+      "pattern_edges": [],
+      "local_viability": 0.7544,
+      "prediction_gain": 0.7116,
+      "transfer_score": 1.0,
+      "complexity": 0.28,
+      "coherence": 0.1429,
+      "last_activated": 1778107862.3814318,
+      "budding_pressure": 0.719,
+      "pruning_pressure": 0.3725
+    },
+    {
+      "subgraph_id": "subgraph::stat_file",
+      "type": "procedural",
+      "parent": "subgraph::procedural",
+      "children": [],
+      "specialization": "budded from node stat_file",
+      "nodes": [
+        "stat_file",
+        "HENLA_Technical_Specification.docx",
+        "core\\state.py",
+        "demo_autonomous.py",
+        "success",
+        "tests"
+      ],
+      "edges": [
+        "produces_positive::stat_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "interaction_pattern::demo_autonomous.py|stat_file|success",
+        "interaction_pattern::core\\state.py|stat_file|success",
+        "interaction_pattern::stat_file|success|tests"
+      ],
+      "pattern_edges": [],
+      "local_viability": 0.8388,
+      "prediction_gain": 0.7188,
+      "transfer_score": 1.0,
+      "complexity": 0.22,
+      "coherence": 0.4,
+      "last_activated": 1778107862.3814318,
+      "budding_pressure": 0.7187,
+      "pruning_pressure": 0.2925
+    }
+  ],
+  "registry": {
+    "total": 13,
+    "subgraphs": {
+      "subgraph::affective": {
+        "subgraph_id": "subgraph::affective",
+        "type": "affective",
+        "parent": null,
+        "children": [],
+        "specialization": "how good or bad it is",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::analogical": {
+        "subgraph_id": "subgraph::analogical",
+        "type": "analogical",
+        "parent": null,
+        "children": [],
+        "specialization": "what structure resembles another",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::episodic": {
+        "subgraph_id": "subgraph::episodic",
+        "type": "episodic",
+        "parent": null,
+        "children": [
+          "subgraph::success"
+        ],
+        "specialization": "what happened",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::filesystem_actions": {
+        "subgraph_id": "subgraph::filesystem_actions",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "actions over filesystem objects",
+        "nodes": [
+          "stat_file",
+          "hash_file",
+          "list_dir",
+          "read_chunk",
+          "success"
+        ],
+        "edges": [
+          "produces_positive::stat_file|success",
+          "produces_positive::hash_file|success",
+          "produces_positive::list_dir|success",
+          "produces_positive::read_chunk|success"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.3725,
+        "prediction_gain": 0.0725,
+        "transfer_score": 1.0,
+        "complexity": 0.18,
+        "coherence": 1.0,
+        "last_activated": 1778091029.558715,
+        "budding_pressure": 0.713,
+        "pruning_pressure": 0.371
+      },
+      "subgraph::hash_file": {
+        "subgraph_id": "subgraph::hash_file",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "budded from node hash_file",
+        "nodes": [
+          "hash_file",
+          "HENLA_Technical_Specification.docx",
+          "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "core\\action_selector.py",
+          "core\\state.py",
+          "henla0_graph.json",
+          "success"
+        ],
+        "edges": [
+          "produces_positive::hash_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+          "interaction_pattern::hash_file|henla0_graph.json|success",
+          "interaction_pattern::core\\state.py|hash_file|success",
+          "interaction_pattern::core\\action_selector.py|hash_file|success",
+          "reduces_uncertainty::core\\action_selector.py|hash_file",
+          "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.7544,
+        "prediction_gain": 0.7116,
+        "transfer_score": 1.0,
+        "complexity": 0.28,
+        "coherence": 0.1429,
+        "last_activated": 1778107862.3814318,
+        "budding_pressure": 0.719,
+        "pruning_pressure": 0.3725
+      },
+      "subgraph::linguistic": {
+        "subgraph_id": "subgraph::linguistic",
+        "type": "linguistic",
+        "parent": null,
+        "children": [],
+        "specialization": "how experience is named",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::list_dir": {
+        "subgraph_id": "subgraph::list_dir",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "budded from node list_dir",
+        "nodes": [
+          "list_dir",
+          ".",
+          "PROJECT_LOG.md",
+          "archive",
+          "archive\\runtime_artifacts_2026-05-06",
+          "core",
+          "henla0_categories.json",
+          "success",
+          "tests"
+        ],
+        "edges": [
+          "produces_positive::list_dir|success",
+          "interaction_pattern::.|list_dir|success",
+          "interaction_pattern::core|list_dir|success",
+          "interaction_pattern::list_dir|success|tests",
+          "interaction_pattern::archive|list_dir|success",
+          "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+          "reduces_uncertainty::PROJECT_LOG.md|list_dir",
+          "interaction_pattern::henla0_categories.json|list_dir|success",
+          "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.7717,
+        "prediction_gain": 0.7384,
+        "transfer_score": 1.0,
+        "complexity": 0.36,
+        "coherence": 0.1111,
+        "last_activated": 1778107862.3814318,
+        "budding_pressure": 0.7234,
+        "pruning_pressure": 0.3713
+      },
+      "subgraph::predictive": {
+        "subgraph_id": "subgraph::predictive",
+        "type": "predictive",
+        "parent": null,
+        "children": [],
+        "specialization": "what happens if",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::principle": {
+        "subgraph_id": "subgraph::principle",
+        "type": "principle",
+        "parent": null,
+        "children": [],
+        "specialization": "what holds across domains",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::procedural": {
+        "subgraph_id": "subgraph::procedural",
+        "type": "procedural",
+        "parent": null,
+        "children": [
+          "subgraph::filesystem_actions",
+          "subgraph::list_dir",
+          "subgraph::hash_file",
+          "subgraph::stat_file"
+        ],
+        "specialization": "procedural memory root",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091018.230467,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::semantic": {
+        "subgraph_id": "subgraph::semantic",
+        "type": "semantic",
+        "parent": null,
+        "children": [],
+        "specialization": "what it means",
+        "nodes": [],
+        "edges": [],
+        "pattern_edges": [],
+        "local_viability": 0.0,
+        "prediction_gain": 0.0,
+        "transfer_score": 0.0,
+        "complexity": 0.0,
+        "coherence": 0.0,
+        "last_activated": 1778091173.80393,
+        "budding_pressure": 0.0,
+        "pruning_pressure": 0.0
+      },
+      "subgraph::stat_file": {
+        "subgraph_id": "subgraph::stat_file",
+        "type": "procedural",
+        "parent": "subgraph::procedural",
+        "children": [],
+        "specialization": "budded from node stat_file",
+        "nodes": [
+          "stat_file",
+          "HENLA_Technical_Specification.docx",
+          "core\\state.py",
+          "demo_autonomous.py",
+          "success",
+          "tests"
+        ],
+        "edges": [
+          "produces_positive::stat_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+          "interaction_pattern::demo_autonomous.py|stat_file|success",
+          "interaction_pattern::core\\state.py|stat_file|success",
+          "interaction_pattern::stat_file|success|tests"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.8388,
+        "prediction_gain": 0.7188,
+        "transfer_score": 1.0,
+        "complexity": 0.22,
+        "coherence": 0.4,
+        "last_activated": 1778107862.3814318,
+        "budding_pressure": 0.7187,
+        "pruning_pressure": 0.2925
+      },
+      "subgraph::success": {
+        "subgraph_id": "subgraph::success",
+        "type": "episodic",
+        "parent": "subgraph::episodic",
+        "children": [],
+        "specialization": "budded from node success",
+        "nodes": [
+          "success",
+          ".",
+          "HENLA_Technical_Specification.docx",
+          "PROJECT_LOG.md",
+          "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "archive",
+          "archive\\runtime_artifacts_2026-05-06",
+          "core",
+          "core\\__init__.py",
+          "core\\action_selector.py",
+          "core\\state.py",
+          "demo.py",
+          "demo_autonomous.py",
+          "hash_file",
+          "henla.py",
+          "henla0_categories.json",
+          "henla0_graph.json",
+          "list_dir",
+          "read_chunk",
+          "stat_file",
+          "tests",
+          "watch_change"
+        ],
+        "edges": [
+          "produces_positive::list_dir|success",
+          "interaction_pattern::.|list_dir|success",
+          "produces_positive::stat_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+          "interaction_pattern::demo_autonomous.py|stat_file|success",
+          "produces_positive::read_chunk|success",
+          "interaction_pattern::demo.py|read_chunk|success",
+          "interaction_pattern::henla.py|read_chunk|success",
+          "interaction_pattern::core\\__init__.py|read_chunk|success",
+          "produces_positive::hash_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+          "interaction_pattern::hash_file|henla0_graph.json|success",
+          "interaction_pattern::core|list_dir|success",
+          "interaction_pattern::list_dir|success|tests",
+          "interaction_pattern::archive|list_dir|success",
+          "interaction_pattern::core\\state.py|stat_file|success",
+          "interaction_pattern::core\\state.py|hash_file|success",
+          "interaction_pattern::stat_file|success|tests",
+          "interaction_pattern::core\\action_selector.py|hash_file|success",
+          "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+          "interaction_pattern::henla0_categories.json|list_dir|success",
+          "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success",
+          "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success",
+          "produces_positive::success|watch_change"
+        ],
+        "pattern_edges": [],
+        "local_viability": 0.7896,
+        "prediction_gain": 0.7271,
+        "transfer_score": 1.0,
+        "complexity": 0.92,
+        "coherence": 0.2083,
+        "last_activated": 1778107862.3814318,
+        "budding_pressure": 0.7265,
+        "pruning_pressure": 0.3466
+      }
+    }
+  }
+}

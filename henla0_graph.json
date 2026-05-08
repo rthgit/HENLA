@@ -1,0 +1,1734 @@
+{
+  "nodes": {
+    "list_dir": {
+      "node_id": "list_dir",
+      "node_type": "action",
+      "activation_count": 44,
+      "mean_valence": 0.2608,
+      "first_seen": 1778058718.8785512,
+      "last_seen": 1778090828.2114635
+    },
+    ".": {
+      "node_id": ".",
+      "node_type": "object",
+      "activation_count": 9,
+      "mean_valence": 0.287,
+      "first_seen": 1778058718.8785512,
+      "last_seen": 1778059429.3011825
+    },
+    "success": {
+      "node_id": "success",
+      "node_type": "result",
+      "activation_count": 74,
+      "mean_valence": 0.2536,
+      "first_seen": 1778058718.8785512,
+      "last_seen": 1778090828.2114635
+    },
+    "filesystem": {
+      "node_id": "filesystem",
+      "node_type": "modality",
+      "activation_count": 144,
+      "mean_valence": 0.2549,
+      "first_seen": 1778058718.8785512,
+      "last_seen": 1778090828.2114635
+    },
+    "stat_file": {
+      "node_id": "stat_file",
+      "node_type": "action",
+      "activation_count": 38,
+      "mean_valence": 0.2542,
+      "first_seen": 1778058718.8939755,
+      "last_seen": 1778059429.30762
+    },
+    "HENLA_Technical_Specification.docx": {
+      "node_id": "HENLA_Technical_Specification.docx",
+      "node_type": "object",
+      "activation_count": 24,
+      "mean_valence": 0.2115,
+      "first_seen": 1778058718.8939755,
+      "last_seen": 1778059429.2905285
+    },
+    "demo.py": {
+      "node_id": "demo.py",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2595,
+      "first_seen": 1778058718.9049513,
+      "last_seen": 1778058719.167715
+    },
+    "henla0_graph.json": {
+      "node_id": "henla0_graph.json",
+      "node_type": "object",
+      "activation_count": 9,
+      "mean_valence": 0.2526,
+      "first_seen": 1778058718.9049513,
+      "last_seen": 1778058719.1716037
+    },
+    "demo_autonomous.py": {
+      "node_id": "demo_autonomous.py",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2547,
+      "first_seen": 1778058718.926322,
+      "last_seen": 1778058719.152068
+    },
+    "PROJECT_LOG.md": {
+      "node_id": "PROJECT_LOG.md",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2724,
+      "first_seen": 1778058718.926322,
+      "last_seen": 1778062548.19914
+    },
+    "henla.py": {
+      "node_id": "henla.py",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2812,
+      "first_seen": 1778058718.926322,
+      "last_seen": 1778059429.3054218
+    },
+    "read_chunk": {
+      "node_id": "read_chunk",
+      "node_type": "action",
+      "activation_count": 26,
+      "mean_valence": 0.2343,
+      "first_seen": 1778058718.991792,
+      "last_seen": 1778059429.3054218
+    },
+    "core\\__init__.py": {
+      "node_id": "core\\__init__.py",
+      "node_type": "object",
+      "activation_count": 9,
+      "mean_valence": 0.2383,
+      "first_seen": 1778058718.991792,
+      "last_seen": 1778058719.2046874
+    },
+    "hash_file": {
+      "node_id": "hash_file",
+      "node_type": "action",
+      "activation_count": 36,
+      "mean_valence": 0.2635,
+      "first_seen": 1778058718.9939222,
+      "last_seen": 1778062548.2121012
+    },
+    "core": {
+      "node_id": "core",
+      "node_type": "object",
+      "activation_count": 9,
+      "mean_valence": 0.2352,
+      "first_seen": 1778058718.9971685,
+      "last_seen": 1778059429.2973344
+    },
+    "tests": {
+      "node_id": "tests",
+      "node_type": "object",
+      "activation_count": 21,
+      "mean_valence": 0.2464,
+      "first_seen": 1778058718.9990954,
+      "last_seen": 1778090828.2114635
+    },
+    "archive": {
+      "node_id": "archive",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.2247,
+      "first_seen": 1778058718.9999468,
+      "last_seen": 1778058719.2019455
+    },
+    "core\\relation_learner.py": {
+      "node_id": "core\\relation_learner.py",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.2598,
+      "first_seen": 1778058719.1467097,
+      "last_seen": 1778058719.1965919
+    },
+    "core\\hypergraph.py": {
+      "node_id": "core\\hypergraph.py",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.271,
+      "first_seen": 1778058719.1507602,
+      "last_seen": 1778058719.1507602
+    },
+    "core\\state.py": {
+      "node_id": "core\\state.py",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2698,
+      "first_seen": 1778058719.154939,
+      "last_seen": 1778059429.2942636
+    },
+    "core\\concept_tracker.py": {
+      "node_id": "core\\concept_tracker.py",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.2535,
+      "first_seen": 1778058719.1602392,
+      "last_seen": 1778059429.30762
+    },
+    "core\\episode.py": {
+      "node_id": "core\\episode.py",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.2301,
+      "first_seen": 1778058719.1623538,
+      "last_seen": 1778058719.2046874
+    },
+    "core\\valence.py": {
+      "node_id": "core\\valence.py",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2565,
+      "first_seen": 1778058719.1623538,
+      "last_seen": 1778058719.1623538
+    },
+    "core\\category_tracker.py": {
+      "node_id": "core\\category_tracker.py",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2269,
+      "first_seen": 1778058719.1756735,
+      "last_seen": 1778058719.1756735
+    },
+    "core\\action_selector.py": {
+      "node_id": "core\\action_selector.py",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2851,
+      "first_seen": 1778058719.1784587,
+      "last_seen": 1778062548.1927774
+    },
+    "failure": {
+      "node_id": "failure",
+      "node_type": "result",
+      "activation_count": 1,
+      "mean_valence": -0.0577,
+      "first_seen": 1778058719.1843057,
+      "last_seen": 1778058719.1843057
+    },
+    "archive\\generated_outputs_2026-05-06": {
+      "node_id": "archive\\generated_outputs_2026-05-06",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.3564,
+      "first_seen": 1778058719.1843057,
+      "last_seen": 1778058719.1843057
+    },
+    "core\\runner.py": {
+      "node_id": "core\\runner.py",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2231,
+      "first_seen": 1778058719.1965919,
+      "last_seen": 1778058719.1965919
+    },
+    "henla0_timeline.jsonl": {
+      "node_id": "henla0_timeline.jsonl",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.3106,
+      "first_seen": 1778059429.286515,
+      "last_seen": 1778059429.286515
+    },
+    "__pycache__\\henla.cpython-312.pyc": {
+      "node_id": "__pycache__\\henla.cpython-312.pyc",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2547,
+      "first_seen": 1778059429.3126507,
+      "last_seen": 1778059429.3126507
+    },
+    "henla0_categories.json": {
+      "node_id": "henla0_categories.json",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.2686,
+      "first_seen": 1778062077.225866,
+      "last_seen": 1778062548.2020812
+    },
+    "archive\\runtime_artifacts_2026-05-06": {
+      "node_id": "archive\\runtime_artifacts_2026-05-06",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.2609,
+      "first_seen": 1778062077.2349985,
+      "last_seen": 1778062548.2020812
+    },
+    "__pycache__\\demo_autonomous.cpython-312.pyc": {
+      "node_id": "__pycache__\\demo_autonomous.cpython-312.pyc",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.2565,
+      "first_seen": 1778062077.3238747,
+      "last_seen": 1778062548.2121012
+    },
+    "sense_text": {
+      "node_id": "sense_text",
+      "node_type": "action",
+      "activation_count": 2,
+      "mean_valence": 0.3561,
+      "first_seen": 1778089411.942806,
+      "last_seen": 1778089411.942806
+    },
+    "success viable": {
+      "node_id": "success viable",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.3561,
+      "first_seen": 1778089411.942806,
+      "last_seen": 1778089411.942806
+    },
+    "language": {
+      "node_id": "language",
+      "node_type": "modality",
+      "activation_count": 2,
+      "mean_valence": 0.3561,
+      "first_seen": 1778089411.942806,
+      "last_seen": 1778089411.942806
+    },
+    "reading": {
+      "node_id": "reading",
+      "node_type": "modality",
+      "activation_count": 2,
+      "mean_valence": 0.0,
+      "first_seen": 1778089647.1871738,
+      "last_seen": 1778089759.300253
+    },
+    "inline": {
+      "node_id": "inline",
+      "node_type": "object",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778089647.1871738,
+      "last_seen": 1778089647.1871738
+    },
+    "watch_change": {
+      "node_id": "watch_change",
+      "node_type": "action",
+      "activation_count": 2,
+      "mean_valence": 0.0,
+      "first_seen": 1778089647.1871738,
+      "last_seen": 1778089759.300253
+    },
+    "ROADMAP.md": {
+      "node_id": "ROADMAP.md",
+      "node_type": "object",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778089759.300253,
+      "last_seen": 1778089759.300253
+    }
+  },
+  "edges": {
+    "produces_positive::list_dir|success": {
+      "edge_id": "produces_positive::list_dir|success",
+      "nodes": [
+        "list_dir",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.99,
+      "evidence_count": 22,
+      "predictive_gain": 0.0746,
+      "contradiction_rate": 0.0,
+      "context_count": 22,
+      "context_ids": [
+        "ep_28a1c6c9",
+        "ep_2bf2c4db",
+        "ep_2ca6fd20",
+        "ep_3dc2faeb",
+        "ep_48c49333",
+        "ep_519eed26",
+        "ep_52d93fdc",
+        "ep_5877ab3d",
+        "ep_58d354a3",
+        "ep_64a78568",
+        "ep_674992ee",
+        "ep_73f39132",
+        "ep_74665414",
+        "ep_8bfb8dce",
+        "ep_9036c041",
+        "ep_9db12b23",
+        "ep_a9f56101",
+        "ep_dd0e8e5b",
+        "ep_e78e0ec6",
+        "ep_ea6a015d",
+        "ep_f58eb58f",
+        "ep_f827b1f6"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::.|list_dir|success": {
+      "edge_id": "interaction_pattern::.|list_dir|success",
+      "nodes": [
+        ".",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_a9f56101",
+        "ep_ea6a015d"
+      ],
+      "status": "tested"
+    },
+    "reduces_uncertainty::.|list_dir": {
+      "edge_id": "reduces_uncertainty::.|list_dir",
+      "nodes": [
+        "list_dir",
+        "."
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_a9f56101"
+      ],
+      "status": "candidate"
+    },
+    "produces_positive::stat_file|success": {
+      "edge_id": "produces_positive::stat_file|success",
+      "nodes": [
+        "stat_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.99,
+      "evidence_count": 19,
+      "predictive_gain": 0.0702,
+      "contradiction_rate": 0.0,
+      "context_count": 19,
+      "context_ids": [
+        "ep_040d5533",
+        "ep_05774050",
+        "ep_06f6ced7",
+        "ep_2319baf5",
+        "ep_24ed17b8",
+        "ep_265f7708",
+        "ep_43d9f58a",
+        "ep_4869823f",
+        "ep_4b850740",
+        "ep_4ec2c3bd",
+        "ep_579f32b4",
+        "ep_582e6921",
+        "ep_61d901b4",
+        "ep_6217ea20",
+        "ep_7870a448",
+        "ep_7a4173cd",
+        "ep_8789b674",
+        "ep_8c497660",
+        "ep_bea4e617"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success": {
+      "edge_id": "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+      "nodes": [
+        "HENLA_Technical_Specification.docx",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.3,
+      "evidence_count": 5,
+      "predictive_gain": 0.8974,
+      "contradiction_rate": 0.0,
+      "context_count": 5,
+      "context_ids": [
+        "ep_265f7708",
+        "ep_4b850740",
+        "ep_4ec2c3bd",
+        "ep_6217ea20",
+        "ep_7a4173cd"
+      ],
+      "status": "stable"
+    },
+    "reduces_uncertainty::HENLA_Technical_Specification.docx|stat_file": {
+      "edge_id": "reduces_uncertainty::HENLA_Technical_Specification.docx|stat_file",
+      "nodes": [
+        "stat_file",
+        "HENLA_Technical_Specification.docx"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.2,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_4b850740"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::demo.py|stat_file|success": {
+      "edge_id": "interaction_pattern::demo.py|stat_file|success",
+      "nodes": [
+        "demo.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_040d5533"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::henla0_graph.json|stat_file|success": {
+      "edge_id": "interaction_pattern::henla0_graph.json|stat_file|success",
+      "nodes": [
+        "henla0_graph.json",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9475,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_61d901b4"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::demo_autonomous.py|stat_file|success": {
+      "edge_id": "interaction_pattern::demo_autonomous.py|stat_file|success",
+      "nodes": [
+        "demo_autonomous.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.8994,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_06f6ced7",
+        "ep_7870a448"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::PROJECT_LOG.md|stat_file|success": {
+      "edge_id": "interaction_pattern::PROJECT_LOG.md|stat_file|success",
+      "nodes": [
+        "PROJECT_LOG.md",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_8c497660"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::henla.py|stat_file|success": {
+      "edge_id": "interaction_pattern::henla.py|stat_file|success",
+      "nodes": [
+        "henla.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.895,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_8789b674"
+      ],
+      "status": "candidate"
+    },
+    "produces_positive::read_chunk|success": {
+      "edge_id": "produces_positive::read_chunk|success",
+      "nodes": [
+        "read_chunk",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.65,
+      "evidence_count": 12,
+      "predictive_gain": 0.0628,
+      "contradiction_rate": 0.0,
+      "context_count": 12,
+      "context_ids": [
+        "ep_00623759",
+        "ep_07afe441",
+        "ep_22bcea8b",
+        "ep_321d9e67",
+        "ep_3ee2e6fd",
+        "ep_3fa0d791",
+        "ep_411d314a",
+        "ep_596fe427",
+        "ep_668c70b7",
+        "ep_692049d7",
+        "ep_8ceb66ac",
+        "ep_aa2f4aee"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::demo.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::demo.py|read_chunk|success",
+      "nodes": [
+        "demo.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9213,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_07afe441",
+        "ep_321d9e67"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::demo_autonomous.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::demo_autonomous.py|read_chunk|success",
+      "nodes": [
+        "demo_autonomous.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_692049d7"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::henla.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::henla.py|read_chunk|success",
+      "nodes": [
+        "henla.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.2,
+      "evidence_count": 3,
+      "predictive_gain": 0.9227,
+      "contradiction_rate": 0.0,
+      "context_count": 3,
+      "context_ids": [
+        "ep_3fa0d791",
+        "ep_411d314a",
+        "ep_668c70b7"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::core\\__init__.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::core\\__init__.py|read_chunk|success",
+      "nodes": [
+        "core\\__init__.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9242,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_22bcea8b",
+        "ep_aa2f4aee"
+      ],
+      "status": "tested"
+    },
+    "produces_positive::hash_file|success": {
+      "edge_id": "produces_positive::hash_file|success",
+      "nodes": [
+        "hash_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.95,
+      "evidence_count": 18,
+      "predictive_gain": 0.0825,
+      "contradiction_rate": 0.0,
+      "context_count": 18,
+      "context_ids": [
+        "ep_27bf3d78",
+        "ep_57786fb7",
+        "ep_58aa6b94",
+        "ep_5b942d5a",
+        "ep_601e815b",
+        "ep_670182f2",
+        "ep_8afaded6",
+        "ep_8d181a55",
+        "ep_96e48798",
+        "ep_9c516476",
+        "ep_a5ddabdb",
+        "ep_ade0d5d9",
+        "ep_cbb37645",
+        "ep_dd9e82d0",
+        "ep_deb08013",
+        "ep_ed52b25c",
+        "ep_f942d08c",
+        "ep_fa002215"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success": {
+      "edge_id": "interaction_pattern::HENLA_Technical_Specification.docx|hash_file|success",
+      "nodes": [
+        "HENLA_Technical_Specification.docx",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9096,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_8afaded6",
+        "ep_a5ddabdb"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::demo.py|hash_file|success": {
+      "edge_id": "interaction_pattern::demo.py|hash_file|success",
+      "nodes": [
+        "demo.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_670182f2"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::hash_file|henla0_graph.json|success": {
+      "edge_id": "interaction_pattern::hash_file|henla0_graph.json|success",
+      "nodes": [
+        "henla0_graph.json",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_8d181a55",
+        "ep_dd9e82d0"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::demo_autonomous.py|hash_file|success": {
+      "edge_id": "interaction_pattern::demo_autonomous.py|hash_file|success",
+      "nodes": [
+        "demo_autonomous.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_fa002215"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core|list_dir|success": {
+      "edge_id": "interaction_pattern::core|list_dir|success",
+      "nodes": [
+        "core",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9183,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_74665414",
+        "ep_dd0e8e5b"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::list_dir|success|tests": {
+      "edge_id": "interaction_pattern::list_dir|success|tests",
+      "nodes": [
+        "tests",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.2,
+      "evidence_count": 3,
+      "predictive_gain": 0.9191,
+      "contradiction_rate": 0.0,
+      "context_count": 3,
+      "context_ids": [
+        "ep_28a1c6c9",
+        "ep_2ca6fd20",
+        "ep_5877ab3d"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::archive|list_dir|success": {
+      "edge_id": "interaction_pattern::archive|list_dir|success",
+      "nodes": [
+        "archive",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9191,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_674992ee",
+        "ep_f827b1f6"
+      ],
+      "status": "tested"
+    },
+    "reduces_uncertainty::henla.py|read_chunk": {
+      "edge_id": "reduces_uncertainty::henla.py|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "henla.py"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_668c70b7"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\relation_learner.py|hash_file|success": {
+      "edge_id": "interaction_pattern::core\\relation_learner.py|hash_file|success",
+      "nodes": [
+        "core\\relation_learner.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_cbb37645"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::core\\relation_learner.py|hash_file": {
+      "edge_id": "reduces_uncertainty::core\\relation_learner.py|hash_file",
+      "nodes": [
+        "hash_file",
+        "core\\relation_learner.py"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.2,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_cbb37645"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\hypergraph.py|list_dir|success": {
+      "edge_id": "interaction_pattern::core\\hypergraph.py|list_dir|success",
+      "nodes": [
+        "core\\hypergraph.py",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_519eed26"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\state.py|stat_file|success": {
+      "edge_id": "interaction_pattern::core\\state.py|stat_file|success",
+      "nodes": [
+        "core\\state.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.8731,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_2319baf5",
+        "ep_43d9f58a"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::core\\concept_tracker.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::core\\concept_tracker.py|read_chunk|success",
+      "nodes": [
+        "core\\concept_tracker.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9212,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_596fe427"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\episode.py|stat_file|success": {
+      "edge_id": "interaction_pattern::core\\episode.py|stat_file|success",
+      "nodes": [
+        "core\\episode.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.8717,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_05774050"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\valence.py|list_dir|success": {
+      "edge_id": "interaction_pattern::core\\valence.py|list_dir|success",
+      "nodes": [
+        "core\\valence.py",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_9036c041"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\state.py|hash_file|success": {
+      "edge_id": "interaction_pattern::core\\state.py|hash_file|success",
+      "nodes": [
+        "core\\state.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.8819,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_57786fb7",
+        "ep_9c516476"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::hash_file|success|tests": {
+      "edge_id": "interaction_pattern::hash_file|success|tests",
+      "nodes": [
+        "tests",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9037,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_f942d08c"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\category_tracker.py|list_dir|success": {
+      "edge_id": "interaction_pattern::core\\category_tracker.py|list_dir|success",
+      "nodes": [
+        "core\\category_tracker.py",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9037,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_73f39132"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\action_selector.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::core\\action_selector.py|read_chunk|success",
+      "nodes": [
+        "core\\action_selector.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9212,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_00623759"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::read_chunk|success|tests": {
+      "edge_id": "interaction_pattern::read_chunk|success|tests",
+      "nodes": [
+        "tests",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9169,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_3ee2e6fd"
+      ],
+      "status": "candidate"
+    },
+    "produces_negative::failure|read_chunk": {
+      "edge_id": "produces_negative::failure|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "failure"
+      ],
+      "relation": "produces_negative",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_f01b7106"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::HENLA_Technical_Specification.docx|failure|read_chunk": {
+      "edge_id": "interaction_pattern::HENLA_Technical_Specification.docx|failure|read_chunk",
+      "nodes": [
+        "HENLA_Technical_Specification.docx",
+        "read_chunk",
+        "failure"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.425,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_f01b7106"
+      ],
+      "status": "candidate"
+    },
+    "increases_uncertainty::HENLA_Technical_Specification.docx|read_chunk": {
+      "edge_id": "increases_uncertainty::HENLA_Technical_Specification.docx|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "HENLA_Technical_Specification.docx"
+      ],
+      "relation": "increases_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_f01b7106"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::archive\\generated_outputs_2026-05-06|stat_file|success": {
+      "edge_id": "interaction_pattern::archive\\generated_outputs_2026-05-06|stat_file|success",
+      "nodes": [
+        "archive\\generated_outputs_2026-05-06",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.8658,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_579f32b4"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::archive\\generated_outputs_2026-05-06|stat_file": {
+      "edge_id": "reduces_uncertainty::archive\\generated_outputs_2026-05-06|stat_file",
+      "nodes": [
+        "stat_file",
+        "archive\\generated_outputs_2026-05-06"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_579f32b4"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::stat_file|success|tests": {
+      "edge_id": "interaction_pattern::stat_file|success|tests",
+      "nodes": [
+        "tests",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.8541,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_582e6921",
+        "ep_bea4e617"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::PROJECT_LOG.md|hash_file|success": {
+      "edge_id": "interaction_pattern::PROJECT_LOG.md|hash_file|success",
+      "nodes": [
+        "PROJECT_LOG.md",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.895,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_27bf3d78"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\action_selector.py|hash_file|success": {
+      "edge_id": "interaction_pattern::core\\action_selector.py|hash_file|success",
+      "nodes": [
+        "core\\action_selector.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.2,
+      "evidence_count": 3,
+      "predictive_gain": 0.8932,
+      "contradiction_rate": 0.0,
+      "context_count": 3,
+      "context_ids": [
+        "ep_96e48798",
+        "ep_ade0d5d9",
+        "ep_deb08013"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::core\\relation_learner.py|stat_file|success": {
+      "edge_id": "interaction_pattern::core\\relation_learner.py|stat_file|success",
+      "nodes": [
+        "core\\relation_learner.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.8542,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_4869823f"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\runner.py|list_dir|success": {
+      "edge_id": "interaction_pattern::core\\runner.py|list_dir|success",
+      "nodes": [
+        "core\\runner.py",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_9db12b23"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\__init__.py|list_dir|success": {
+      "edge_id": "interaction_pattern::core\\__init__.py|list_dir|success",
+      "nodes": [
+        "core\\__init__.py",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_52d93fdc"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\episode.py|hash_file|success": {
+      "edge_id": "interaction_pattern::core\\episode.py|hash_file|success",
+      "nodes": [
+        "core\\episode.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.8775,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_5b942d5a"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::core\\state.py|hash_file": {
+      "edge_id": "reduces_uncertainty::core\\state.py|hash_file",
+      "nodes": [
+        "hash_file",
+        "core\\state.py"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_57786fb7"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::henla0_timeline.jsonl|list_dir|success": {
+      "edge_id": "interaction_pattern::henla0_timeline.jsonl|list_dir|success",
+      "nodes": [
+        "henla0_timeline.jsonl",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.909,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_8bfb8dce"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::henla0_timeline.jsonl|list_dir": {
+      "edge_id": "reduces_uncertainty::henla0_timeline.jsonl|list_dir",
+      "nodes": [
+        "list_dir",
+        "henla0_timeline.jsonl"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.2,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_8bfb8dce"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core|read_chunk|success": {
+      "edge_id": "interaction_pattern::core|read_chunk|success",
+      "nodes": [
+        "core",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_8ceb66ac"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::.|hash_file|success": {
+      "edge_id": "interaction_pattern::.|hash_file|success",
+      "nodes": [
+        ".",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.8994,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_ed52b25c"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\concept_tracker.py|stat_file|success": {
+      "edge_id": "interaction_pattern::core\\concept_tracker.py|stat_file|success",
+      "nodes": [
+        "core\\concept_tracker.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.881,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_24ed17b8"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::__pycache__\\henla.cpython-312.pyc|list_dir|success": {
+      "edge_id": "interaction_pattern::__pycache__\\henla.cpython-312.pyc|list_dir|success",
+      "nodes": [
+        "__pycache__\\henla.cpython-312.pyc",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9055,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_3dc2faeb"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::core\\action_selector.py|hash_file": {
+      "edge_id": "reduces_uncertainty::core\\action_selector.py|hash_file",
+      "nodes": [
+        "hash_file",
+        "core\\action_selector.py"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_96e48798",
+        "ep_deb08013"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::PROJECT_LOG.md|list_dir|success": {
+      "edge_id": "interaction_pattern::PROJECT_LOG.md|list_dir|success",
+      "nodes": [
+        "PROJECT_LOG.md",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.8967,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_48c49333",
+        "ep_64a78568"
+      ],
+      "status": "tested"
+    },
+    "reduces_uncertainty::PROJECT_LOG.md|list_dir": {
+      "edge_id": "reduces_uncertainty::PROJECT_LOG.md|list_dir",
+      "nodes": [
+        "list_dir",
+        "PROJECT_LOG.md"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.2,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_48c49333",
+        "ep_64a78568"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::henla0_categories.json|list_dir|success": {
+      "edge_id": "interaction_pattern::henla0_categories.json|list_dir|success",
+      "nodes": [
+        "henla0_categories.json",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.902,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_e78e0ec6",
+        "ep_f58eb58f"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success": {
+      "edge_id": "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success",
+      "nodes": [
+        "archive\\runtime_artifacts_2026-05-06",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9029,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_2bf2c4db",
+        "ep_58d354a3"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success": {
+      "edge_id": "interaction_pattern::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success",
+      "nodes": [
+        "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9014,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_58aa6b94",
+        "ep_601e815b"
+      ],
+      "status": "tested"
+    },
+    "produces_positive::sense_text|success": {
+      "edge_id": "produces_positive::sense_text|success",
+      "nodes": [
+        "sense_text",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.2533,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_ed65de7a"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::sense_text|success|success viable": {
+      "edge_id": "interaction_pattern::sense_text|success|success viable",
+      "nodes": [
+        "success viable",
+        "sense_text",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_ed65de7a"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::sense_text|success viable": {
+      "edge_id": "reduces_uncertainty::sense_text|success viable",
+      "nodes": [
+        "sense_text",
+        "success viable"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_ed65de7a"
+      ],
+      "status": "candidate"
+    },
+    "produces_positive::success|watch_change": {
+      "edge_id": "produces_positive::success|watch_change",
+      "nodes": [
+        "watch_change",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "read::ROADMAP.md::14d74944",
+        "read::inline::e7076490"
+      ],
+      "status": "tested"
+    },
+    "read_claim::inline|success|watch_change": {
+      "edge_id": "read_claim::inline|success|watch_change",
+      "nodes": [
+        "inline",
+        "watch_change",
+        "success"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::inline::e7076490"
+      ],
+      "status": "candidate"
+    },
+    "read_claim::ROADMAP.md|success|watch_change": {
+      "edge_id": "read_claim::ROADMAP.md|success|watch_change",
+      "nodes": [
+        "ROADMAP.md",
+        "watch_change",
+        "success"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ROADMAP.md::14d74944"
+      ],
+      "status": "candidate"
+    },
+    "analogical_hypothesis::HENLA_Technical_Specification.docx|hash_file|success": {
+      "edge_id": "analogical_hypothesis::HENLA_Technical_Specification.docx|hash_file|success",
+      "nodes": [
+        "hash_file",
+        "HENLA_Technical_Specification.docx",
+        "success"
+      ],
+      "relation": "analogical_hypothesis",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "creative::5c11fc52"
+      ],
+      "status": "candidate"
+    },
+    "analogical_hypothesis::PROJECT_LOG.md|hash_file|success": {
+      "edge_id": "analogical_hypothesis::PROJECT_LOG.md|hash_file|success",
+      "nodes": [
+        "hash_file",
+        "PROJECT_LOG.md",
+        "success"
+      ],
+      "relation": "analogical_hypothesis",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "creative::5c11fc52"
+      ],
+      "status": "candidate"
+    },
+    "analogical_hypothesis::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success": {
+      "edge_id": "analogical_hypothesis::__pycache__\\demo_autonomous.cpython-312.pyc|hash_file|success",
+      "nodes": [
+        "hash_file",
+        "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "success"
+      ],
+      "relation": "analogical_hypothesis",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "creative::5c11fc52"
+      ],
+      "status": "candidate"
+    },
+    "analogical_hypothesis::__pycache__\\henla.cpython-312.pyc|hash_file|success": {
+      "edge_id": "analogical_hypothesis::__pycache__\\henla.cpython-312.pyc|hash_file|success",
+      "nodes": [
+        "hash_file",
+        "__pycache__\\henla.cpython-312.pyc",
+        "success"
+      ],
+      "relation": "analogical_hypothesis",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "creative::5c11fc52"
+      ],
+      "status": "candidate"
+    },
+    "analogical_hypothesis::archive\\generated_outputs_2026-05-06|hash_file|success": {
+      "edge_id": "analogical_hypothesis::archive\\generated_outputs_2026-05-06|hash_file|success",
+      "nodes": [
+        "hash_file",
+        "archive\\generated_outputs_2026-05-06",
+        "success"
+      ],
+      "relation": "analogical_hypothesis",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "creative::5c11fc52"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::list_dir|tests": {
+      "edge_id": "reduces_uncertainty::list_dir|tests",
+      "nodes": [
+        "list_dir",
+        "tests"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_28a1c6c9"
+      ],
+      "status": "candidate"
+    }
+  }
+}

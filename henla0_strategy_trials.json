@@ -1,0 +1,419 @@
+{
+  "source_episode_count": 12,
+  "baseline_strategy": {
+    "strategy_id": "strategy::baseline",
+    "parameters": {
+      "scratchpad_depth": 3.0,
+      "reasoning_candidates": 4.0,
+      "attention_top_k": 3.0,
+      "pruning_threshold": 0.75,
+      "budding_threshold": 0.7,
+      "analogy_threshold": 0.55,
+      "risk_aversion": 0.4,
+      "exploration_weight": 0.35,
+      "consolidation_interval": 10.0
+    },
+    "changed_parameter": null,
+    "parent_strategy_id": null,
+    "status": "baseline"
+  },
+  "baseline_metrics": {
+    "episode_count": 12.0,
+    "mean_prediction_error": 0.0963,
+    "mean_valence": 0.29817499999999997,
+    "failure_rate": 0.0,
+    "contradiction_rate": 0.0,
+    "analogy_candidate_rate": 2.0
+  },
+  "analogy_candidate_count": 10,
+  "trial_count": 9,
+  "trials": [
+    {
+      "trial_id": "strategy_trial::analogy_threshold",
+      "strategy": {
+        "strategy_id": "strategy::analogy_threshold_0.45",
+        "parameters": {
+          "scratchpad_depth": 3.0,
+          "reasoning_candidates": 4.0,
+          "attention_top_k": 3.0,
+          "pruning_threshold": 0.75,
+          "budding_threshold": 0.7,
+          "analogy_threshold": 0.45,
+          "risk_aversion": 0.4,
+          "exploration_weight": 0.35,
+          "consolidation_interval": 10.0
+        },
+        "changed_parameter": "analogy_threshold",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "promoted"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0,
+        "viability_gain": 0.0,
+        "transfer_gain": 0.16,
+        "retrieval_cost_reduction": 0.0,
+        "deliberation_cost": 0.0,
+        "contradiction_increase": 0.03
+      },
+      "meta_score": 0.13,
+      "status": "promoted",
+      "changed_parameter": "analogy_threshold",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    },
+    {
+      "trial_id": "strategy_trial::scratchpad_depth",
+      "strategy": {
+        "strategy_id": "strategy::scratchpad_depth_4.0",
+        "parameters": {
+          "scratchpad_depth": 4.0,
+          "reasoning_candidates": 4.0,
+          "attention_top_k": 3.0,
+          "pruning_threshold": 0.75,
+          "budding_threshold": 0.7,
+          "analogy_threshold": 0.55,
+          "risk_aversion": 0.4,
+          "exploration_weight": 0.35,
+          "consolidation_interval": 10.0
+        },
+        "changed_parameter": "scratchpad_depth",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "candidate"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0289,
+        "viability_gain": 0.08,
+        "transfer_gain": 0.0,
+        "retrieval_cost_reduction": 0.0,
+        "deliberation_cost": 0.03,
+        "contradiction_increase": 0.0
+      },
+      "meta_score": 0.0789,
+      "status": "candidate",
+      "changed_parameter": "scratchpad_depth",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    },
+    {
+      "trial_id": "strategy_trial::consolidation_interval",
+      "strategy": {
+        "strategy_id": "strategy::consolidation_interval_8.0",
+        "parameters": {
+          "scratchpad_depth": 3.0,
+          "reasoning_candidates": 4.0,
+          "attention_top_k": 3.0,
+          "pruning_threshold": 0.75,
+          "budding_threshold": 0.7,
+          "analogy_threshold": 0.55,
+          "risk_aversion": 0.4,
+          "exploration_weight": 0.35,
+          "consolidation_interval": 8.0
+        },
+        "changed_parameter": "consolidation_interval",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "candidate"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0077,
+        "viability_gain": 0.0,
+        "transfer_gain": 0.0,
+        "retrieval_cost_reduction": 0.05,
+        "deliberation_cost": 0.01,
+        "contradiction_increase": 0.0
+      },
+      "meta_score": 0.0477,
+      "status": "candidate",
+      "changed_parameter": "consolidation_interval",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    },
+    {
+      "trial_id": "strategy_trial::budding_threshold",
+      "strategy": {
+        "strategy_id": "strategy::budding_threshold_0.65",
+        "parameters": {
+          "scratchpad_depth": 3.0,
+          "reasoning_candidates": 4.0,
+          "attention_top_k": 3.0,
+          "pruning_threshold": 0.75,
+          "budding_threshold": 0.65,
+          "analogy_threshold": 0.55,
+          "risk_aversion": 0.4,
+          "exploration_weight": 0.35,
+          "consolidation_interval": 10.0
+        },
+        "changed_parameter": "budding_threshold",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "candidate"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0,
+        "viability_gain": 0.0,
+        "transfer_gain": 0.06,
+        "retrieval_cost_reduction": 0.0,
+        "deliberation_cost": 0.02,
+        "contradiction_increase": 0.0
+      },
+      "meta_score": 0.04,
+      "status": "candidate",
+      "changed_parameter": "budding_threshold",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    },
+    {
+      "trial_id": "strategy_trial::pruning_threshold",
+      "strategy": {
+        "strategy_id": "strategy::pruning_threshold_0.7",
+        "parameters": {
+          "scratchpad_depth": 3.0,
+          "reasoning_candidates": 4.0,
+          "attention_top_k": 3.0,
+          "pruning_threshold": 0.7,
+          "budding_threshold": 0.7,
+          "analogy_threshold": 0.55,
+          "risk_aversion": 0.4,
+          "exploration_weight": 0.35,
+          "consolidation_interval": 10.0
+        },
+        "changed_parameter": "pruning_threshold",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "candidate"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0,
+        "viability_gain": 0.0,
+        "transfer_gain": 0.0,
+        "retrieval_cost_reduction": 0.06,
+        "deliberation_cost": 0.0,
+        "contradiction_increase": 0.03
+      },
+      "meta_score": 0.03,
+      "status": "candidate",
+      "changed_parameter": "pruning_threshold",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    },
+    {
+      "trial_id": "strategy_trial::reasoning_candidates",
+      "strategy": {
+        "strategy_id": "strategy::reasoning_candidates_5.0",
+        "parameters": {
+          "scratchpad_depth": 3.0,
+          "reasoning_candidates": 5.0,
+          "attention_top_k": 3.0,
+          "pruning_threshold": 0.75,
+          "budding_threshold": 0.7,
+          "analogy_threshold": 0.55,
+          "risk_aversion": 0.4,
+          "exploration_weight": 0.35,
+          "consolidation_interval": 10.0
+        },
+        "changed_parameter": "reasoning_candidates",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "candidate"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0241,
+        "viability_gain": 0.04,
+        "transfer_gain": 0.0,
+        "retrieval_cost_reduction": 0.0,
+        "deliberation_cost": 0.04,
+        "contradiction_increase": 0.0
+      },
+      "meta_score": 0.0241,
+      "status": "candidate",
+      "changed_parameter": "reasoning_candidates",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    },
+    {
+      "trial_id": "strategy_trial::exploration_weight",
+      "strategy": {
+        "strategy_id": "strategy::exploration_weight_0.4",
+        "parameters": {
+          "scratchpad_depth": 3.0,
+          "reasoning_candidates": 4.0,
+          "attention_top_k": 3.0,
+          "pruning_threshold": 0.75,
+          "budding_threshold": 0.7,
+          "analogy_threshold": 0.55,
+          "risk_aversion": 0.4,
+          "exploration_weight": 0.4,
+          "consolidation_interval": 10.0
+        },
+        "changed_parameter": "exploration_weight",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "candidate"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0,
+        "viability_gain": 0.0,
+        "transfer_gain": 0.03,
+        "retrieval_cost_reduction": 0.0,
+        "deliberation_cost": 0.01,
+        "contradiction_increase": 0.0
+      },
+      "meta_score": 0.02,
+      "status": "candidate",
+      "changed_parameter": "exploration_weight",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    },
+    {
+      "trial_id": "strategy_trial::risk_aversion",
+      "strategy": {
+        "strategy_id": "strategy::risk_aversion_0.45",
+        "parameters": {
+          "scratchpad_depth": 3.0,
+          "reasoning_candidates": 4.0,
+          "attention_top_k": 3.0,
+          "pruning_threshold": 0.75,
+          "budding_threshold": 0.7,
+          "analogy_threshold": 0.55,
+          "risk_aversion": 0.45,
+          "exploration_weight": 0.35,
+          "consolidation_interval": 10.0
+        },
+        "changed_parameter": "risk_aversion",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "candidate"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0048,
+        "viability_gain": 0.0,
+        "transfer_gain": 0.0,
+        "retrieval_cost_reduction": 0.01,
+        "deliberation_cost": 0.0,
+        "contradiction_increase": 0.0
+      },
+      "meta_score": 0.0148,
+      "status": "candidate",
+      "changed_parameter": "risk_aversion",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    },
+    {
+      "trial_id": "strategy_trial::attention_top_k",
+      "strategy": {
+        "strategy_id": "strategy::attention_top_k_4.0",
+        "parameters": {
+          "scratchpad_depth": 3.0,
+          "reasoning_candidates": 4.0,
+          "attention_top_k": 4.0,
+          "pruning_threshold": 0.75,
+          "budding_threshold": 0.7,
+          "analogy_threshold": 0.55,
+          "risk_aversion": 0.4,
+          "exploration_weight": 0.35,
+          "consolidation_interval": 10.0
+        },
+        "changed_parameter": "attention_top_k",
+        "parent_strategy_id": "strategy::baseline",
+        "status": "candidate"
+      },
+      "baseline": {
+        "episode_count": 12.0,
+        "mean_prediction_error": 0.0963,
+        "mean_valence": 0.2982,
+        "failure_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "analogy_candidate_rate": 2.0
+      },
+      "metrics": {
+        "prediction_error_reduction": 0.0096,
+        "viability_gain": 0.0,
+        "transfer_gain": 0.0,
+        "retrieval_cost_reduction": -0.02,
+        "deliberation_cost": 0.02,
+        "contradiction_increase": 0.0
+      },
+      "meta_score": -0.0304,
+      "status": "candidate",
+      "changed_parameter": "attention_top_k",
+      "notes": [
+        "one_parameter_variation",
+        "projected_from_episode_store"
+      ]
+    }
+  ]
+}

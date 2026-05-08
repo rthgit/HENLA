@@ -1,0 +1,32 @@
+{
+  "name": "cross_workspace_transfer",
+  "status": "passed",
+  "passed": true,
+  "train_episode_count": 4,
+  "baseline_episode_count": 3,
+  "transfer_episode_count": 3,
+  "baseline_mean_prediction_error": 0.0642,
+  "transfer_mean_prediction_error": 0.0622,
+  "prediction_error_reduction": 0.002,
+  "shared_structures": {
+    "pattern_signatures": 2,
+    "analogy_candidates": 1,
+    "principle_candidates": 0,
+    "transfer_results": 9
+  },
+  "imported_count": 12,
+  "transferred_priors": [
+    {
+      "source_signature": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "remote_status": "candidate_from_remote",
+      "local_status": "tested",
+      "requires_local_verification": true,
+      "edge_id": "produces_positive::stat_file|success"
+    }
+  ],
+  "raw_experience_policy": "raw episodes stay local; imported structures require local verification",
+  "workspaces": {
+    "train": ".benchmark_runs\\cross_workspace_transfer\\workspace_a",
+    "test": ".benchmark_runs\\cross_workspace_transfer\\workspace_b"
+  }
+}

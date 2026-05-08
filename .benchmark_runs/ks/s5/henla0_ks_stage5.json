@@ -1,0 +1,11 @@
+{
+  "name": "ks_stage5_ethics_privacy_retrieval",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "ethics_enforced": true,
+    "privacy_enforced": true,
+    "retrieval_hierarchical_ok": true
+  },
+  "policy": "KS-13..15 ensures that knowledge use is ethically bounded, legally compliant, and architecturally efficient."
+}

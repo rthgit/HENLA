@@ -1,0 +1,46 @@
+{
+  "name": "ks_stage7_civilization_review_gate",
+  "verdict": "civilization_knowledge_audited",
+  "passed": true,
+  "status": "passed",
+  "criteria_met": 7,
+  "criteria_total": 7,
+  "criteria": [
+    {
+      "criterion": "ingestion_epistemics",
+      "met": true,
+      "source": "s1"
+    },
+    {
+      "criterion": "graph_grounding_domains",
+      "met": true,
+      "source": "s2"
+    },
+    {
+      "criterion": "conflict_compression_learning",
+      "met": true,
+      "source": "s3"
+    },
+    {
+      "criterion": "multimodal_tool_temporal",
+      "met": true,
+      "source": "s4"
+    },
+    {
+      "criterion": "ethics_privacy_retrieval",
+      "met": true,
+      "source": "s5"
+    },
+    {
+      "criterion": "federation_action_teaching",
+      "met": true,
+      "source": "s6"
+    },
+    {
+      "criterion": "full_civilization_audit",
+      "met": true,
+      "source": "universal"
+    }
+  ],
+  "summary": "HENLA achieved 7/7 Knowledge Civilization criteria. Verdict: CIVILIZATION_KNOWLEDGE_AUDITED"
+}

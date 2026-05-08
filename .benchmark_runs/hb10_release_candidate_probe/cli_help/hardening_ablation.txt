@@ -1,0 +1,6 @@
+usage: henla.py hardening-ablation [-h] [--base-dir BASE_DIR] [--out OUT]
+
+options:
+  -h, --help           show this help message and exit
+  --base-dir BASE_DIR
+  --out OUT            write HB-5 JSON report

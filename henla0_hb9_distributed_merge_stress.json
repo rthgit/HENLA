@@ -1,0 +1,79 @@
+{
+  "name": "hb9_distributed_merge_stress",
+  "status": "passed",
+  "passed": true,
+  "train_cycles": 4,
+  "remote_packet_count": 4,
+  "local_shareable_total": 17,
+  "merged_count_total": 38,
+  "kept_separate_total": 3,
+  "raw_fields_rejected": [
+    "operational_noise",
+    "raw_episodes",
+    "raw_scratchpads"
+  ],
+  "compatible_support_max": 2,
+  "conflict_retained_count": 3,
+  "duplicate_growth_bounded": true,
+  "local_verification_rule_preserved": true,
+  "final_counts": {
+    "pattern_signatures": 6,
+    "analogy_candidates": 4,
+    "principle_candidates": 3,
+    "transfer_results": 11
+  },
+  "final_unique_total": 24,
+  "rounds": [
+    {
+      "label": "compatible_b",
+      "remote_source": "henla_b",
+      "merged_count": 17,
+      "kept_separate_count": 0,
+      "decision_count": 17,
+      "raw_fields_rejected": [],
+      "before_total": 17,
+      "after_total": 17,
+      "unique_growth": 0
+    },
+    {
+      "label": "compatible_c",
+      "remote_source": "henla_c",
+      "merged_count": 17,
+      "kept_separate_count": 0,
+      "decision_count": 17,
+      "raw_fields_rejected": [],
+      "before_total": 17,
+      "after_total": 17,
+      "unique_growth": 0
+    },
+    {
+      "label": "conflict",
+      "remote_source": "henla_conflict",
+      "merged_count": 0,
+      "kept_separate_count": 3,
+      "decision_count": 3,
+      "raw_fields_rejected": [
+        "operational_noise",
+        "raw_episodes"
+      ],
+      "before_total": 17,
+      "after_total": 20,
+      "unique_growth": 3
+    },
+    {
+      "label": "noise",
+      "remote_source": "henla_noise",
+      "merged_count": 4,
+      "kept_separate_count": 0,
+      "decision_count": 4,
+      "raw_fields_rejected": [
+        "operational_noise",
+        "raw_scratchpads"
+      ],
+      "before_total": 20,
+      "after_total": 24,
+      "unique_growth": 4
+    }
+  ],
+  "policy": "compatible support should accumulate, conflicts stay separate, and raw/noisy remote fields must be rejected without duplicate explosion"
+}

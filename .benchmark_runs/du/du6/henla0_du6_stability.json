@@ -1,0 +1,11 @@
+{
+  "name": "du6_long_run_operational_stability",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "stable_health": true,
+    "drift_detected": 0.09,
+    "collapse_detected": true
+  },
+  "policy": "DU-6 ensures that HENLA remains predictable and safe even after hundreds of thousands of interactions."
+}

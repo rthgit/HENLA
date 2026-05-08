@@ -1,0 +1,336 @@
+{
+  "nodes": {
+    "list_dir": {
+      "node_id": "list_dir",
+      "node_type": "action",
+      "activation_count": 4,
+      "mean_valence": 0.3039,
+      "first_seen": 1778026934.499007,
+      "last_seen": 1778026934.5034094
+    },
+    ".": {
+      "node_id": ".",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.3561,
+      "first_seen": 1778026934.49901,
+      "last_seen": 1778026934.4990458
+    },
+    "success": {
+      "node_id": "success",
+      "node_type": "result",
+      "activation_count": 13,
+      "mean_valence": 0.2733,
+      "first_seen": 1778026934.4990118,
+      "last_seen": 1778026934.503392
+    },
+    "filesystem": {
+      "node_id": "filesystem",
+      "node_type": "modality",
+      "activation_count": 26,
+      "mean_valence": 0.2733,
+      "first_seen": 1778026934.499013,
+      "last_seen": 1778026934.5034099
+    },
+    "stat_file": {
+      "node_id": "stat_file",
+      "node_type": "action",
+      "activation_count": 10,
+      "mean_valence": 0.2728,
+      "first_seen": 1778026934.4995255,
+      "last_seen": 1778026934.5029001
+    },
+    "__init__.py": {
+      "node_id": "__init__.py",
+      "node_type": "object",
+      "activation_count": 18,
+      "mean_valence": 0.2695,
+      "first_seen": 1778026934.4995277,
+      "last_seen": 1778026934.5029008
+    },
+    "demo.py": {
+      "node_id": "demo.py",
+      "node_type": "object",
+      "activation_count": 9,
+      "mean_valence": 0.2671,
+      "first_seen": 1778026934.4998426,
+      "last_seen": 1778026934.5021946
+    },
+    "read_chunk": {
+      "node_id": "read_chunk",
+      "node_type": "action",
+      "activation_count": 8,
+      "mean_valence": 0.2647,
+      "first_seen": 1778026934.5006137,
+      "last_seen": 1778026934.501607
+    },
+    "core/__init__.py": {
+      "node_id": "core/__init__.py",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2657,
+      "first_seen": 1778026934.501301,
+      "last_seen": 1778026934.5013192
+    },
+    "core/relation_learner.py": {
+      "node_id": "core/relation_learner.py",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2611,
+      "first_seen": 1778026934.5015903,
+      "last_seen": 1778026934.5016074
+    },
+    "hash_file": {
+      "node_id": "hash_file",
+      "node_type": "action",
+      "activation_count": 4,
+      "mean_valence": 0.2611,
+      "first_seen": 1778026934.5018263,
+      "last_seen": 1778026934.5021942
+    },
+    "core": {
+      "node_id": "core",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2516,
+      "first_seen": 1778026934.5033908,
+      "last_seen": 1778026934.5034096
+    }
+  },
+  "edges": {
+    "produces_positive::list_dir|success": {
+      "edge_id": "produces_positive::list_dir|success",
+      "nodes": [
+        "list_dir",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.1487,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "status": "tested"
+    },
+    "interaction_pattern::.|list_dir|success": {
+      "edge_id": "interaction_pattern::.|list_dir|success",
+      "nodes": [
+        ".",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "reduces_uncertainty::.|list_dir": {
+      "edge_id": "reduces_uncertainty::.|list_dir",
+      "nodes": [
+        "list_dir",
+        "."
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "produces_positive::stat_file|success": {
+      "edge_id": "produces_positive::stat_file|success",
+      "nodes": [
+        "stat_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.3,
+      "evidence_count": 5,
+      "predictive_gain": 0.0849,
+      "contradiction_rate": 0.0,
+      "context_count": 5,
+      "status": "stable"
+    },
+    "interaction_pattern::__init__.py|stat_file|success": {
+      "edge_id": "interaction_pattern::__init__.py|stat_file|success",
+      "nodes": [
+        "__init__.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.25,
+      "evidence_count": 4,
+      "predictive_gain": 0.9344,
+      "contradiction_rate": 0.0,
+      "context_count": 4,
+      "status": "tested"
+    },
+    "reduces_uncertainty::__init__.py|stat_file": {
+      "edge_id": "reduces_uncertainty::__init__.py|stat_file",
+      "nodes": [
+        "stat_file",
+        "__init__.py"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.2,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "interaction_pattern::demo.py|stat_file|success": {
+      "edge_id": "interaction_pattern::demo.py|stat_file|success",
+      "nodes": [
+        "demo.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "produces_positive::read_chunk|success": {
+      "edge_id": "produces_positive::read_chunk|success",
+      "nodes": [
+        "read_chunk",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.25,
+      "evidence_count": 4,
+      "predictive_gain": 0.0684,
+      "contradiction_rate": 0.0,
+      "context_count": 4,
+      "status": "tested"
+    },
+    "interaction_pattern::__init__.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::__init__.py|read_chunk|success",
+      "nodes": [
+        "__init__.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "interaction_pattern::demo.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::demo.py|read_chunk|success",
+      "nodes": [
+        "demo.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "interaction_pattern::core/__init__.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::core/__init__.py|read_chunk|success",
+      "nodes": [
+        "core/__init__.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9475,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "interaction_pattern::core/relation_learner.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::core/relation_learner.py|read_chunk|success",
+      "nodes": [
+        "core/relation_learner.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "produces_positive::hash_file|success": {
+      "edge_id": "produces_positive::hash_file|success",
+      "nodes": [
+        "hash_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.0633,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "status": "tested"
+    },
+    "interaction_pattern::__init__.py|hash_file|success": {
+      "edge_id": "interaction_pattern::__init__.py|hash_file|success",
+      "nodes": [
+        "__init__.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "interaction_pattern::demo.py|hash_file|success": {
+      "edge_id": "interaction_pattern::demo.py|hash_file|success",
+      "nodes": [
+        "demo.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    },
+    "interaction_pattern::core|list_dir|success": {
+      "edge_id": "interaction_pattern::core|list_dir|success",
+      "nodes": [
+        "core",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "status": "candidate"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "failure_recovery",
+  "status": "passed",
+  "passed": true,
+  "failure_action": "read_chunk",
+  "failure_target": "missing_config.ini",
+  "recovery_action": "list_dir",
+  "first_failure_prediction_error": 0.4925,
+  "second_failure_prediction_error": 0.4925,
+  "loop_failure_prediction_error": 0.5354,
+  "first_failure_valence": -0.0371,
+  "second_failure_valence": 0.0429,
+  "loop_failure_valence": -0.0599,
+  "recovery_valence": 0.4011,
+  "recovery_gain": 0.3582,
+  "negative_edge_count": 1,
+  "loop_event_count": 1,
+  "negative_edges": [
+    {
+      "edge_id": "produces_negative::failure|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "failure"
+      ],
+      "relation": "produces_negative",
+      "weight": 0.1583,
+      "evidence_count": 3,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.3333,
+      "context_count": 3,
+      "context_ids": [
+        "ep_2e0e2843",
+        "ep_513d7069",
+        "ep_d2069743"
+      ],
+      "status": "refuted"
+    }
+  ],
+  "policy": "repeated failures are penalized; recovery uses observation before further risky action"
+}

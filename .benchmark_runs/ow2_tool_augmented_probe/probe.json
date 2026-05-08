@@ -1,0 +1,125 @@
+{
+  "name": "ow2_tool_augmented_real_tasks",
+  "status": "passed",
+  "passed": true,
+  "workspace": "E:\\HENLA",
+  "graph_seed_path": "henla0_graph.json",
+  "seeded_prior_count": 20,
+  "task_packet_count": 5,
+  "completed_packet_count": 5,
+  "tool_invocation_count": 4,
+  "inspection_success_count": 4,
+  "deliberative_recovery_gain": 0.4216,
+  "reading_verification": {
+    "confirmed": 1,
+    "unverified": 1,
+    "contradicted": 1
+  },
+  "memory_bounded": true,
+  "warm_final_viability": -0.1193,
+  "episode_count": 7,
+  "compression": {
+    "episode_count": 7,
+    "compressed_pattern_count": 1,
+    "compression_ratio": 0.1429,
+    "compressed_pressure": 0.0833
+  },
+  "recursive_micro": {
+    "base_pattern_count": 3,
+    "recursive_pattern_count": 2,
+    "memory_pressure": {
+      "raw_pressure": 0.125,
+      "compressed_pressure": 0.0833,
+      "active_recursive_count": 2,
+      "decayed_recursive_count": 0
+    }
+  },
+  "packets": [
+    {
+      "packet_id": "inspect_release_candidate",
+      "tool": "runner",
+      "passed": true,
+      "success_count": 4,
+      "step_count": 4,
+      "targets": [
+        "henla0_hb10_release_candidate.json",
+        "henla0_hb10_release_candidate.json",
+        "OPEN_WORLD_REAL_ROADMAP.md",
+        "core"
+      ]
+    },
+    {
+      "packet_id": "deliberative_recovery",
+      "tool": "scratchpad_manager",
+      "passed": true,
+      "selected_action": "list_dir",
+      "selected_target": ".",
+      "naive_failure_result": "failure",
+      "recovery_result": "success",
+      "net_gain": 0.4216,
+      "simulations": [
+        {
+          "candidate_action": "read_chunk",
+          "target": "missing_ow2_tool_task.txt",
+          "predicted_result": "failure",
+          "predicted_valence": -0.214,
+          "confidence": 0.46,
+          "risk": 0.214,
+          "decision": "reject",
+          "reason": "from tested negative_outcome_pattern"
+        },
+        {
+          "candidate_action": "list_dir",
+          "target": ".",
+          "predicted_result": "success",
+          "predicted_valence": 0.3255,
+          "confidence": 0.93,
+          "risk": 0.0,
+          "decision": "accept",
+          "reason": "from stable produces_positive"
+        }
+      ],
+      "reflection": {
+        "predicted_result": "success",
+        "observed_result": "success",
+        "matched": true,
+        "valence_error": 0.0663,
+        "prediction_error": 0.0263,
+        "useful": true
+      }
+    },
+    {
+      "packet_id": "reason_cli",
+      "tool": "henla.py reason",
+      "passed": true,
+      "returncode": 0,
+      "decision": "accept",
+      "expected_result": "success"
+    },
+    {
+      "packet_id": "scratchpad_cli",
+      "tool": "henla.py scratchpad",
+      "passed": true,
+      "returncode": 0,
+      "hypothesis_count": 1,
+      "simulation_count": 1,
+      "selected_action": "list_dir"
+    },
+    {
+      "packet_id": "reading_verification_cli",
+      "tool": "henla.py read-text + reading-report",
+      "passed": true,
+      "returncode": {
+        "read_text": 0,
+        "reading_report": 0
+      },
+      "claim_count": 3,
+      "verification_counts": {
+        "confirmed": 1,
+        "unverified": 1,
+        "contradicted": 1
+      }
+    }
+  ],
+  "policy": "OW-2 must solve composed repository tasks using a controlled tool chain: direct inspection, deliberative recovery, CLI reasoning, CLI scratchpad, and CLI reading verification"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pd6_incident_learning_loop",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "violation_blocked": true,
+    "safe_action_allowed": true,
+    "constraints_count": 1
+  },
+  "policy": "PD-6 ensures that HENLA's architectural memory prevents the repetition of operational failures."
+}

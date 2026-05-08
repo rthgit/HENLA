@@ -1,0 +1,8 @@
+{
+  "version": "4.0.0-rc1",
+  "timestamp": 1715184000.0,
+  "components": {
+    "runner.py": "900eafb645dc87cb1493609af81bc9b975a61f0f21846239f36011d936eb1dc4"
+  },
+  "safety_level": "deployment_ready_controlled"
+}

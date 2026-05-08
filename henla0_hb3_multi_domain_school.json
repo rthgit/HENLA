@@ -1,0 +1,38 @@
+{
+  "name": "hb3_multi_domain_school_environment",
+  "status": "passed",
+  "passed": true,
+  "cycles": 12,
+  "episode_count": 86,
+  "failure_count": 14,
+  "recovery_successes": 14,
+  "recovery_rate": 1.0,
+  "mean_prediction_error_final": 0.1253,
+  "final_viability": 0.71,
+  "claim_count": 3,
+  "reading_verification": {
+    "confirmed": 1,
+    "unverified": 1,
+    "contradicted": 1
+  },
+  "has_confirmed_claim": true,
+  "has_contradicted_claim": true,
+  "has_unverified_claim": true,
+  "memory_bounded": true,
+  "recursive_micro": {
+    "base_pattern_count": 8,
+    "recursive_pattern_count": 5,
+    "memory_pressure": {
+      "raw_pressure": 0.325,
+      "compressed_pressure": 0.2167,
+      "active_recursive_count": 5,
+      "decayed_recursive_count": 0
+    }
+  },
+  "pruning": {
+    "decayed_count": 0,
+    "archived_count": 0,
+    "kept_count": 22
+  },
+  "policy": "school run must reconcile filesystem experience, text sensing, read claims and contradictions"
+}

@@ -1,0 +1,24 @@
+{
+  "total": 1,
+  "formed": [],
+  "candidates": [
+    {
+      "concept_id": "concept::produces_positive",
+      "relation": "produces_positive",
+      "formed": false,
+      "nodes": [
+        "stat_file",
+        "success"
+      ],
+      "edge_ids": [
+        "produces_positive::stat_file|success"
+      ],
+      "metrics": {
+        "stability": 1.0,
+        "predictivity": 0.849,
+        "transferability": 1.0,
+        "concept_score": 0.9396
+      }
+    }
+  ]
+}

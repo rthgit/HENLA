@@ -1,0 +1,104 @@
+{
+  "name": "hb7_transfer_evaluation",
+  "status": "passed",
+  "passed": true,
+  "source_workspace_count": 3,
+  "test_workspace": ".benchmark_runs\\hb7_transfer_evaluation\\workspace_d",
+  "train_cycles": 4,
+  "test_cycles": 3,
+  "baseline_mean_prediction_error": 0.0742,
+  "transfer_mean_prediction_error": 0.0468,
+  "prediction_error_reduction": 0.0274,
+  "baseline_mean_valence": 0.2795,
+  "transfer_mean_valence": 0.2866,
+  "valence_gain": 0.0071,
+  "source_diversity": 3,
+  "local_verification_ok": true,
+  "imported_packet_count": 3,
+  "imported_count_total": 48,
+  "source_packets": [
+    {
+      "source_instance": "henla_a",
+      "episode_count": 14,
+      "counts": {
+        "pattern_signatures": 4,
+        "analogy_candidates": 3,
+        "principle_candidates": 0,
+        "transfer_results": 9
+      }
+    },
+    {
+      "source_instance": "henla_b",
+      "episode_count": 14,
+      "counts": {
+        "pattern_signatures": 4,
+        "analogy_candidates": 3,
+        "principle_candidates": 0,
+        "transfer_results": 9
+      }
+    },
+    {
+      "source_instance": "henla_c",
+      "episode_count": 14,
+      "counts": {
+        "pattern_signatures": 4,
+        "analogy_candidates": 3,
+        "principle_candidates": 0,
+        "transfer_results": 9
+      }
+    }
+  ],
+  "transferred_priors": [
+    {
+      "action": "hash_file",
+      "local_status": "tested",
+      "remote_support_count": 3,
+      "sources": [
+        "distributed_packet::henla_a::1778164334",
+        "distributed_packet::henla_b::1778164334",
+        "distributed_packet::henla_c::1778164334"
+      ],
+      "requires_local_verification": true,
+      "edge_id": "produces_positive::hash_file|success"
+    },
+    {
+      "action": "list_dir",
+      "local_status": "tested",
+      "remote_support_count": 3,
+      "sources": [
+        "distributed_packet::henla_a::1778164334",
+        "distributed_packet::henla_b::1778164334",
+        "distributed_packet::henla_c::1778164334"
+      ],
+      "requires_local_verification": true,
+      "edge_id": "produces_positive::list_dir|success"
+    },
+    {
+      "action": "stat_file",
+      "local_status": "tested",
+      "remote_support_count": 3,
+      "sources": [
+        "distributed_packet::henla_a::1778164334",
+        "distributed_packet::henla_b::1778164334",
+        "distributed_packet::henla_c::1778164334"
+      ],
+      "requires_local_verification": true,
+      "edge_id": "produces_positive::stat_file|success"
+    }
+  ],
+  "raw_experience_policy": "raw episodes stay local; multiple remote packets still require local verification",
+  "target_sequence": [
+    [
+      "stat_file",
+      "delta.txt"
+    ],
+    [
+      "hash_file",
+      "delta.txt"
+    ],
+    [
+      "list_dir",
+      "."
+    ]
+  ]
+}

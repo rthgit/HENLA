@@ -1,0 +1,115 @@
+{
+  "episode_id": "ep_ed65de7a",
+  "t0": 1778089411.942806,
+  "t1": 1778089411.942806,
+  "state_before": {
+    "energy": 0.8,
+    "uncertainty": 0.6,
+    "coherence": 0.4,
+    "predictability": 0.4,
+    "controllability": 0.5,
+    "memory_stability": 0.7,
+    "pain": 0.2,
+    "pleasure": 0.2,
+    "novelty": 0.5,
+    "fatigue": 0.1,
+    "unresolved_errors": 0,
+    "repeated_failures": 0,
+    "contradictions": 0,
+    "viability": -0.38,
+    "timestamp": 1778089411.9401717
+  },
+  "perception": {
+    "modality": "language",
+    "object_id": "success viable",
+    "features": {
+      "modality": "language",
+      "raw_text": "success viable",
+      "tokens": [
+        "success",
+        "viable"
+      ],
+      "grounded": [
+        {
+          "token": "success",
+          "bindings": [
+            {
+              "word": "success",
+              "target_id": "category::success_patterns",
+              "target_type": "category",
+              "valence": 1.0,
+              "confidence": 1.0,
+              "evidence_count": 75,
+              "source": "observed_category"
+            },
+            {
+              "word": "success",
+              "target_id": "category::empirical_02",
+              "target_type": "category",
+              "valence": 1.0,
+              "confidence": 0.9214,
+              "evidence_count": 75,
+              "source": "observed_category"
+            },
+            {
+              "word": "success",
+              "target_id": "concept::produces_positive",
+              "target_type": "concept",
+              "valence": 1.0,
+              "confidence": 0.7653,
+              "evidence_count": 70,
+              "source": "formed_concept"
+            }
+          ]
+        }
+      ],
+      "unknown": [
+        "viable"
+      ],
+      "grounded_count": 1,
+      "unknown_count": 1,
+      "success": true
+    }
+  },
+  "action": {
+    "type": "sense_text",
+    "target": "success viable",
+    "parameters": {}
+  },
+  "prediction": {
+    "expected_result": "success",
+    "expected_valence": 0.2,
+    "confidence": 0.3
+  },
+  "result": {
+    "status": "success",
+    "observed_change": null,
+    "error": null
+  },
+  "state_after": {
+    "energy": 0.78,
+    "uncertainty": 0.2,
+    "coherence": 0.44,
+    "predictability": 0.447,
+    "controllability": 0.53,
+    "memory_stability": 0.7,
+    "pain": 0.14,
+    "pleasure": 0.28,
+    "novelty": 0.1,
+    "fatigue": 0.08,
+    "unresolved_errors": 0,
+    "repeated_failures": 0,
+    "contradictions": 0,
+    "viability": -0.1267,
+    "timestamp": 1778089411.942806
+  },
+  "valence": 0.3561,
+  "goal_progress": 0.2533,
+  "prediction_error": 0.07,
+  "activated_nodes": [
+    "sense_text",
+    "success viable",
+    "language"
+  ],
+  "candidate_edges": []
+}

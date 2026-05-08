@@ -1,0 +1,66 @@
+{
+  "name": "million_episode_simulation",
+  "status": "passed",
+  "passed": true,
+  "simulated_episode_count": 1000000,
+  "active_raw_episode_limit": 1000,
+  "active_raw_episode_count": 1000,
+  "compressed_pattern_count": 16,
+  "compression_ratio": 1.6e-05,
+  "active_memory_ratio": 0.001,
+  "linear_retrieval_cost": 1000000,
+  "indexed_retrieval_cost": 4.0875,
+  "retrieval_growth_ratio": 4.09e-06,
+  "memory_policy": "active raw memory is windowed; repeated episodes compress into pattern counts",
+  "snapshots": [
+    {
+      "episode": 1,
+      "active_raw_episode_count": 1,
+      "compressed_pattern_count": 1,
+      "linear_retrieval_cost": 1,
+      "indexed_retrieval_cost": 1.0
+    },
+    {
+      "episode": 10,
+      "active_raw_episode_count": 10,
+      "compressed_pattern_count": 4,
+      "linear_retrieval_cost": 10,
+      "indexed_retrieval_cost": 2.3219
+    },
+    {
+      "episode": 100,
+      "active_raw_episode_count": 100,
+      "compressed_pattern_count": 16,
+      "linear_retrieval_cost": 100,
+      "indexed_retrieval_cost": 4.0875
+    },
+    {
+      "episode": 1000,
+      "active_raw_episode_count": 1000,
+      "compressed_pattern_count": 16,
+      "linear_retrieval_cost": 1000,
+      "indexed_retrieval_cost": 4.0875
+    },
+    {
+      "episode": 10000,
+      "active_raw_episode_count": 1000,
+      "compressed_pattern_count": 16,
+      "linear_retrieval_cost": 10000,
+      "indexed_retrieval_cost": 4.0875
+    },
+    {
+      "episode": 100000,
+      "active_raw_episode_count": 1000,
+      "compressed_pattern_count": 16,
+      "linear_retrieval_cost": 100000,
+      "indexed_retrieval_cost": 4.0875
+    },
+    {
+      "episode": 1000000,
+      "active_raw_episode_count": 1000,
+      "compressed_pattern_count": 16,
+      "linear_retrieval_cost": 1000000,
+      "indexed_retrieval_cost": 4.0875
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "total": 3,
+  "categories": [
+    {
+      "category_id": "category::success_patterns",
+      "label": "success_patterns",
+      "basis": "result_pattern",
+      "members": [
+        "HENLA_Technical_Specification.docx",
+        "hash_file",
+        "list_dir",
+        "read_chunk",
+        "stat_file"
+      ],
+      "evidence_count": 76,
+      "confidence": 1.0,
+      "source_edges": [
+        "produces_positive::list_dir|success",
+        "produces_positive::stat_file|success",
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "produces_positive::read_chunk|success",
+        "produces_positive::hash_file|success"
+      ],
+      "source_concepts": [
+        "concept::produces_positive"
+      ]
+    },
+    {
+      "category_id": "category::empirical_02",
+      "label": "successful_action_pattern",
+      "basis": "stable_edge_signature",
+      "members": [
+        "hash_file",
+        "list_dir",
+        "read_chunk",
+        "stat_file"
+      ],
+      "evidence_count": 76,
+      "confidence": 0.9214,
+      "source_edges": [
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "produces_positive::hash_file|success",
+        "produces_positive::list_dir|success",
+        "produces_positive::read_chunk|success",
+        "produces_positive::stat_file|success"
+      ],
+      "source_concepts": []
+    },
+    {
+      "category_id": "category::empirical_01",
+      "label": "emergent_pattern",
+      "basis": "stable_edge_signature",
+      "members": [
+        "HENLA_Technical_Specification.docx"
+      ],
+      "evidence_count": 5,
+      "confidence": 0.1,
+      "source_edges": [
+        "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success"
+      ],
+      "source_concepts": []
+    }
+  ]
+}

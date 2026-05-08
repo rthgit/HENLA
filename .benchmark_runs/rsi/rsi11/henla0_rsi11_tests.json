@@ -1,0 +1,11 @@
+{
+  "name": "rsi11_self_generated_tests",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "fs_test_generated": true,
+    "cmd_test_generated": true,
+    "safety_verified": true
+  },
+  "policy": "RSI-11 demonstrates that HENLA can proactively seek out and test its own limits."
+}

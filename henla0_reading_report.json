@@ -1,0 +1,53 @@
+{
+  "modality": "reading",
+  "source": "inline",
+  "raw_text": "watch_change produces success",
+  "claim_count": 1,
+  "claims": [
+    {
+      "subject": "watch_change",
+      "result": "success",
+      "relation": "produces_positive",
+      "text": "watch_change produces success"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "produces_positive::success|watch_change",
+      "nodes": [
+        "watch_change",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::inline::e7076490"
+      ],
+      "status": "candidate"
+    },
+    {
+      "edge_id": "read_claim::inline|success|watch_change",
+      "nodes": [
+        "inline",
+        "watch_change",
+        "success"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::inline::e7076490"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "contradictions": [],
+  "success": true
+}

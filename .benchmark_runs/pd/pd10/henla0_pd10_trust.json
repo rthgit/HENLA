@@ -1,0 +1,11 @@
+{
+  "name": "pd10_trust_calibration_with_humans",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "overtrust_detected": true,
+    "undertrust_detected": true,
+    "alignment_rate_final": 0.4
+  },
+  "policy": "PD-10 ensures that the human-HENLA collaboration is based on accurate shared mental models of reliability."
+}

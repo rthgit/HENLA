@@ -1,0 +1,11 @@
+{
+  "name": "pd13_post_deployment_review_board",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "excellent_verdict_ok": true,
+    "concerning_verdict_ok": true,
+    "decision_mapping_ok": true
+  },
+  "policy": "PD-13 ensures that HENLA's long-term deployment remains subject to strategic human-technical oversight."
+}

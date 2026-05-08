@@ -1,0 +1,389 @@
+{
+  "sequence_id": "sequence::observed",
+  "steps": 5,
+  "episodes": [
+    {
+      "episode_id": "ep_deb08013",
+      "t0": 1778062548.1921728,
+      "t1": 1778062548.1927774,
+      "state_before": {
+        "energy": 0.8,
+        "uncertainty": 0.6,
+        "coherence": 0.4,
+        "predictability": 0.4,
+        "controllability": 0.5,
+        "memory_stability": 0.7,
+        "pain": 0.2,
+        "pleasure": 0.2,
+        "novelty": 0.5,
+        "fatigue": 0.1,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": -0.38,
+        "timestamp": 1778062548.1911347
+      },
+      "perception": {
+        "modality": "filesystem",
+        "object_id": "core\\action_selector.py",
+        "features": {
+          "exists": true,
+          "path": "core\\action_selector.py",
+          "size": 12809,
+          "mtime": 1778059886.0,
+          "hash": "24d94669e111246db233440f2180f1d9",
+          "recently_changed": false
+        }
+      },
+      "action": {
+        "type": "hash_file",
+        "target": "core\\action_selector.py",
+        "parameters": {}
+      },
+      "prediction": {
+        "expected_result": "success",
+        "expected_valence": 0.29,
+        "confidence": 0.55
+      },
+      "result": {
+        "status": "success",
+        "observed_change": null,
+        "error": null
+      },
+      "state_after": {
+        "energy": 0.78,
+        "uncertainty": 0.2,
+        "coherence": 0.44,
+        "predictability": 0.445,
+        "controllability": 0.53,
+        "memory_stability": 0.7,
+        "pain": 0.14,
+        "pleasure": 0.28,
+        "novelty": 0.1,
+        "fatigue": 0.08,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": -0.1276,
+        "timestamp": 1778062548.1927774
+      },
+      "valence": 0.3478,
+      "goal_progress": 0.2524,
+      "prediction_error": 0.1015,
+      "activated_nodes": [
+        "hash_file",
+        "core\\action_selector.py",
+        "filesystem",
+        "py"
+      ],
+      "candidate_edges": []
+    },
+    {
+      "episode_id": "ep_64a78568",
+      "t0": 1778062548.1958597,
+      "t1": 1778062548.19914,
+      "state_before": {
+        "energy": 0.78,
+        "uncertainty": 0.2,
+        "coherence": 0.44,
+        "predictability": 0.445,
+        "controllability": 0.53,
+        "memory_stability": 0.7,
+        "pain": 0.14,
+        "pleasure": 0.28,
+        "novelty": 0.1,
+        "fatigue": 0.08,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": -0.1276,
+        "timestamp": 1778062548.1927774
+      },
+      "perception": {
+        "modality": "filesystem",
+        "object_id": "PROJECT_LOG.md",
+        "features": {
+          "exists": true,
+          "path": "PROJECT_LOG.md",
+          "size": 16227,
+          "mtime": 1778062408.0,
+          "hash": "4d76db22d66973e59b48bef1458c91ad",
+          "recently_changed": false
+        }
+      },
+      "action": {
+        "type": "list_dir",
+        "target": "PROJECT_LOG.md",
+        "parameters": {}
+      },
+      "prediction": {
+        "expected_result": "success",
+        "expected_valence": 0.31,
+        "confidence": 0.55
+      },
+      "result": {
+        "status": "success",
+        "observed_change": null,
+        "error": null
+      },
+      "state_after": {
+        "energy": 0.758,
+        "uncertainty": 0.0,
+        "coherence": 0.48,
+        "predictability": 0.49,
+        "controllability": 0.56,
+        "memory_stability": 0.7,
+        "pain": 0.08,
+        "pleasure": 0.36,
+        "novelty": 0.1,
+        "fatigue": 0.06,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": 0.0444,
+        "timestamp": 1778062548.19914
+      },
+      "valence": 0.3056,
+      "goal_progress": 0.172,
+      "prediction_error": 0.1085,
+      "activated_nodes": [
+        "list_dir",
+        "PROJECT_LOG.md",
+        "filesystem",
+        "md"
+      ],
+      "candidate_edges": []
+    },
+    {
+      "episode_id": "ep_e78e0ec6",
+      "t0": 1778062548.2020812,
+      "t1": 1778062548.2020812,
+      "state_before": {
+        "energy": 0.758,
+        "uncertainty": 0.0,
+        "coherence": 0.48,
+        "predictability": 0.49,
+        "controllability": 0.56,
+        "memory_stability": 0.7,
+        "pain": 0.08,
+        "pleasure": 0.36,
+        "novelty": 0.1,
+        "fatigue": 0.06,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": 0.0444,
+        "timestamp": 1778062548.19914
+      },
+      "perception": {
+        "modality": "filesystem",
+        "object_id": "henla0_categories.json",
+        "features": {
+          "exists": true,
+          "path": "henla0_categories.json",
+          "size": 1877,
+          "mtime": 1778062086.0,
+          "hash": "1fa80b016998861c21b1f74e5c5fad9d",
+          "recently_changed": false
+        }
+      },
+      "action": {
+        "type": "list_dir",
+        "target": "henla0_categories.json",
+        "parameters": {}
+      },
+      "prediction": {
+        "expected_result": "success",
+        "expected_valence": 0.27,
+        "confidence": 0.65
+      },
+      "result": {
+        "status": "success",
+        "observed_change": null,
+        "error": null
+      },
+      "state_after": {
+        "energy": 0.738,
+        "uncertainty": 0.0,
+        "coherence": 0.52,
+        "predictability": 0.535,
+        "controllability": 0.59,
+        "memory_stability": 0.7,
+        "pain": 0.02,
+        "pleasure": 0.44,
+        "novelty": 0.1,
+        "fatigue": 0.04,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": 0.137,
+        "timestamp": 1778062548.2020812
+      },
+      "valence": 0.2697,
+      "goal_progress": 0.0926,
+      "prediction_error": 0.0945,
+      "activated_nodes": [
+        "list_dir",
+        "henla0_categories.json",
+        "filesystem",
+        "json"
+      ],
+      "candidate_edges": []
+    },
+    {
+      "episode_id": "ep_58d354a3",
+      "t0": 1778062548.2020812,
+      "t1": 1778062548.2020812,
+      "state_before": {
+        "energy": 0.738,
+        "uncertainty": 0.0,
+        "coherence": 0.52,
+        "predictability": 0.535,
+        "controllability": 0.59,
+        "memory_stability": 0.7,
+        "pain": 0.02,
+        "pleasure": 0.44,
+        "novelty": 0.1,
+        "fatigue": 0.04,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": 0.137,
+        "timestamp": 1778062548.2020812
+      },
+      "perception": {
+        "modality": "filesystem",
+        "object_id": "archive\\runtime_artifacts_2026-05-06",
+        "features": {
+          "exists": true,
+          "path": "archive\\runtime_artifacts_2026-05-06",
+          "file_count": 0,
+          "dir_count": 11,
+          "total": 11
+        }
+      },
+      "action": {
+        "type": "list_dir",
+        "target": "archive\\runtime_artifacts_2026-05-06",
+        "parameters": {}
+      },
+      "prediction": {
+        "expected_result": "success",
+        "expected_valence": 0.255,
+        "confidence": 0.7
+      },
+      "result": {
+        "status": "success",
+        "observed_change": null,
+        "error": null
+      },
+      "state_after": {
+        "energy": 0.718,
+        "uncertainty": 0.0,
+        "coherence": 0.56,
+        "predictability": 0.58,
+        "controllability": 0.62,
+        "memory_stability": 0.7,
+        "pain": 0.0,
+        "pleasure": 0.52,
+        "novelty": 0.1,
+        "fatigue": 0.02,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": 0.2138,
+        "timestamp": 1778062548.2020812
+      },
+      "valence": 0.2631,
+      "goal_progress": 0.0768,
+      "prediction_error": 0.0892,
+      "activated_nodes": [
+        "list_dir",
+        "archive\\runtime_artifacts_2026-05-06",
+        "filesystem"
+      ],
+      "candidate_edges": []
+    },
+    {
+      "episode_id": "ep_58aa6b94",
+      "t0": 1778062548.2095125,
+      "t1": 1778062548.2121012,
+      "state_before": {
+        "energy": 0.718,
+        "uncertainty": 0.0,
+        "coherence": 0.56,
+        "predictability": 0.58,
+        "controllability": 0.62,
+        "memory_stability": 0.7,
+        "pain": 0.0,
+        "pleasure": 0.52,
+        "novelty": 0.1,
+        "fatigue": 0.02,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": 0.2138,
+        "timestamp": 1778062548.2020812
+      },
+      "perception": {
+        "modality": "filesystem",
+        "object_id": "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "features": {
+          "exists": true,
+          "path": "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "size": 5550,
+          "mtime": 1778062524.0,
+          "hash": "6d78753507fbe0dc029f898fd6cd9b40",
+          "recently_changed": true
+        }
+      },
+      "action": {
+        "type": "hash_file",
+        "target": "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "parameters": {}
+      },
+      "prediction": {
+        "expected_result": "success",
+        "expected_valence": 0.2833,
+        "confidence": 0.6000000000000001
+      },
+      "result": {
+        "status": "success",
+        "observed_change": null,
+        "error": null
+      },
+      "state_after": {
+        "energy": 0.697,
+        "uncertainty": 0.0,
+        "coherence": 0.6,
+        "predictability": 0.625,
+        "controllability": 0.65,
+        "memory_stability": 0.7,
+        "pain": 0.0,
+        "pleasure": 0.6,
+        "novelty": 0.1,
+        "fatigue": 0.0,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": 0.282,
+        "timestamp": 1778062548.2121012
+      },
+      "valence": 0.2561,
+      "goal_progress": 0.0682,
+      "prediction_error": 0.0992,
+      "activated_nodes": [
+        "hash_file",
+        "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "filesystem",
+        "pyc"
+      ],
+      "candidate_edges": []
+    }
+  ],
+  "status_matches": 5,
+  "match_rate": 1.0,
+  "viability_before": -0.38,
+  "viability_after": 0.282,
+  "delta_viability": 0.662
+}

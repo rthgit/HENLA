@@ -1,0 +1,12 @@
+{
+  "name": "du12_distributed_reliability",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "alice_trust": 0.6,
+    "bob_trust": 0.3,
+    "consensus": 0.6667,
+    "conflict_status": "conflicted"
+  },
+  "policy": "DU-12 prevents a single faulty or adversarial instance from corrupting the collective knowledge base."
+}

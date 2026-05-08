@@ -1,0 +1,32 @@
+{
+  "total_claims": 2,
+  "counts": {
+    "confirmed": 0,
+    "unverified": 2,
+    "contradicted": 0
+  },
+  "comparisons": [
+    {
+      "source": "inline",
+      "subject": "watch_change",
+      "result": "success",
+      "relation": "produces_positive",
+      "status": "unverified",
+      "claim_status": "candidate",
+      "claim_evidence": 1,
+      "experiential_edges": [],
+      "incompatible_edges": []
+    },
+    {
+      "source": "ROADMAP.md",
+      "subject": "watch_change",
+      "result": "success",
+      "relation": "produces_positive",
+      "status": "unverified",
+      "claim_status": "candidate",
+      "claim_evidence": 1,
+      "experiential_edges": [],
+      "incompatible_edges": []
+    }
+  ]
+}

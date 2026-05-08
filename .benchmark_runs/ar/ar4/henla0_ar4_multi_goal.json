@@ -1,0 +1,11 @@
+{
+  "name": "ar4_multi_goal_management",
+  "status": "passed",
+  "passed": true,
+  "metrics": {
+    "goals_total": 3,
+    "goals_completed": 3,
+    "switch_count": 3
+  },
+  "policy": "AR-4 verifies that HENLA can balance multiple objectives without losing focus or progress."
+}

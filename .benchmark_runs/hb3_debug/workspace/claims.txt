@@ -1,0 +1,3 @@
+stat_file produces success
+read_chunk produces failure
+watch_change produces success

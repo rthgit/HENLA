@@ -1,0 +1,130 @@
+{
+  "name": "ow4_ood_workspace_transfer",
+  "status": "passed",
+  "passed": true,
+  "graph_seed_path": "henla0_graph.json",
+  "workspace_count": 3,
+  "workspace_pass_count": 3,
+  "seeded_prior_count": 60,
+  "coverage": {
+    "domains": [
+      "csv",
+      "directory",
+      "ini",
+      "json",
+      "log",
+      "markdown",
+      "txt"
+    ],
+    "domain_count": 7,
+    "workspace_names": [
+      "ops_workspace",
+      "records_workspace",
+      "support_workspace"
+    ],
+    "file_target_count": 15
+  },
+  "baseline_episode_count": 66,
+  "transfer_episode_count": 66,
+  "baseline_mean_prediction_error": 0.0897,
+  "transfer_mean_prediction_error": 0.0715,
+  "prediction_error_reduction": 0.0182,
+  "baseline_early_window_prediction_error": 0.0692,
+  "transfer_early_window_prediction_error": 0.0314,
+  "early_window_reduction": 0.0378,
+  "baseline_mean_valence": 0.2507,
+  "transfer_mean_valence": 0.2552,
+  "valence_gain": 0.0045,
+  "failure_count": 6,
+  "recovery_successes": 6,
+  "recovery_rate": 1.0,
+  "reading_verification": {
+    "confirmed": 12,
+    "contradicted": 6,
+    "unverified": 6
+  },
+  "local_verification_ok": true,
+  "memory_bounded": true,
+  "compression": {
+    "episode_count": 66,
+    "compressed_pattern_count": 2,
+    "compression_ratio": 0.0303,
+    "compressed_pressure": 0.1167
+  },
+  "recursive_micro": {
+    "base_pattern_count": 4,
+    "recursive_pattern_count": 3,
+    "memory_pressure": {
+      "raw_pressure": 0.175,
+      "compressed_pressure": 0.1167,
+      "active_recursive_count": 3,
+      "decayed_recursive_count": 0
+    }
+  },
+  "workspace_summaries": [
+    {
+      "workspace": "ops_workspace",
+      "path": ".benchmark_runs\\ow4_ood_workspace_transfer_probe\\ops_workspace",
+      "target_count": 9,
+      "baseline_mean_prediction_error": 0.0897,
+      "transfer_mean_prediction_error": 0.0715,
+      "prediction_error_reduction": 0.0182,
+      "baseline_mean_valence": 0.2506,
+      "transfer_mean_valence": 0.2552,
+      "valence_gain": 0.0046,
+      "reading_verification": {
+        "confirmed": 4,
+        "unverified": 2,
+        "contradicted": 2
+      },
+      "locally_verified_priors": 4,
+      "local_verification_ok": true,
+      "baseline_early_window_prediction_error": 0.0692,
+      "transfer_early_window_prediction_error": 0.0314,
+      "passed": true
+    },
+    {
+      "workspace": "records_workspace",
+      "path": ".benchmark_runs\\ow4_ood_workspace_transfer_probe\\records_workspace",
+      "target_count": 9,
+      "baseline_mean_prediction_error": 0.0897,
+      "transfer_mean_prediction_error": 0.0715,
+      "prediction_error_reduction": 0.0182,
+      "baseline_mean_valence": 0.2507,
+      "transfer_mean_valence": 0.2552,
+      "valence_gain": 0.0045,
+      "reading_verification": {
+        "confirmed": 4,
+        "unverified": 2,
+        "contradicted": 2
+      },
+      "locally_verified_priors": 4,
+      "local_verification_ok": true,
+      "baseline_early_window_prediction_error": 0.0692,
+      "transfer_early_window_prediction_error": 0.0314,
+      "passed": true
+    },
+    {
+      "workspace": "support_workspace",
+      "path": ".benchmark_runs\\ow4_ood_workspace_transfer_probe\\support_workspace",
+      "target_count": 9,
+      "baseline_mean_prediction_error": 0.0897,
+      "transfer_mean_prediction_error": 0.0715,
+      "prediction_error_reduction": 0.0182,
+      "baseline_mean_valence": 0.2507,
+      "transfer_mean_valence": 0.2552,
+      "valence_gain": 0.0045,
+      "reading_verification": {
+        "confirmed": 4,
+        "unverified": 2,
+        "contradicted": 2
+      },
+      "locally_verified_priors": 4,
+      "local_verification_ok": true,
+      "baseline_early_window_prediction_error": 0.0692,
+      "transfer_early_window_prediction_error": 0.0314,
+      "passed": true
+    }
+  ],
+  "policy": "OW-4 must show that consolidated repository priors still reduce prediction error and preserve recovery on non-HENLA OOD workspaces with different file mixes and folder semantics"
+}

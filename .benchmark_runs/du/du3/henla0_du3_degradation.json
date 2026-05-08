@@ -1,0 +1,12 @@
+{
+  "name": "du3_graceful_degradation",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "full_plan_len": 4,
+    "impeded_plan_len": 3,
+    "critical_plan_len": 2,
+    "critical_multiplier": 2.5
+  },
+  "policy": "DU-3 ensures that HENLA's first reaction to failure is caution and simplification."
+}

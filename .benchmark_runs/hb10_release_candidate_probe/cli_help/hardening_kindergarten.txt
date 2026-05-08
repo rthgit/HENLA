@@ -1,0 +1,11 @@
+usage: henla.py hardening-kindergarten [-h] [--base-dir BASE_DIR]
+                                       [--steps STEPS]
+                                       [--snapshot-interval SNAPSHOT_INTERVAL]
+                                       [--out OUT]
+
+options:
+  -h, --help            show this help message and exit
+  --base-dir BASE_DIR
+  --steps STEPS
+  --snapshot-interval SNAPSHOT_INTERVAL
+  --out OUT             write HB-2 JSON report

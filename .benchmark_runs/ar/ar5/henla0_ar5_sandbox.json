@@ -1,0 +1,13 @@
+{
+  "name": "ar5_consequence_sandbox",
+  "status": "passed",
+  "passed": true,
+  "metrics": {
+    "patch_applied": true,
+    "original_untouched": true,
+    "sandbox_isolated": true,
+    "sandbox_cleaned": true,
+    "action_regret_measured": true
+  },
+  "policy": "AR-5 ensures that write actions are contained, reversible, and auditable within a sandbox."
+}

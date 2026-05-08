@@ -1,0 +1,28 @@
+{
+  "name": "rsi10_strategy_learning",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "selected_fs_strategy": "increase_retries",
+    "selected_cmd_strategy": "env_validation",
+    "stats": {
+      "sensing_failure": {
+        "increase_retries": {
+          "trials": 2,
+          "success_rate": 1.0
+        },
+        "change_buffer": {
+          "trials": 1,
+          "success_rate": 0.0
+        }
+      },
+      "command_failure": {
+        "env_validation": {
+          "trials": 1,
+          "success_rate": 1.0
+        }
+      }
+    }
+  },
+  "policy": "RSI-10 verifies that HENLA optimizes its own improvement process through historical meta-learning."
+}

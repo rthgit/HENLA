@@ -1,0 +1,9 @@
+usage: henla.py micro [-h] [--limit LIMIT] [--out OUT] [episodes]
+
+positional arguments:
+  episodes
+
+options:
+  -h, --help     show this help message and exit
+  --limit LIMIT
+  --out OUT      write micro-signal report JSON

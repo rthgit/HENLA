@@ -1,0 +1,29 @@
+{
+  "total": 2,
+  "categories": [
+    {
+      "category_id": "category::sensing_actions",
+      "members": [
+        "stat_file"
+      ],
+      "evidence_count": 5,
+      "confidence": 0.25,
+      "source_edges": [
+        "produces_positive::stat_file|success"
+      ],
+      "source_concepts": []
+    },
+    {
+      "category_id": "category::success_patterns",
+      "members": [
+        "stat_file"
+      ],
+      "evidence_count": 5,
+      "confidence": 0.2,
+      "source_edges": [
+        "produces_positive::stat_file|success"
+      ],
+      "source_concepts": []
+    }
+  ]
+}

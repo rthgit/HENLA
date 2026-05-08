@@ -1,0 +1,10 @@
+{
+  "name": "rsi6_meta_reasoning_trace",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "decisions_captured": 1,
+    "reasoning_present": true
+  },
+  "policy": "RSI-6 ensures that self-improvement is not a black box but an auditable logical process."
+}

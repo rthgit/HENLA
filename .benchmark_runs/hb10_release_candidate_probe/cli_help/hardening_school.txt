@@ -1,0 +1,8 @@
+usage: henla.py hardening-school [-h] [--base-dir BASE_DIR] [--cycles CYCLES]
+                                 [--out OUT]
+
+options:
+  -h, --help           show this help message and exit
+  --base-dir BASE_DIR
+  --cycles CYCLES
+  --out OUT            write HB-3 JSON report

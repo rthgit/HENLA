@@ -1,0 +1,521 @@
+{
+  "nodes": {
+    "stat_file": {
+      "node_id": "stat_file",
+      "node_type": "action",
+      "activation_count": 3,
+      "mean_valence": 0.2453,
+      "first_seen": 1778181577.3315563,
+      "last_seen": 1778181578.0201688
+    },
+    "henla0_hb10_release_candidate.json": {
+      "node_id": "henla0_hb10_release_candidate.json",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": 0.3483,
+      "first_seen": 1778181577.3315563,
+      "last_seen": 1778181577.339192
+    },
+    "success": {
+      "node_id": "success",
+      "node_type": "result",
+      "activation_count": 7,
+      "mean_valence": 0.2364,
+      "first_seen": 1778181577.3315563,
+      "last_seen": 1778181578.0201688
+    },
+    "filesystem": {
+      "node_id": "filesystem",
+      "node_type": "modality",
+      "activation_count": 14,
+      "mean_valence": 0.2277,
+      "first_seen": 1778181577.3315563,
+      "last_seen": 1778181577.3815658
+    },
+    "read_chunk": {
+      "node_id": "read_chunk",
+      "node_type": "action",
+      "activation_count": 6,
+      "mean_valence": 0.0894,
+      "first_seen": 1778181577.339192,
+      "last_seen": 1778181577.3625383
+    },
+    "hash_file": {
+      "node_id": "hash_file",
+      "node_type": "action",
+      "activation_count": 3,
+      "mean_valence": 0.1912,
+      "first_seen": 1778181577.343947,
+      "last_seen": 1778181578.0201688
+    },
+    "OPEN_WORLD_REAL_ROADMAP.md": {
+      "node_id": "OPEN_WORLD_REAL_ROADMAP.md",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2868,
+      "first_seen": 1778181577.343947,
+      "last_seen": 1778181577.343947
+    },
+    "list_dir": {
+      "node_id": "list_dir",
+      "node_type": "action",
+      "activation_count": 4,
+      "mean_valence": 0.3355,
+      "first_seen": 1778181577.355111,
+      "last_seen": 1778181577.3815658
+    },
+    "core": {
+      "node_id": "core",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.2792,
+      "first_seen": 1778181577.355111,
+      "last_seen": 1778181577.355111
+    },
+    "missing_ow2_tool_task.txt": {
+      "node_id": "missing_ow2_tool_task.txt",
+      "node_type": "object",
+      "activation_count": 6,
+      "mean_valence": -0.0303,
+      "first_seen": 1778181577.3576481,
+      "last_seen": 1778181577.3625383
+    },
+    "failure": {
+      "node_id": "failure",
+      "node_type": "result",
+      "activation_count": 3,
+      "mean_valence": -0.0202,
+      "first_seen": 1778181577.3576481,
+      "last_seen": 1778181578.0201688
+    },
+    ".": {
+      "node_id": ".",
+      "node_type": "object",
+      "activation_count": 3,
+      "mean_valence": 0.3918,
+      "first_seen": 1778181577.3815658,
+      "last_seen": 1778181577.3815658
+    },
+    "reading": {
+      "node_id": "reading",
+      "node_type": "modality",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778181578.0201688,
+      "last_seen": 1778181578.0201688
+    },
+    "ow2_claims": {
+      "node_id": "ow2_claims",
+      "node_type": "object",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778181578.0201688,
+      "last_seen": 1778181578.0201688
+    },
+    "watch_change": {
+      "node_id": "watch_change",
+      "node_type": "action",
+      "activation_count": 1,
+      "mean_valence": 0.0,
+      "first_seen": 1778181578.0201688,
+      "last_seen": 1778181578.0201688
+    }
+  },
+  "edges": {
+    "produces_positive::list_dir|success": {
+      "edge_id": "produces_positive::list_dir|success",
+      "nodes": [
+        "list_dir",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.4,
+      "evidence_count": 7,
+      "predictive_gain": 0.1078,
+      "contradiction_rate": 0.0,
+      "context_count": 7,
+      "context_ids": [
+        "ep_803daee2",
+        "ep_f0ee4f86",
+        "seed::produces_positive::list_dir|success::0",
+        "seed::produces_positive::list_dir|success::1",
+        "seed::produces_positive::list_dir|success::2",
+        "seed::produces_positive::list_dir|success::3",
+        "seed::produces_positive::list_dir|success::4"
+      ],
+      "status": "stable"
+    },
+    "produces_positive::stat_file|success": {
+      "edge_id": "produces_positive::stat_file|success",
+      "nodes": [
+        "stat_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.4,
+      "evidence_count": 7,
+      "predictive_gain": 0.0865,
+      "contradiction_rate": 0.0,
+      "context_count": 7,
+      "context_ids": [
+        "ep_0a3a0574",
+        "read::ow2_claims::ac250472",
+        "seed::produces_positive::stat_file|success::0",
+        "seed::produces_positive::stat_file|success::1",
+        "seed::produces_positive::stat_file|success::2",
+        "seed::produces_positive::stat_file|success::3",
+        "seed::produces_positive::stat_file|success::4"
+      ],
+      "status": "stable"
+    },
+    "produces_positive::read_chunk|success": {
+      "edge_id": "produces_positive::read_chunk|success",
+      "nodes": [
+        "read_chunk",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.4304,
+      "evidence_count": 8,
+      "predictive_gain": 0.061,
+      "contradiction_rate": 0.25,
+      "context_count": 8,
+      "context_ids": [
+        "ep_161e523a",
+        "ep_617c3127",
+        "ep_df8154c3",
+        "seed::produces_positive::read_chunk|success::0",
+        "seed::produces_positive::read_chunk|success::1",
+        "seed::produces_positive::read_chunk|success::2",
+        "seed::produces_positive::read_chunk|success::3",
+        "seed::produces_positive::read_chunk|success::4"
+      ],
+      "status": "stable"
+    },
+    "produces_positive::hash_file|success": {
+      "edge_id": "produces_positive::hash_file|success",
+      "nodes": [
+        "hash_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.3929,
+      "evidence_count": 7,
+      "predictive_gain": 0.0724,
+      "contradiction_rate": 0.1429,
+      "context_count": 7,
+      "context_ids": [
+        "ep_1e93b0d4",
+        "read::ow2_claims::ac250472",
+        "seed::produces_positive::hash_file|success::0",
+        "seed::produces_positive::hash_file|success::1",
+        "seed::produces_positive::hash_file|success::2",
+        "seed::produces_positive::hash_file|success::3",
+        "seed::produces_positive::hash_file|success::4"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::henla0_hb10_release_candidate.json|stat_file|success": {
+      "edge_id": "interaction_pattern::henla0_hb10_release_candidate.json|stat_file|success",
+      "nodes": [
+        "henla0_hb10_release_candidate.json",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9754,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_0a3a0574"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::henla0_hb10_release_candidate.json|stat_file": {
+      "edge_id": "reduces_uncertainty::henla0_hb10_release_candidate.json|stat_file",
+      "nodes": [
+        "stat_file",
+        "henla0_hb10_release_candidate.json"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_0a3a0574"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::henla0_hb10_release_candidate.json|read_chunk|success": {
+      "edge_id": "interaction_pattern::henla0_hb10_release_candidate.json|read_chunk|success",
+      "nodes": [
+        "henla0_hb10_release_candidate.json",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.978,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_df8154c3"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::henla0_hb10_release_candidate.json|read_chunk": {
+      "edge_id": "reduces_uncertainty::henla0_hb10_release_candidate.json|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "henla0_hb10_release_candidate.json"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.2,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_df8154c3"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::OPEN_WORLD_REAL_ROADMAP.md|hash_file|success": {
+      "edge_id": "interaction_pattern::OPEN_WORLD_REAL_ROADMAP.md|hash_file|success",
+      "nodes": [
+        "OPEN_WORLD_REAL_ROADMAP.md",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9711,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_1e93b0d4"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core|list_dir|success": {
+      "edge_id": "interaction_pattern::core|list_dir|success",
+      "nodes": [
+        "core",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9739,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_f0ee4f86"
+      ],
+      "status": "candidate"
+    },
+    "produces_negative::failure|read_chunk": {
+      "edge_id": "produces_negative::failure|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "failure"
+      ],
+      "relation": "produces_negative",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_161e523a",
+        "ep_617c3127"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::failure|missing_ow2_tool_task.txt|read_chunk": {
+      "edge_id": "interaction_pattern::failure|missing_ow2_tool_task.txt|read_chunk",
+      "nodes": [
+        "missing_ow2_tool_task.txt",
+        "read_chunk",
+        "failure"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.5348,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_161e523a",
+        "ep_617c3127"
+      ],
+      "status": "tested"
+    },
+    "increases_uncertainty::missing_ow2_tool_task.txt|read_chunk": {
+      "edge_id": "increases_uncertainty::missing_ow2_tool_task.txt|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "missing_ow2_tool_task.txt"
+      ],
+      "relation": "increases_uncertainty",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_161e523a",
+        "ep_617c3127"
+      ],
+      "status": "tested"
+    },
+    "negative_outcome_pattern::missing_ow2_tool_task.txt|read_chunk": {
+      "edge_id": "negative_outcome_pattern::missing_ow2_tool_task.txt|read_chunk",
+      "nodes": [
+        "read_chunk",
+        "missing_ow2_tool_task.txt"
+      ],
+      "relation": "negative_outcome_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.4652,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_161e523a",
+        "ep_617c3127"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::.|list_dir|success": {
+      "edge_id": "interaction_pattern::.|list_dir|success",
+      "nodes": [
+        ".",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9737,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_803daee2"
+      ],
+      "status": "candidate"
+    },
+    "reduces_uncertainty::.|list_dir": {
+      "edge_id": "reduces_uncertainty::.|list_dir",
+      "nodes": [
+        "list_dir",
+        "."
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_803daee2"
+      ],
+      "status": "candidate"
+    },
+    "read_claim::ow2_claims|stat_file|success": {
+      "edge_id": "read_claim::ow2_claims|stat_file|success",
+      "nodes": [
+        "ow2_claims",
+        "stat_file",
+        "success"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow2_claims::ac250472"
+      ],
+      "status": "candidate"
+    },
+    "produces_negative::failure|hash_file": {
+      "edge_id": "produces_negative::failure|hash_file",
+      "nodes": [
+        "hash_file",
+        "failure"
+      ],
+      "relation": "produces_negative",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow2_claims::ac250472"
+      ],
+      "status": "candidate"
+    },
+    "read_claim::failure|hash_file|ow2_claims": {
+      "edge_id": "read_claim::failure|hash_file|ow2_claims",
+      "nodes": [
+        "ow2_claims",
+        "hash_file",
+        "failure"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow2_claims::ac250472"
+      ],
+      "status": "candidate"
+    },
+    "produces_positive::success|watch_change": {
+      "edge_id": "produces_positive::success|watch_change",
+      "nodes": [
+        "watch_change",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow2_claims::ac250472"
+      ],
+      "status": "candidate"
+    },
+    "read_claim::ow2_claims|success|watch_change": {
+      "edge_id": "read_claim::ow2_claims|success|watch_change",
+      "nodes": [
+        "ow2_claims",
+        "watch_change",
+        "success"
+      ],
+      "relation": "read_claim",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.0,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "read::ow2_claims::ac250472"
+      ],
+      "status": "candidate"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ar9_multi_henla_ecology",
+  "status": "passed",
+  "passed": true,
+  "metrics": {
+    "instance_count": 3,
+    "patterns_a": 2,
+    "patterns_b": 1,
+    "patterns_c": 3,
+    "sharing_success": true
+  },
+  "policy": "AR-9 demonstrates that an ecology of specialized HENLAs is more robust than a single instance."
+}

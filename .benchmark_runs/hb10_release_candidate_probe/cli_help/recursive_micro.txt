@@ -1,0 +1,15 @@
+usage: henla.py recursive-micro [-h] [--limit LIMIT]
+                                [--max-recursive-patterns MAX_RECURSIVE_PATTERNS]
+                                [--min-shared-units MIN_SHARED_UNITS]
+                                [--out OUT]
+                                [episodes]
+
+positional arguments:
+  episodes
+
+options:
+  -h, --help            show this help message and exit
+  --limit LIMIT
+  --max-recursive-patterns MAX_RECURSIVE_PATTERNS
+  --min-shared-units MIN_SHARED_UNITS
+  --out OUT             write recursive micro report JSON

@@ -1,0 +1,11 @@
+{
+  "name": "du14_reproducible_deployment_package",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "manifest_generated": true,
+    "safety_case_generated": true,
+    "components_hashed": 1
+  },
+  "policy": "DU-14 ensures that HENLA can be deployed in a verifiable and reproducible manner."
+}

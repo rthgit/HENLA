@@ -1,0 +1,121 @@
+{
+  "name": "hb5_ablation_tests",
+  "status": "passed",
+  "passed": true,
+  "passed_modules": 6,
+  "total_modules": 6,
+  "failed_modules": [],
+  "ablations": [
+    {
+      "module": "scratchpad",
+      "degraded": true,
+      "baseline": {
+        "selected_action": "list_dir",
+        "result": "success",
+        "valence": 0.3634
+      },
+      "ablated": {
+        "selected_action": "read_chunk",
+        "result": "failure",
+        "valence": -0.0342
+      },
+      "degradation": {
+        "decision_gain": 0.3976,
+        "net_valence_gain": 0.3676
+      },
+      "reason": "without scratchpad the naive first choice fails while simulated selection succeeds"
+    },
+    {
+      "module": "attention",
+      "degraded": true,
+      "baseline": {
+        "consulted_count": 3,
+        "avoided_count": 5,
+        "selected_types": [
+          "episodic",
+          "predictive",
+          "semantic"
+        ],
+        "mean_relevance": 0.6842
+      },
+      "ablated": {
+        "consulted_count": 8,
+        "avoided_count": 0,
+        "mean_relevance": 0.4642
+      },
+      "degradation": {
+        "retrieval_cost_increase": 5,
+        "relevance_dilution": 0.22
+      },
+      "reason": "removing top-k attention forces consultation of every area and dilutes focus"
+    },
+    {
+      "module": "pruning",
+      "degraded": true,
+      "baseline": {
+        "reduced_noise_count": 6,
+        "critical_status": "stable",
+        "decayed_count": 6
+      },
+      "ablated": {
+        "reduced_noise_count": 0,
+        "critical_status": "stable"
+      },
+      "degradation": {
+        "noise_remaining_increase": 6,
+        "noise_reduction_loss": 6
+      },
+      "reason": "disabling pruning preserves critical structure but leaves low-utility noise active"
+    },
+    {
+      "module": "analogy",
+      "degraded": true,
+      "baseline": {
+        "candidate_count": 3,
+        "ready_signature_count": 4
+      },
+      "ablated": {
+        "candidate_count": 0,
+        "ready_signature_count": 4
+      },
+      "degradation": {
+        "candidate_loss": 3
+      },
+      "reason": "raising analogy threshold beyond reachable scores removes transfer candidates"
+    },
+    {
+      "module": "principles",
+      "degraded": true,
+      "baseline": {
+        "accepted_count": 3,
+        "principle_count": 3
+      },
+      "ablated": {
+        "accepted_count": 0,
+        "principle_count": 3
+      },
+      "degradation": {
+        "accepted_loss": 3
+      },
+      "reason": "over-strict principle formation blocks promotion of otherwise reusable rules"
+    },
+    {
+      "module": "distributed",
+      "degraded": true,
+      "baseline": {
+        "remote_shareable": 15,
+        "merged_count": 15
+      },
+      "ablated": {
+        "remote_shareable": 0,
+        "merged_count": 0
+      },
+      "degradation": {
+        "shareable_loss": 15,
+        "merged_loss": 15
+      },
+      "reason": "removing distributed packets leaves nothing consolidated to merge from the remote instance"
+    }
+  ],
+  "policy": "each ablated cognitive module must show measurable degradation against its baseline"
+}

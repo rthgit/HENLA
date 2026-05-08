@@ -1,0 +1,158 @@
+{
+  "generated_at": 1778137653.866071,
+  "status": "ready",
+  "passed_criteria": 10,
+  "total_criteria": 10,
+  "mean_confidence": 0.74,
+  "criteria": [
+    {
+      "criterion_id": "bounded_raw_memory",
+      "description": "raw episodes are stored outside active memory and compressed structures stay bounded",
+      "passed": true,
+      "confidence": 0.8,
+      "evidence": {
+        "episode_count": 12,
+        "compressed_pressure": 0.15
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "nonlinear_retrieval",
+      "description": "retrieval consults a selected subset instead of every subgraph",
+      "passed": true,
+      "confidence": 0.85,
+      "evidence": {
+        "available": 14,
+        "consulted": 5,
+        "avoided": 9
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "useful_pattern_migration",
+      "description": "useful patterns migrate toward higher subgraphs",
+      "passed": true,
+      "confidence": 0.8,
+      "evidence": {
+        "migrated_count": 9
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "forgetting_and_compression",
+      "description": "low-utility structures can decay/prune and repeated micro-patterns compress",
+      "passed": true,
+      "confidence": 0.7,
+      "evidence": {
+        "pruning_applied": true,
+        "decayed_count": 0,
+        "archived_count": 0,
+        "raw_pressure": 0.225,
+        "compressed_pressure": 0.15
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "scratchpad_utility",
+      "description": "scratchpad improves decisions more than it costs",
+      "passed": true,
+      "confidence": 0.75,
+      "evidence": {
+        "reflection_useful": true,
+        "positive_after_cost": true
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "local_viability",
+      "description": "subgraphs expose local viability and no active subgraph is degraded/noisy",
+      "passed": true,
+      "confidence": 0.85,
+      "evidence": {
+        "subgraph_count": 14,
+        "degraded": 0,
+        "noisy": 0,
+        "global_viability": 0.2556
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "cross_workspace_transfer",
+      "description": "transfer on a new workspace reduces prediction error",
+      "passed": true,
+      "confidence": 0.55,
+      "evidence": {
+        "merged_structures": 25,
+        "prediction_error_reduction": 0.002
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "testable_analogies",
+      "description": "analogies produce candidate hypotheses requiring transfer verification",
+      "passed": true,
+      "confidence": 0.75,
+      "evidence": {
+        "candidate_count": 10,
+        "testable": true
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "principle_action_support",
+      "description": "principles are present as tested/stable guides, not single-episode claims",
+      "passed": true,
+      "confidence": 0.65,
+      "evidence": {
+        "accepted_count": 3,
+        "tested_or_stable": 3
+      },
+      "missing": []
+    },
+    {
+      "criterion_id": "knows_unknowns",
+      "description": "system can limit attention and expose developmental gates instead of acting as omniscient",
+      "passed": true,
+      "confidence": 0.7,
+      "evidence": {
+        "attention_avoided": 9,
+        "environment": "Open World"
+      },
+      "missing": []
+    }
+  ],
+  "benchmark_gates": [
+    {
+      "benchmark": "million_episode_simulation",
+      "passed": true,
+      "status": "passed"
+    },
+    {
+      "benchmark": "cross_workspace_transfer",
+      "passed": true,
+      "status": "passed"
+    },
+    {
+      "benchmark": "failure_recovery",
+      "passed": true,
+      "status": "passed"
+    },
+    {
+      "benchmark": "scratchpad_ablation",
+      "passed": true,
+      "status": "passed"
+    },
+    {
+      "benchmark": "pruning_safety",
+      "passed": true,
+      "status": "passed"
+    },
+    {
+      "benchmark": "distributed_merge",
+      "passed": true,
+      "status": "passed"
+    }
+  ],
+  "missing_for_ready": [],
+  "recommendation": "large_scale_ready"
+}

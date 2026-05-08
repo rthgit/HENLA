@@ -1,0 +1,11 @@
+usage: henla.py hardening-failure-injection [-h] [--base-dir BASE_DIR]
+                                            [--failure-repeats FAILURE_REPEATS]
+                                            [--noise-steps NOISE_STEPS]
+                                            [--out OUT]
+
+options:
+  -h, --help            show this help message and exit
+  --base-dir BASE_DIR
+  --failure-repeats FAILURE_REPEATS
+  --noise-steps NOISE_STEPS
+  --out OUT             write HB-6 JSON report

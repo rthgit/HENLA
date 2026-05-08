@@ -1,0 +1,16 @@
+{
+  "name": "ar7_strong_language_interface",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "ambiguity_detected": true,
+    "clarification_text": "Please clarify the meaning of: some, later.",
+    "epistemic_levels_captured": [
+      "evidence",
+      "inference",
+      "speculation"
+    ],
+    "contradictions_found": 1
+  },
+  "policy": "AR-7 ensures that language is used as a rigorous cognitive tool, not just a message bus."
+}

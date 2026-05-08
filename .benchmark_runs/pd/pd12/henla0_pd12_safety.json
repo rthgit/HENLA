@@ -1,0 +1,11 @@
+{
+  "name": "pd12_safety_case_evolution",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "new_version": "4.0.1",
+    "risks_mitigated": 1,
+    "doc_generated": true
+  },
+  "policy": "PD-12 ensures that the system's safety assumptions are continuously refined by operational evidence."
+}

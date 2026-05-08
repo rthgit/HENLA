@@ -1,0 +1,10 @@
+usage: henla.py hardening-release-candidate [-h] [--base-dir BASE_DIR]
+                                            [--project-root PROJECT_ROOT]
+                                            [--manifest MANIFEST] [--out OUT]
+
+options:
+  -h, --help            show this help message and exit
+  --base-dir BASE_DIR
+  --project-root PROJECT_ROOT
+  --manifest MANIFEST   write release candidate manifest JSON
+  --out OUT             write HB-10 JSON report

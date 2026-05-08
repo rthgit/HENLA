@@ -1,0 +1,702 @@
+{
+  "name": "hb10_release_candidate",
+  "status": "passed",
+  "passed": true,
+  "release_candidate_id": "henla0-rc-2026-05-07",
+  "benchmark_gate_count": 16,
+  "benchmark_gate_passed_count": 16,
+  "cli_command_count": 20,
+  "cli_passed_count": 20,
+  "frozen_artifact_count": 52,
+  "status_gates": [
+    {
+      "label": "large_scale_readiness",
+      "path": "henla0_large_scale_readiness.json",
+      "field": "status",
+      "expected": "ready",
+      "actual": "ready",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "million_episode_simulation",
+      "path": "henla0_large_scale_benchmark.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "cross_workspace_transfer",
+      "path": "henla0_transfer_benchmark.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "failure_recovery",
+      "path": "henla0_failure_recovery_benchmark.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "scratchpad_ablation",
+      "path": "henla0_scratchpad_ablation_benchmark.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "pruning_safety",
+      "path": "henla0_pruning_safety_benchmark.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "distributed_merge",
+      "path": "henla0_distributed_merge_benchmark.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb1_long_nursery",
+      "path": "henla0_hb1_long_nursery.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb2_kindergarten_chaos",
+      "path": "henla0_hb2_kindergarten_chaos.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb3_multi_domain_school",
+      "path": "henla0_hb3_multi_domain_school.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb4_open_world_dry_run",
+      "path": "henla0_hb4_open_world_dry_run.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb5_ablation_tests",
+      "path": "henla0_hb5_ablation_tests.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb6_failure_injection",
+      "path": "henla0_hb6_failure_injection.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb7_transfer_evaluation",
+      "path": "henla0_hb7_transfer_evaluation.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb8_memory_growth_stress",
+      "path": "henla0_hb8_memory_growth_stress.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    },
+    {
+      "label": "hb9_distributed_merge_stress",
+      "path": "henla0_hb9_distributed_merge_stress.json",
+      "field": "passed",
+      "expected": true,
+      "actual": true,
+      "exists": true,
+      "passed": true
+    }
+  ],
+  "recursive_micro_gate": {
+    "path": "henla0_recursive_micro_report.json",
+    "exists": true,
+    "base_pattern_count": 5,
+    "recursive_pattern_count": 4,
+    "active_recursive_count": 4,
+    "stable_recursive_count": 1,
+    "passed": true
+  },
+  "supporting_artifacts": [
+    {
+      "path": "henla0_recursive_micro_report.json",
+      "exists": true,
+      "size_bytes": 3715,
+      "sha256": "db116b570bd69e388b7d5a678b5ec5f31a456d6aaa0dc2d0e1be499133f86473"
+    },
+    {
+      "path": "henla0_principles.json",
+      "exists": true,
+      "size_bytes": 17826,
+      "sha256": "0f6a005f56d1f4fb4b5d707811c901bb2936d8756bfd02465bf741ba6bdeedc9"
+    },
+    {
+      "path": "henla0_viability_report.json",
+      "exists": true,
+      "size_bytes": 24916,
+      "sha256": "8fa484550557f6233e3e90815fa0fb8f99c193da984de993cb919403a06911fc"
+    },
+    {
+      "path": "henla0_attention_report.json",
+      "exists": true,
+      "size_bytes": 6087,
+      "sha256": "b96e0e5c2f74d7ca358b8eda3803a2d88508d36840f71ba172f33c5e20ca9716"
+    },
+    {
+      "path": "henla0_development_report.json",
+      "exists": true,
+      "size_bytes": 4139,
+      "sha256": "0497703cab491b435d428ca97e2dffec1c8cb4b34e1f4596f6586ac58059209d"
+    },
+    {
+      "path": "henla0_meta_policy.json",
+      "exists": true,
+      "size_bytes": 1490,
+      "sha256": "d8c3bed278d0ced90a30f6c55b99fbaf248e1b863c2bf8459e587ebc5e293923"
+    },
+    {
+      "path": "henla0_distributed_merge_report.json",
+      "exists": true,
+      "size_bytes": 39896,
+      "sha256": "6ff7a5a9dcc733c32c3a68fed9d9a1c2a194b1286a919885c3e48f11ffb3172d"
+    }
+  ],
+  "cli_smoke": [
+    {
+      "command": "report",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\report.txt"
+    },
+    {
+      "command": "micro",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\micro.txt"
+    },
+    {
+      "command": "recursive-micro",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\recursive_micro.txt"
+    },
+    {
+      "command": "readiness",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\readiness.txt"
+    },
+    {
+      "command": "large-scale-benchmark",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\large_scale_benchmark.txt"
+    },
+    {
+      "command": "transfer-benchmark",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\transfer_benchmark.txt"
+    },
+    {
+      "command": "failure-recovery-benchmark",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\failure_recovery_benchmark.txt"
+    },
+    {
+      "command": "scratchpad-ablation-benchmark",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\scratchpad_ablation_benchmark.txt"
+    },
+    {
+      "command": "pruning-safety-benchmark",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\pruning_safety_benchmark.txt"
+    },
+    {
+      "command": "distributed-merge-benchmark",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\distributed_merge_benchmark.txt"
+    },
+    {
+      "command": "hardening-nursery",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_nursery.txt"
+    },
+    {
+      "command": "hardening-kindergarten",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_kindergarten.txt"
+    },
+    {
+      "command": "hardening-school",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_school.txt"
+    },
+    {
+      "command": "hardening-open-world",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_open_world.txt"
+    },
+    {
+      "command": "hardening-ablation",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_ablation.txt"
+    },
+    {
+      "command": "hardening-failure-injection",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_failure_injection.txt"
+    },
+    {
+      "command": "hardening-transfer",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_transfer.txt"
+    },
+    {
+      "command": "hardening-memory-growth",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_memory_growth.txt"
+    },
+    {
+      "command": "hardening-distributed-merge",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_distributed_merge.txt"
+    },
+    {
+      "command": "hardening-release-candidate",
+      "returncode": 0,
+      "passed": true,
+      "output_has_usage": true,
+      "help_path": ".benchmark_runs\\hb10_release_candidate_probe\\cli_help\\hardening_release_candidate.txt"
+    }
+  ],
+  "missing_artifacts": [],
+  "manifest": {
+    "release_candidate_id": "henla0-rc-2026-05-07",
+    "generated_at": "2026-05-07T16:50:11.496776+02:00",
+    "project_root": "E:\\HENLA",
+    "hash_algorithm": "sha256",
+    "runtime": {
+      "python_version": "3.12.13",
+      "python_executable": "C:\\Users\\PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe"
+    },
+    "code_artifacts": [
+      {
+        "path": "henla.py",
+        "exists": true,
+        "size_bytes": 97321,
+        "sha256": "170a45796d3540578bf07276e7fc3c4f9c9e04cdf001a9498d0b1de6f3f995c7"
+      },
+      {
+        "path": "tests/test_henla0.py",
+        "exists": true,
+        "size_bytes": 150710,
+        "sha256": "94c045dc73e0e4877ac278fe1f8448791d28a70536b05b1bda004a4effdc3d22"
+      },
+      {
+        "path": "core/readiness.py",
+        "exists": true,
+        "size_bytes": 11696,
+        "sha256": "f12aad703c8c8d44477234c6022aba0fe83fb5b70e3bfd28521403d6e6447965"
+      },
+      {
+        "path": "core/micro_unit.py",
+        "exists": true,
+        "size_bytes": 16806,
+        "sha256": "2c9dffdca133d05ad17b258d3fe1478c27469d23738d081a6fb79d0b46ab67c2"
+      },
+      {
+        "path": "core/pattern_signature.py",
+        "exists": true,
+        "size_bytes": 8275,
+        "sha256": "f669e5784b2d944e6904386634d3be7f226958cb0547d3e6d496c5fe14e9c104"
+      },
+      {
+        "path": "core/analogy.py",
+        "exists": true,
+        "size_bytes": 6648,
+        "sha256": "53301793f62b67e4bf43a7e35a9d6f61ca36ba8ef737f2219d31eb0c5c7d851a"
+      },
+      {
+        "path": "core/attention.py",
+        "exists": true,
+        "size_bytes": 5542,
+        "sha256": "a4775532352d84d6ba85a65d6881db90a72c784b05dcd53fadc5b8b60dcab5b6"
+      },
+      {
+        "path": "core/pruning.py",
+        "exists": true,
+        "size_bytes": 7325,
+        "sha256": "47f6303abccd6dc4b5cc6e31e13da385af1bea406a8634e4bfc449ffe7ac5bdd"
+      },
+      {
+        "path": "core/distributed.py",
+        "exists": true,
+        "size_bytes": 6227,
+        "sha256": "b44b7c7ec68939ff2c7e044207ebb5485cbd1ffdbb47575bbe6589fd75d27c2a"
+      },
+      {
+        "path": "core/merge.py",
+        "exists": true,
+        "size_bytes": 6877,
+        "sha256": "42ead4b0faf6dd18a8b9588175fa3b609624d20bdeffb92e354a98f43734d779"
+      },
+      {
+        "path": "benchmarks/large_scale.py",
+        "exists": true,
+        "size_bytes": 3757,
+        "sha256": "656d4b0016dcc0ce7ef256183c34e1639feaef109208808a253e575213118510"
+      },
+      {
+        "path": "benchmarks/transfer.py",
+        "exists": true,
+        "size_bytes": 5162,
+        "sha256": "4288edf6ab01de5f5cf659ab3d7d24f96b7d43959e79bcd7d37d43939716d471"
+      },
+      {
+        "path": "benchmarks/failure_recovery.py",
+        "exists": true,
+        "size_bytes": 3061,
+        "sha256": "899b6a1bc0e7cf8ef9286bd1f70dee9394fb916e225206aa4610b9cf725bf6b1"
+      },
+      {
+        "path": "benchmarks/scratchpad_ablation.py",
+        "exists": true,
+        "size_bytes": 4119,
+        "sha256": "46aeefb3adeb7be2f63631be98fb42c379e03a5fd6e535a233ab1be3e4099e82"
+      },
+      {
+        "path": "benchmarks/pruning_safety.py",
+        "exists": true,
+        "size_bytes": 2798,
+        "sha256": "37c2f8291dc10e4b4c19bcda2b6a3b08c28dd4e5a603413c3bc25e3fc08049c4"
+      },
+      {
+        "path": "benchmarks/distributed_merge.py",
+        "exists": true,
+        "size_bytes": 3320,
+        "sha256": "4bf3b10f99e1c16e89f9ed05f39c1c4ac1d647ceec5521de34955a2ca1d9df9d"
+      },
+      {
+        "path": "benchmarks/hardening_long_nursery.py",
+        "exists": true,
+        "size_bytes": 5116,
+        "sha256": "4e3d167416e7fd36916882399d341df9029b9233e7448540c80261557694c99c"
+      },
+      {
+        "path": "benchmarks/hardening_kindergarten.py",
+        "exists": true,
+        "size_bytes": 7143,
+        "sha256": "9a8b1d7a6bb708265a5872075d75931b3ff8de6772d7408645b75f0f7dffc6f5"
+      },
+      {
+        "path": "benchmarks/hardening_school.py",
+        "exists": true,
+        "size_bytes": 5606,
+        "sha256": "12f6a7bd780ec1e9f913ca5678322c0d66988650b519af02f5e8bd3fa9a3d119"
+      },
+      {
+        "path": "benchmarks/hardening_open_world.py",
+        "exists": true,
+        "size_bytes": 6995,
+        "sha256": "d57f4add6070eb1f9191e0b9ab885022adc192f39675213d7f7f1dc198b6dbe4"
+      },
+      {
+        "path": "benchmarks/hardening_ablation.py",
+        "exists": true,
+        "size_bytes": 14735,
+        "sha256": "e95858e3e61d163d2b6cde3172480d32b980c48af0ae9e0251b2aff9ff89e704"
+      },
+      {
+        "path": "benchmarks/hardening_failure_injection.py",
+        "exists": true,
+        "size_bytes": 7946,
+        "sha256": "fbed9ed491acc9291d55d0e7ff41435adf2b69bd960e84df3e8c6052f0863951"
+      },
+      {
+        "path": "benchmarks/hardening_transfer.py",
+        "exists": true,
+        "size_bytes": 7714,
+        "sha256": "a6f43ed46dd578d9b6eeeacc1984cfd741be1dc216ae8591a8d3e3c7b7fe8562"
+      },
+      {
+        "path": "benchmarks/hardening_memory_growth.py",
+        "exists": true,
+        "size_bytes": 9567,
+        "sha256": "f77816a76949f36f209c97eba8756a9ab24051c9673c9c45835e8209c7ccf0ef"
+      },
+      {
+        "path": "benchmarks/hardening_distributed_merge.py",
+        "exists": true,
+        "size_bytes": 10753,
+        "sha256": "b3511c4d0df0a0ce2b25ddef893ae56b7a7b1f2d2918eec3e46cb1c8f1c2f847"
+      },
+      {
+        "path": "benchmarks/hardening_release_candidate.py",
+        "exists": true,
+        "size_bytes": 11993,
+        "sha256": "96eb3a78477e93cb0eb00b54af93c949bbb019022f974cb3344d0bd652aa184b"
+      },
+      {
+        "path": "ROADMAP.md",
+        "exists": true,
+        "size_bytes": 50186,
+        "sha256": "0f0ef00d5573668ab2b6cf16b6ffd243a8d40161fc11ef5ce0e84066093765f2"
+      },
+      {
+        "path": "HARDENING_BENCHMARK_ROADMAP.md",
+        "exists": true,
+        "size_bytes": 10487,
+        "sha256": "73ba3d1521667e0a473605c61f470af5cb3dad971e57db403e5a5f5f764fbae3"
+      },
+      {
+        "path": "PROJECT_LOG.md",
+        "exists": true,
+        "size_bytes": 38403,
+        "sha256": "2f5b6b4b6aaef9848d103832afcbf42403259743db2eba4f88fa2b16653ce9b3"
+      }
+    ],
+    "report_artifacts": [
+      {
+        "path": "henla0_large_scale_readiness.json",
+        "exists": true,
+        "size_bytes": 4260,
+        "sha256": "2b3bb4ac387e48849cc77fb7127da83de05c7b88a7deebdc6260da1874f21706"
+      },
+      {
+        "path": "henla0_large_scale_benchmark.json",
+        "exists": true,
+        "size_bytes": 1905,
+        "sha256": "924a4c01d3174cff523509e94c50e7d10b84d6c9daf340b9a9106e296ae412c0"
+      },
+      {
+        "path": "henla0_transfer_benchmark.json",
+        "exists": true,
+        "size_bytes": 1375,
+        "sha256": "0b37ab3c3297c1f084e353be228e44a1bb2652b9d207771c2020d5fdc69690e8"
+      },
+      {
+        "path": "henla0_failure_recovery_benchmark.json",
+        "exists": true,
+        "size_bytes": 1142,
+        "sha256": "3cc1bfd197697dc281b860907235f8603f37c5e124d6b94bcd2a16705ae50530"
+      },
+      {
+        "path": "henla0_scratchpad_ablation_benchmark.json",
+        "exists": true,
+        "size_bytes": 1100,
+        "sha256": "1732ceb3102755bfae985bdf0003429fec6f9c85622e5e4fe3dce6a021d0de64"
+      },
+      {
+        "path": "henla0_pruning_safety_benchmark.json",
+        "exists": true,
+        "size_bytes": 427,
+        "sha256": "24567f8c45744cd095a162ae78943f035f4f73eb45273e2b1c72359a0347e754"
+      },
+      {
+        "path": "henla0_distributed_merge_benchmark.json",
+        "exists": true,
+        "size_bytes": 677,
+        "sha256": "7e8b12a0839f358531fd01d248a73fbebd41b13650cbecda60383e7fc3587a48"
+      },
+      {
+        "path": "henla0_hb1_long_nursery.json",
+        "exists": true,
+        "size_bytes": 3496,
+        "sha256": "6ef82dd37db470adcfd14bff65015ecf6b12449bda70e055d9c855987855a8cc"
+      },
+      {
+        "path": "henla0_hb2_kindergarten_chaos.json",
+        "exists": true,
+        "size_bytes": 6484,
+        "sha256": "cda688bbb68261a1610e0d7ad22b73449d2af7e8317086c930625c2217ab9ba8"
+      },
+      {
+        "path": "henla0_hb3_multi_domain_school.json",
+        "exists": true,
+        "size_bytes": 1006,
+        "sha256": "947ed1b5afca58cde82d709ee1c73e4edffcbe10f1d63369064b6e4d00d2b554"
+      },
+      {
+        "path": "henla0_hb4_open_world_dry_run.json",
+        "exists": true,
+        "size_bytes": 1973,
+        "sha256": "4c43c9e867bb1658b3af75b61fe574112c94da2138a5a1346ce2222dfb56ce25"
+      },
+      {
+        "path": "henla0_hb5_ablation_tests.json",
+        "exists": true,
+        "size_bytes": 3244,
+        "sha256": "a81b4071676bc06a50a4490e1dc02d585f714be8e998460c2bce52a198c10b8f"
+      },
+      {
+        "path": "henla0_hb6_failure_injection.json",
+        "exists": true,
+        "size_bytes": 1273,
+        "sha256": "5174421ca3ff1e7dad87699744fd6699b45b6fcaaacc58aa21cc64fb5787578f"
+      },
+      {
+        "path": "henla0_hb7_transfer_evaluation.json",
+        "exists": true,
+        "size_bytes": 2864,
+        "sha256": "9c8df79566e95d8095415c44e7001410ae5953d41fc8b57f2bc8bc3f91c3d291"
+      },
+      {
+        "path": "henla0_hb8_memory_growth_stress.json",
+        "exists": true,
+        "size_bytes": 2588,
+        "sha256": "57b1796dd154c2b589a85f31cf4134e5de067dde73c8b39b556c9fa1c0a4bbf1"
+      },
+      {
+        "path": "henla0_hb9_distributed_merge_stress.json",
+        "exists": true,
+        "size_bytes": 2088,
+        "sha256": "0840ce214be271f028233a0ccdefe2060c5edbab5a80aea7e21b20443db77f56"
+      },
+      {
+        "path": "henla0_recursive_micro_report.json",
+        "exists": true,
+        "size_bytes": 3715,
+        "sha256": "db116b570bd69e388b7d5a678b5ec5f31a456d6aaa0dc2d0e1be499133f86473"
+      },
+      {
+        "path": "henla0_principles.json",
+        "exists": true,
+        "size_bytes": 17826,
+        "sha256": "0f6a005f56d1f4fb4b5d707811c901bb2936d8756bfd02465bf741ba6bdeedc9"
+      },
+      {
+        "path": "henla0_viability_report.json",
+        "exists": true,
+        "size_bytes": 24916,
+        "sha256": "8fa484550557f6233e3e90815fa0fb8f99c193da984de993cb919403a06911fc"
+      },
+      {
+        "path": "henla0_attention_report.json",
+        "exists": true,
+        "size_bytes": 6087,
+        "sha256": "b96e0e5c2f74d7ca358b8eda3803a2d88508d36840f71ba172f33c5e20ca9716"
+      },
+      {
+        "path": "henla0_development_report.json",
+        "exists": true,
+        "size_bytes": 4139,
+        "sha256": "0497703cab491b435d428ca97e2dffec1c8cb4b34e1f4596f6586ac58059209d"
+      },
+      {
+        "path": "henla0_meta_policy.json",
+        "exists": true,
+        "size_bytes": 1490,
+        "sha256": "d8c3bed278d0ced90a30f6c55b99fbaf248e1b863c2bf8459e587ebc5e293923"
+      },
+      {
+        "path": "henla0_distributed_merge_report.json",
+        "exists": true,
+        "size_bytes": 39896,
+        "sha256": "6ff7a5a9dcc733c32c3a68fed9d9a1c2a194b1286a919885c3e48f11ffb3172d"
+      }
+    ],
+    "cli_commands": [
+      "report",
+      "micro",
+      "recursive-micro",
+      "readiness",
+      "large-scale-benchmark",
+      "transfer-benchmark",
+      "failure-recovery-benchmark",
+      "scratchpad-ablation-benchmark",
+      "pruning-safety-benchmark",
+      "distributed-merge-benchmark",
+      "hardening-nursery",
+      "hardening-kindergarten",
+      "hardening-school",
+      "hardening-open-world",
+      "hardening-ablation",
+      "hardening-failure-injection",
+      "hardening-transfer",
+      "hardening-memory-growth",
+      "hardening-distributed-merge",
+      "hardening-release-candidate"
+    ]
+  },
+  "policy": "release candidate requires ready PR-18, passed HB-1..HB-9, recursive micro stability, frozen hashes for code/report artifacts, and working benchmark CLI surface"
+}

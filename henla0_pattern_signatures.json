@@ -1,0 +1,324 @@
+{
+  "source_episode_count": 12,
+  "source_pattern_count": 5,
+  "signature_count": 5,
+  "signatures": [
+    {
+      "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+      "signature_key": "observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "roles": {
+        "actor": "henla",
+        "operation_role": "observe",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::observe",
+        "outcome::success",
+        "effect::uncertainty_reduces",
+        "effect::pain_reduces",
+        "teaching_signal::prediction_error_low"
+      ],
+      "state_delta_shape": {
+        "coherence": "up",
+        "controllability": "up",
+        "energy": "down",
+        "fatigue": "down",
+        "pain": "down",
+        "pleasure": "up",
+        "predictability": "up",
+        "uncertainty": "down"
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "recovery_action": null,
+      "context": {
+        "feature_shape": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ],
+        "has_object": true
+      },
+      "surface": {
+        "action": "list_dir",
+        "target": "PROJECT_LOG.md",
+        "modality": "filesystem",
+        "result": "success",
+        "unit_types": [
+          "pain_down",
+          "prediction_error_low",
+          "success_result",
+          "uncertainty_down",
+          "valence_positive"
+        ]
+      },
+      "evidence_count": 3,
+      "confidence": 0.34,
+      "status": "candidate",
+      "analogy_ready": true,
+      "notes": [
+        "derived_from_micro_pattern"
+      ]
+    },
+    {
+      "signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive",
+      "signature_key": "inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+      "roles": {
+        "actor": "henla",
+        "operation_role": "inspect",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::inspect",
+        "outcome::success",
+        "effect::uncertainty_reduces",
+        "effect::pain_reduces"
+      ],
+      "state_delta_shape": {
+        "coherence": "up",
+        "controllability": "up",
+        "energy": "down",
+        "fatigue": "down",
+        "novelty": "down",
+        "pain": "down",
+        "pleasure": "up",
+        "predictability": "up",
+        "uncertainty": "down"
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "recovery_action": null,
+      "context": {
+        "feature_shape": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ],
+        "has_object": true
+      },
+      "surface": {
+        "action": "hash_file",
+        "target": "core\\action_selector.py",
+        "modality": "filesystem",
+        "result": "success",
+        "unit_types": [
+          "pain_down",
+          "success_result",
+          "uncertainty_down",
+          "valence_positive"
+        ]
+      },
+      "evidence_count": 3,
+      "confidence": 0.34,
+      "status": "candidate",
+      "analogy_ready": true,
+      "notes": [
+        "derived_from_micro_pattern"
+      ]
+    },
+    {
+      "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+valence_positive",
+      "signature_key": "observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "roles": {
+        "actor": "henla",
+        "operation_role": "observe",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::observe",
+        "outcome::success",
+        "effect::pain_reduces",
+        "teaching_signal::prediction_error_low"
+      ],
+      "state_delta_shape": {
+        "coherence": "up",
+        "controllability": "up",
+        "energy": "down",
+        "fatigue": "down",
+        "pain": "down",
+        "pleasure": "up",
+        "predictability": "up"
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "recovery_action": null,
+      "context": {
+        "feature_shape": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ],
+        "has_object": true
+      },
+      "surface": {
+        "action": "list_dir",
+        "target": "henla0_categories.json",
+        "modality": "filesystem",
+        "result": "success",
+        "unit_types": [
+          "pain_down",
+          "prediction_error_low",
+          "success_result",
+          "valence_positive"
+        ]
+      },
+      "evidence_count": 2,
+      "confidence": 0.26,
+      "status": "candidate",
+      "analogy_ready": true,
+      "notes": [
+        "derived_from_micro_pattern"
+      ]
+    },
+    {
+      "signature_id": "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::pain_down+success_result+valence_positive",
+      "signature_key": "observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "roles": {
+        "actor": "henla",
+        "operation_role": "observe",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::observe",
+        "outcome::success",
+        "effect::pain_reduces"
+      ],
+      "state_delta_shape": {
+        "coherence": "up",
+        "controllability": "up",
+        "energy": "down",
+        "fatigue": "down",
+        "pain": "down",
+        "pleasure": "up",
+        "predictability": "up"
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "recovery_action": null,
+      "context": {
+        "feature_shape": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ],
+        "has_object": true
+      },
+      "surface": {
+        "action": "list_dir",
+        "target": "henla0_categories.json",
+        "modality": "filesystem",
+        "result": "success",
+        "unit_types": [
+          "pain_down",
+          "success_result",
+          "valence_positive"
+        ]
+      },
+      "evidence_count": 2,
+      "confidence": 0.26,
+      "status": "candidate",
+      "analogy_ready": true,
+      "notes": [
+        "derived_from_micro_pattern"
+      ]
+    },
+    {
+      "signature_id": "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "source_pattern_id": "micro_pattern::prediction_error_low+success_result+valence_positive",
+      "signature_key": "inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+      "roles": {
+        "actor": "henla",
+        "operation_role": "inspect",
+        "target_role": "information_target",
+        "result_role": "success",
+        "modality_role": "filesystem"
+      },
+      "causal_shape": [
+        "perception::filesystem",
+        "operation::inspect",
+        "outcome::success",
+        "teaching_signal::prediction_error_low"
+      ],
+      "state_delta_shape": {
+        "coherence": "up",
+        "controllability": "up",
+        "energy": "down",
+        "fatigue": "down",
+        "pleasure": "up",
+        "predictability": "up"
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "recovery_action": null,
+      "context": {
+        "feature_shape": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ],
+        "has_object": true
+      },
+      "surface": {
+        "action": "hash_file",
+        "target": "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "modality": "filesystem",
+        "result": "success",
+        "unit_types": [
+          "prediction_error_low",
+          "success_result",
+          "valence_positive"
+        ]
+      },
+      "evidence_count": 2,
+      "confidence": 0.26,
+      "status": "candidate",
+      "analogy_ready": true,
+      "notes": [
+        "derived_from_micro_pattern"
+      ]
+    }
+  ],
+  "source_unit_counts": {
+    "pain_down": 10,
+    "prediction_error_low": 7,
+    "success_result": 12,
+    "uncertainty_down": 6,
+    "valence_positive": 12
+  }
+}

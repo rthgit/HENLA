@@ -1,0 +1,1713 @@
+{
+  "source_episode_count": 12,
+  "event_count": 12,
+  "unit_counts": {
+    "pain_down": 10,
+    "prediction_error_low": 7,
+    "success_result": 12,
+    "uncertainty_down": 6,
+    "valence_positive": 12
+  },
+  "pattern_counts": {
+    "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive": 3,
+    "micro_pattern::pain_down+prediction_error_low+success_result+valence_positive": 2,
+    "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive": 3,
+    "micro_pattern::pain_down+success_result+valence_positive": 2,
+    "micro_pattern::prediction_error_low+success_result+valence_positive": 2
+  },
+  "patterns": [
+    {
+      "pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+      "unit_ids": [
+        "micro_unit::pain_down",
+        "micro_unit::prediction_error_low",
+        "micro_unit::success_result",
+        "micro_unit::uncertainty_down",
+        "micro_unit::valence_positive"
+      ],
+      "unit_types": [
+        "pain_down",
+        "prediction_error_low",
+        "success_result",
+        "uncertainty_down",
+        "valence_positive"
+      ],
+      "evidence_count": 3,
+      "mean_valence": 0.3085,
+      "prediction_error_mean": 0.098,
+      "roles": {
+        "action": "list_dir",
+        "target": "PROJECT_LOG.md",
+        "modality": "filesystem",
+        "result": "success"
+      },
+      "state_delta": {
+        "energy": -0.021,
+        "uncertainty": -0.2,
+        "coherence": 0.04,
+        "predictability": 0.045,
+        "controllability": 0.03,
+        "pain": -0.06,
+        "pleasure": 0.08,
+        "fatigue": -0.02
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "causal_steps": [
+        "perceive::filesystem",
+        "act::list_dir",
+        "observe::success"
+      ],
+      "recovery_action": null,
+      "context": {
+        "object_id": "PROJECT_LOG.md",
+        "features": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ]
+      },
+      "status": "candidate"
+    },
+    {
+      "pattern_id": "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive",
+      "unit_ids": [
+        "micro_unit::pain_down",
+        "micro_unit::success_result",
+        "micro_unit::uncertainty_down",
+        "micro_unit::valence_positive"
+      ],
+      "unit_types": [
+        "pain_down",
+        "success_result",
+        "uncertainty_down",
+        "valence_positive"
+      ],
+      "evidence_count": 3,
+      "mean_valence": 0.3469,
+      "prediction_error_mean": 0.105,
+      "roles": {
+        "action": "hash_file",
+        "target": "core\\action_selector.py",
+        "modality": "filesystem",
+        "result": "success"
+      },
+      "state_delta": {
+        "energy": -0.02,
+        "uncertainty": -0.4,
+        "coherence": 0.04,
+        "predictability": 0.045,
+        "controllability": 0.03,
+        "pain": -0.06,
+        "pleasure": 0.08,
+        "novelty": -0.4,
+        "fatigue": -0.02
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "causal_steps": [
+        "perceive::filesystem",
+        "act::hash_file",
+        "observe::success"
+      ],
+      "recovery_action": null,
+      "context": {
+        "object_id": "core\\action_selector.py",
+        "features": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ]
+      },
+      "status": "candidate"
+    },
+    {
+      "pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+valence_positive",
+      "unit_ids": [
+        "micro_unit::pain_down",
+        "micro_unit::prediction_error_low",
+        "micro_unit::success_result",
+        "micro_unit::valence_positive"
+      ],
+      "unit_types": [
+        "pain_down",
+        "prediction_error_low",
+        "success_result",
+        "valence_positive"
+      ],
+      "evidence_count": 2,
+      "mean_valence": 0.2697,
+      "prediction_error_mean": 0.0945,
+      "roles": {
+        "action": "list_dir",
+        "target": "henla0_categories.json",
+        "modality": "filesystem",
+        "result": "success"
+      },
+      "state_delta": {
+        "energy": -0.02,
+        "coherence": 0.04,
+        "predictability": 0.045,
+        "controllability": 0.03,
+        "pain": -0.06,
+        "pleasure": 0.08,
+        "fatigue": -0.02
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "causal_steps": [
+        "perceive::filesystem",
+        "act::list_dir",
+        "observe::success"
+      ],
+      "recovery_action": null,
+      "context": {
+        "object_id": "henla0_categories.json",
+        "features": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ]
+      },
+      "status": "candidate"
+    },
+    {
+      "pattern_id": "micro_pattern::pain_down+success_result+valence_positive",
+      "unit_ids": [
+        "micro_unit::pain_down",
+        "micro_unit::success_result",
+        "micro_unit::valence_positive"
+      ],
+      "unit_types": [
+        "pain_down",
+        "success_result",
+        "valence_positive"
+      ],
+      "evidence_count": 2,
+      "mean_valence": 0.2675,
+      "prediction_error_mean": 0.1015,
+      "roles": {
+        "action": "list_dir",
+        "target": "henla0_categories.json",
+        "modality": "filesystem",
+        "result": "success"
+      },
+      "state_delta": {
+        "energy": -0.022,
+        "coherence": 0.04,
+        "predictability": 0.045,
+        "controllability": 0.03,
+        "pain": -0.06,
+        "pleasure": 0.08,
+        "fatigue": -0.02
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "causal_steps": [
+        "perceive::filesystem",
+        "act::list_dir",
+        "observe::success"
+      ],
+      "recovery_action": null,
+      "context": {
+        "object_id": "henla0_categories.json",
+        "features": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ]
+      },
+      "status": "candidate"
+    },
+    {
+      "pattern_id": "micro_pattern::prediction_error_low+success_result+valence_positive",
+      "unit_ids": [
+        "micro_unit::prediction_error_low",
+        "micro_unit::success_result",
+        "micro_unit::valence_positive"
+      ],
+      "unit_types": [
+        "prediction_error_low",
+        "success_result",
+        "valence_positive"
+      ],
+      "evidence_count": 2,
+      "mean_valence": 0.2568,
+      "prediction_error_mean": 0.098,
+      "roles": {
+        "action": "hash_file",
+        "target": "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "modality": "filesystem",
+        "result": "success"
+      },
+      "state_delta": {
+        "energy": -0.02,
+        "coherence": 0.04,
+        "predictability": 0.045,
+        "controllability": 0.03,
+        "pleasure": 0.08,
+        "fatigue": -0.02
+      },
+      "valence_curve": [
+        "valence_positive"
+      ],
+      "causal_steps": [
+        "perceive::filesystem",
+        "act::hash_file",
+        "observe::success"
+      ],
+      "recovery_action": null,
+      "context": {
+        "object_id": "__pycache__\\demo_autonomous.cpython-312.pyc",
+        "features": [
+          "exists",
+          "hash",
+          "mtime",
+          "path",
+          "recently_changed",
+          "size"
+        ]
+      },
+      "status": "candidate"
+    }
+  ],
+  "recent_events": [
+    {
+      "episode_id": "ep_96e48798",
+      "units": [
+        {
+          "unit_id": "micro_unit::uncertainty_down",
+          "unit_type": "uncertainty_down",
+          "trigger": "uncertainty delta -0.4000",
+          "activation": 1.0,
+          "mean_valence": 0.3469,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_96e48798",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0600",
+          "activation": 0.3,
+          "mean_valence": 0.3469,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_96e48798",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.3469,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_96e48798",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.3469,
+          "mean_valence": 0.3469,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down"
+          ],
+          "last_activated": "ep_96e48798",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::success_result",
+          "micro_unit::uncertainty_down",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "success_result",
+          "uncertainty_down",
+          "valence_positive"
+        ],
+        "evidence_count": 3,
+        "mean_valence": 0.3469,
+        "prediction_error_mean": 0.105,
+        "roles": {
+          "action": "hash_file",
+          "target": "core\\action_selector.py",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.02,
+          "uncertainty": -0.4,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pain": -0.06,
+          "pleasure": 0.08,
+          "novelty": -0.4,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::hash_file",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "core\\action_selector.py",
+          "features": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_48c49333",
+      "units": [
+        {
+          "unit_id": "micro_unit::uncertainty_down",
+          "unit_type": "uncertainty_down",
+          "trigger": "uncertainty delta -0.2000",
+          "activation": 1.0,
+          "mean_valence": 0.3085,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_48c49333",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0600",
+          "activation": 0.3,
+          "mean_valence": 0.3085,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_48c49333",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::prediction_error_low",
+          "unit_type": "prediction_error_low",
+          "trigger": "prediction_error <= 0.10",
+          "activation": 0.902,
+          "mean_valence": 0.3085,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_48c49333",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.3085,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_48c49333",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.3085,
+          "mean_valence": 0.3085,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down"
+          ],
+          "last_activated": "ep_48c49333",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::prediction_error_low",
+          "micro_unit::success_result",
+          "micro_unit::uncertainty_down",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "prediction_error_low",
+          "success_result",
+          "uncertainty_down",
+          "valence_positive"
+        ],
+        "evidence_count": 3,
+        "mean_valence": 0.3085,
+        "prediction_error_mean": 0.098,
+        "roles": {
+          "action": "list_dir",
+          "target": "PROJECT_LOG.md",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.021,
+          "uncertainty": -0.2,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pain": -0.06,
+          "pleasure": 0.08,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::list_dir",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "PROJECT_LOG.md",
+          "features": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_f58eb58f",
+      "units": [
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0600",
+          "activation": 0.3,
+          "mean_valence": 0.2675,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_f58eb58f",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.2675,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_f58eb58f",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.2675,
+          "mean_valence": 0.2675,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result"
+          ],
+          "last_activated": "ep_f58eb58f",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+success_result+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::success_result",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "success_result",
+          "valence_positive"
+        ],
+        "evidence_count": 2,
+        "mean_valence": 0.2675,
+        "prediction_error_mean": 0.1015,
+        "roles": {
+          "action": "list_dir",
+          "target": "henla0_categories.json",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.022,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pain": -0.06,
+          "pleasure": 0.08,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::list_dir",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "henla0_categories.json",
+          "features": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_2bf2c4db",
+      "units": [
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0200",
+          "activation": 0.1,
+          "mean_valence": 0.2587,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_2bf2c4db",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.2587,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_2bf2c4db",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.2587,
+          "mean_valence": 0.2587,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result"
+          ],
+          "last_activated": "ep_2bf2c4db",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+success_result+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::success_result",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "success_result",
+          "valence_positive"
+        ],
+        "evidence_count": 1,
+        "mean_valence": 0.2587,
+        "prediction_error_mean": 0.105,
+        "roles": {
+          "action": "list_dir",
+          "target": "archive\\runtime_artifacts_2026-05-06",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.02,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pain": -0.02,
+          "pleasure": 0.08,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::list_dir",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "archive\\runtime_artifacts_2026-05-06",
+          "features": [
+            "dir_count",
+            "exists",
+            "file_count",
+            "path",
+            "total"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_601e815b",
+      "units": [
+        {
+          "unit_id": "micro_unit::prediction_error_low",
+          "unit_type": "prediction_error_low",
+          "trigger": "prediction_error <= 0.10",
+          "activation": 0.902,
+          "mean_valence": 0.2568,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_601e815b",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.2568,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_601e815b",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.2568,
+          "mean_valence": 0.2568,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result"
+          ],
+          "last_activated": "ep_601e815b",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::prediction_error_low+success_result+valence_positive",
+        "unit_ids": [
+          "micro_unit::prediction_error_low",
+          "micro_unit::success_result",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "prediction_error_low",
+          "success_result",
+          "valence_positive"
+        ],
+        "evidence_count": 2,
+        "mean_valence": 0.2568,
+        "prediction_error_mean": 0.098,
+        "roles": {
+          "action": "hash_file",
+          "target": "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.02,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pleasure": 0.08,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::hash_file",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "features": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_deb08013",
+      "units": [
+        {
+          "unit_id": "micro_unit::uncertainty_down",
+          "unit_type": "uncertainty_down",
+          "trigger": "uncertainty delta -0.4000",
+          "activation": 1.0,
+          "mean_valence": 0.3478,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_deb08013",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0600",
+          "activation": 0.3,
+          "mean_valence": 0.3478,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_deb08013",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.3478,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_deb08013",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.3478,
+          "mean_valence": 0.3478,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down"
+          ],
+          "last_activated": "ep_deb08013",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::success_result",
+          "micro_unit::uncertainty_down",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "success_result",
+          "uncertainty_down",
+          "valence_positive"
+        ],
+        "evidence_count": 1,
+        "mean_valence": 0.3478,
+        "prediction_error_mean": 0.1015,
+        "roles": {
+          "action": "hash_file",
+          "target": "core\\action_selector.py",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.02,
+          "uncertainty": -0.4,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pain": -0.06,
+          "pleasure": 0.08,
+          "novelty": -0.4,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::hash_file",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "core\\action_selector.py",
+          "features": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_64a78568",
+      "units": [
+        {
+          "unit_id": "micro_unit::uncertainty_down",
+          "unit_type": "uncertainty_down",
+          "trigger": "uncertainty delta -0.2000",
+          "activation": 1.0,
+          "mean_valence": 0.3056,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_64a78568",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0600",
+          "activation": 0.3,
+          "mean_valence": 0.3056,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_64a78568",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.3056,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_64a78568",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.3056,
+          "mean_valence": 0.3056,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down"
+          ],
+          "last_activated": "ep_64a78568",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+success_result+uncertainty_down+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::success_result",
+          "micro_unit::uncertainty_down",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "success_result",
+          "uncertainty_down",
+          "valence_positive"
+        ],
+        "evidence_count": 1,
+        "mean_valence": 0.3056,
+        "prediction_error_mean": 0.1085,
+        "roles": {
+          "action": "list_dir",
+          "target": "PROJECT_LOG.md",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.022,
+          "uncertainty": -0.2,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pain": -0.06,
+          "pleasure": 0.08,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::list_dir",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "PROJECT_LOG.md",
+          "features": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_e78e0ec6",
+      "units": [
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0600",
+          "activation": 0.3,
+          "mean_valence": 0.2697,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_e78e0ec6",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::prediction_error_low",
+          "unit_type": "prediction_error_low",
+          "trigger": "prediction_error <= 0.10",
+          "activation": 0.9055,
+          "mean_valence": 0.2697,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_e78e0ec6",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.2697,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_e78e0ec6",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.2697,
+          "mean_valence": 0.2697,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result"
+          ],
+          "last_activated": "ep_e78e0ec6",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::prediction_error_low",
+          "micro_unit::success_result",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "prediction_error_low",
+          "success_result",
+          "valence_positive"
+        ],
+        "evidence_count": 2,
+        "mean_valence": 0.2697,
+        "prediction_error_mean": 0.0945,
+        "roles": {
+          "action": "list_dir",
+          "target": "henla0_categories.json",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.02,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pain": -0.06,
+          "pleasure": 0.08,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::list_dir",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "henla0_categories.json",
+          "features": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_58d354a3",
+      "units": [
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0200",
+          "activation": 0.1,
+          "mean_valence": 0.2631,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_58d354a3",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::prediction_error_low",
+          "unit_type": "prediction_error_low",
+          "trigger": "prediction_error <= 0.10",
+          "activation": 0.9108,
+          "mean_valence": 0.2631,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_58d354a3",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.2631,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_58d354a3",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.2631,
+          "mean_valence": 0.2631,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result"
+          ],
+          "last_activated": "ep_58d354a3",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::prediction_error_low",
+          "micro_unit::success_result",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "prediction_error_low",
+          "success_result",
+          "valence_positive"
+        ],
+        "evidence_count": 1,
+        "mean_valence": 0.2631,
+        "prediction_error_mean": 0.0892,
+        "roles": {
+          "action": "list_dir",
+          "target": "archive\\runtime_artifacts_2026-05-06",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.02,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pain": -0.02,
+          "pleasure": 0.08,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::list_dir",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "archive\\runtime_artifacts_2026-05-06",
+          "features": [
+            "dir_count",
+            "exists",
+            "file_count",
+            "path",
+            "total"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_58aa6b94",
+      "units": [
+        {
+          "unit_id": "micro_unit::prediction_error_low",
+          "unit_type": "prediction_error_low",
+          "trigger": "prediction_error <= 0.10",
+          "activation": 0.9008,
+          "mean_valence": 0.2561,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_58aa6b94",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.2561,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_58aa6b94",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.2561,
+          "mean_valence": 0.2561,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result"
+          ],
+          "last_activated": "ep_58aa6b94",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::prediction_error_low+success_result+valence_positive",
+        "unit_ids": [
+          "micro_unit::prediction_error_low",
+          "micro_unit::success_result",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "prediction_error_low",
+          "success_result",
+          "valence_positive"
+        ],
+        "evidence_count": 1,
+        "mean_valence": 0.2561,
+        "prediction_error_mean": 0.0992,
+        "roles": {
+          "action": "hash_file",
+          "target": "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.021,
+          "coherence": 0.04,
+          "predictability": 0.045,
+          "controllability": 0.03,
+          "pleasure": 0.08,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::hash_file",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "__pycache__\\demo_autonomous.cpython-312.pyc",
+          "features": [
+            "exists",
+            "hash",
+            "mtime",
+            "path",
+            "recently_changed",
+            "size"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_ed65de7a",
+      "units": [
+        {
+          "unit_id": "micro_unit::uncertainty_down",
+          "unit_type": "uncertainty_down",
+          "trigger": "uncertainty delta -0.4000",
+          "activation": 1.0,
+          "mean_valence": 0.3561,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_ed65de7a",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0600",
+          "activation": 0.3,
+          "mean_valence": 0.3561,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_ed65de7a",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::prediction_error_low",
+          "unit_type": "prediction_error_low",
+          "trigger": "prediction_error <= 0.10",
+          "activation": 0.93,
+          "mean_valence": 0.3561,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_ed65de7a",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.3561,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_ed65de7a",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.3561,
+          "mean_valence": 0.3561,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down"
+          ],
+          "last_activated": "ep_ed65de7a",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::prediction_error_low",
+          "micro_unit::success_result",
+          "micro_unit::uncertainty_down",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "prediction_error_low",
+          "success_result",
+          "uncertainty_down",
+          "valence_positive"
+        ],
+        "evidence_count": 1,
+        "mean_valence": 0.3561,
+        "prediction_error_mean": 0.07,
+        "roles": {
+          "action": "sense_text",
+          "target": "success viable",
+          "modality": "language",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.02,
+          "uncertainty": -0.4,
+          "coherence": 0.04,
+          "predictability": 0.047,
+          "controllability": 0.03,
+          "pain": -0.06,
+          "pleasure": 0.08,
+          "novelty": -0.4,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::language",
+          "act::sense_text",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "success viable",
+          "features": [
+            "grounded",
+            "grounded_count",
+            "modality",
+            "raw_text",
+            "success",
+            "tokens",
+            "unknown",
+            "unknown_count"
+          ]
+        },
+        "status": "candidate"
+      }
+    },
+    {
+      "episode_id": "ep_28a1c6c9",
+      "units": [
+        {
+          "unit_id": "micro_unit::uncertainty_down",
+          "unit_type": "uncertainty_down",
+          "trigger": "uncertainty delta -0.4000",
+          "activation": 1.0,
+          "mean_valence": 0.3413,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_28a1c6c9",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::pain_down",
+          "unit_type": "pain_down",
+          "trigger": "pain delta -0.0600",
+          "activation": 0.3,
+          "mean_valence": 0.3413,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_28a1c6c9",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::prediction_error_low",
+          "unit_type": "prediction_error_low",
+          "trigger": "prediction_error <= 0.10",
+          "activation": 0.9148,
+          "mean_valence": 0.3413,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_28a1c6c9",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::success_result",
+          "unit_type": "success_result",
+          "trigger": "result.status == success",
+          "activation": 1.0,
+          "mean_valence": 0.3413,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::uncertainty_down",
+            "micro_unit::valence_positive"
+          ],
+          "last_activated": "ep_28a1c6c9",
+          "status": "candidate"
+        },
+        {
+          "unit_id": "micro_unit::valence_positive",
+          "unit_type": "valence_positive",
+          "trigger": "valence > 0.05",
+          "activation": 0.3413,
+          "mean_valence": 0.3413,
+          "evidence_count": 1,
+          "coactivated_with": [
+            "micro_unit::pain_down",
+            "micro_unit::prediction_error_low",
+            "micro_unit::success_result",
+            "micro_unit::uncertainty_down"
+          ],
+          "last_activated": "ep_28a1c6c9",
+          "status": "candidate"
+        }
+      ],
+      "pattern": {
+        "pattern_id": "micro_pattern::pain_down+prediction_error_low+success_result+uncertainty_down+valence_positive",
+        "unit_ids": [
+          "micro_unit::pain_down",
+          "micro_unit::prediction_error_low",
+          "micro_unit::success_result",
+          "micro_unit::uncertainty_down",
+          "micro_unit::valence_positive"
+        ],
+        "unit_types": [
+          "pain_down",
+          "prediction_error_low",
+          "success_result",
+          "uncertainty_down",
+          "valence_positive"
+        ],
+        "evidence_count": 1,
+        "mean_valence": 0.3413,
+        "prediction_error_mean": 0.0852,
+        "roles": {
+          "action": "list_dir",
+          "target": "tests",
+          "modality": "filesystem",
+          "result": "success"
+        },
+        "state_delta": {
+          "energy": -0.063,
+          "uncertainty": -0.4,
+          "coherence": 0.04,
+          "predictability": 0.046,
+          "controllability": 0.03,
+          "pain": -0.06,
+          "pleasure": 0.08,
+          "novelty": -0.4,
+          "fatigue": -0.02
+        },
+        "valence_curve": [
+          "valence_positive"
+        ],
+        "causal_steps": [
+          "perceive::filesystem",
+          "act::list_dir",
+          "observe::success"
+        ],
+        "recovery_action": null,
+        "context": {
+          "object_id": "tests",
+          "features": [
+            "dir_count",
+            "exists",
+            "file_count",
+            "path",
+            "total"
+          ]
+        },
+        "status": "candidate"
+      }
+    }
+  ]
+}

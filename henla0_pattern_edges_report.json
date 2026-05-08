@@ -1,0 +1,352 @@
+{
+  "created_count": 10,
+  "created": [
+    {
+      "edge_id": "pattern_edge::analogy::380544cafc",
+      "sources": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "structural_similarity",
+      "target": "analogy::380544cafc",
+      "evidence_count": 1,
+      "analogy_score": 0.94,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::27117091b8",
+      "sources": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "structural_similarity",
+      "target": "analogy::27117091b8",
+      "evidence_count": 1,
+      "analogy_score": 0.925,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::1e9e2314fb",
+      "sources": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "causal_similarity",
+      "target": "analogy::1e9e2314fb",
+      "evidence_count": 1,
+      "analogy_score": 0.875,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::a88c8e585d",
+      "sources": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery"
+      ],
+      "relation": "affective_similarity",
+      "target": "analogy::a88c8e585d",
+      "evidence_count": 1,
+      "analogy_score": 0.7992,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::ddc83c68f0",
+      "sources": [
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "affective_similarity",
+      "target": "analogy::ddc83c68f0",
+      "evidence_count": 1,
+      "analogy_score": 0.7833,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::b4592edd25",
+      "sources": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "affective_similarity",
+      "target": "analogy::b4592edd25",
+      "evidence_count": 1,
+      "analogy_score": 0.7714,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::bf402553d8",
+      "sources": [
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "affective_similarity",
+      "target": "analogy::bf402553d8",
+      "evidence_count": 1,
+      "analogy_score": 0.7556,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::c3510e6284",
+      "sources": [
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "affective_similarity",
+      "target": "analogy::c3510e6284",
+      "evidence_count": 1,
+      "analogy_score": 0.7341,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::ddfe16313b",
+      "sources": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "affective_similarity",
+      "target": "analogy::ddfe16313b",
+      "evidence_count": 1,
+      "analogy_score": 0.7286,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    },
+    {
+      "edge_id": "pattern_edge::analogy::14948e24ea",
+      "sources": [
+        "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+        "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+      ],
+      "relation": "affective_similarity",
+      "target": "analogy::14948e24ea",
+      "evidence_count": 1,
+      "analogy_score": 0.7214,
+      "transfer_score": 0.0,
+      "contradiction_rate": 0.0,
+      "status": "candidate",
+      "notes": [
+        "generated_from_cross_graph_analogy"
+      ]
+    }
+  ],
+  "registry": {
+    "total": 10,
+    "edges": {
+      "pattern_edge::analogy::14948e24ea": {
+        "edge_id": "pattern_edge::analogy::14948e24ea",
+        "sources": [
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+          "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "affective_similarity",
+        "target": "analogy::14948e24ea",
+        "evidence_count": 1,
+        "analogy_score": 0.7214,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::1e9e2314fb": {
+        "edge_id": "pattern_edge::analogy::1e9e2314fb",
+        "sources": [
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "causal_similarity",
+        "target": "analogy::1e9e2314fb",
+        "evidence_count": 1,
+        "analogy_score": 0.875,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::27117091b8": {
+        "edge_id": "pattern_edge::analogy::27117091b8",
+        "sources": [
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "structural_similarity",
+        "target": "analogy::27117091b8",
+        "evidence_count": 1,
+        "analogy_score": 0.925,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::380544cafc": {
+        "edge_id": "pattern_edge::analogy::380544cafc",
+        "sources": [
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "structural_similarity",
+        "target": "analogy::380544cafc",
+        "evidence_count": 1,
+        "analogy_score": 0.94,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::a88c8e585d": {
+        "edge_id": "pattern_edge::analogy::a88c8e585d",
+        "sources": [
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+          "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery"
+        ],
+        "relation": "affective_similarity",
+        "target": "analogy::a88c8e585d",
+        "evidence_count": 1,
+        "analogy_score": 0.7992,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::b4592edd25": {
+        "edge_id": "pattern_edge::analogy::b4592edd25",
+        "sources": [
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery",
+          "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "affective_similarity",
+        "target": "analogy::b4592edd25",
+        "evidence_count": 1,
+        "analogy_score": 0.7714,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::bf402553d8": {
+        "edge_id": "pattern_edge::analogy::bf402553d8",
+        "sources": [
+          "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "affective_similarity",
+        "target": "analogy::bf402553d8",
+        "evidence_count": 1,
+        "analogy_score": 0.7556,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::c3510e6284": {
+        "edge_id": "pattern_edge::analogy::c3510e6284",
+        "sources": [
+          "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "affective_similarity",
+        "target": "analogy::c3510e6284",
+        "evidence_count": 1,
+        "analogy_score": 0.7341,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::ddc83c68f0": {
+        "edge_id": "pattern_edge::analogy::ddc83c68f0",
+        "sources": [
+          "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.effect::uncertainty_reduces.effect::pain_reduces::coherence:up.controllability:up.energy:down.fatigue:down.novelty:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+          "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "affective_similarity",
+        "target": "analogy::ddc83c68f0",
+        "evidence_count": 1,
+        "analogy_score": 0.7833,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      },
+      "pattern_edge::analogy::ddfe16313b": {
+        "edge_id": "pattern_edge::analogy::ddfe16313b",
+        "sources": [
+          "pattern_signature::observe::information_target::success::perception::filesystem.operation::observe.outcome::success.effect::uncertainty_reduces.effect::pain_reduces.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pain:down.pleasure:up.predictability:up.uncertainty:down::valence_positive::no_recovery",
+          "pattern_signature::inspect::information_target::success::perception::filesystem.operation::inspect.outcome::success.teaching_signal::prediction_error_low::coherence:up.controllability:up.energy:down.fatigue:down.pleasure:up.predictability:up::valence_positive::no_recovery"
+        ],
+        "relation": "affective_similarity",
+        "target": "analogy::ddfe16313b",
+        "evidence_count": 1,
+        "analogy_score": 0.7286,
+        "transfer_score": 0.0,
+        "contradiction_rate": 0.0,
+        "status": "candidate",
+        "notes": [
+          "generated_from_cross_graph_analogy"
+        ]
+      }
+    }
+  },
+  "source_episode_count": 12,
+  "analogy_candidate_count": 10
+}

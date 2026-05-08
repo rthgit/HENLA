@@ -1,0 +1,14 @@
+{
+  "name": "rsi14_multi_henla_ecology",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "safe_patch_approved": true,
+    "risky_patch_rejected": true,
+    "critic_feedback": {
+      "status": "critique",
+      "risk": "high"
+    }
+  },
+  "policy": "RSI-14 ensures that architectural decisions emerge from a structured multi-agent dialectic."
+}

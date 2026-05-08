@@ -1,0 +1,12 @@
+{
+  "name": "ar3_continual_learning_without_reset",
+  "status": "passed",
+  "passed": true,
+  "metrics": {
+    "pe_a_initial": 0.078,
+    "pe_b": 0.0852,
+    "pe_a_final": 0.0875,
+    "forgetting_delta": 0.0095
+  },
+  "policy": "AR-3 measures catastrophic forgetting during sequential domain acquisition."
+}

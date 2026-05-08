@@ -1,0 +1,42 @@
+{
+  "sequence_id": "sequence::observed",
+  "created_at": 1778062344.139105,
+  "source": ".\\henla0_episodes.jsonl",
+  "steps": [
+    {
+      "action_type": "hash_file",
+      "target": "core\\action_selector.py",
+      "parameters": {},
+      "expected_status": "success",
+      "source_episode_id": "ep_96e48798"
+    },
+    {
+      "action_type": "list_dir",
+      "target": "PROJECT_LOG.md",
+      "parameters": {},
+      "expected_status": "success",
+      "source_episode_id": "ep_48c49333"
+    },
+    {
+      "action_type": "list_dir",
+      "target": "henla0_categories.json",
+      "parameters": {},
+      "expected_status": "success",
+      "source_episode_id": "ep_f58eb58f"
+    },
+    {
+      "action_type": "list_dir",
+      "target": "archive\\runtime_artifacts_2026-05-06",
+      "parameters": {},
+      "expected_status": "success",
+      "source_episode_id": "ep_2bf2c4db"
+    },
+    {
+      "action_type": "hash_file",
+      "target": "__pycache__\\demo_autonomous.cpython-312.pyc",
+      "parameters": {},
+      "expected_status": "success",
+      "source_episode_id": "ep_601e815b"
+    }
+  ]
+}

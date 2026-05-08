@@ -1,0 +1,9 @@
+{
+  "path": ".\\henla0_episodes.jsonl",
+  "episode_count": 12,
+  "success_count": 12,
+  "failure_count": 0,
+  "mean_valence": 0.2982,
+  "mean_prediction_error": 0.0963,
+  "last_episode_id": "ep_28a1c6c9"
+}

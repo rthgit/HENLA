@@ -1,0 +1,7 @@
+usage: henla.py failure-recovery-benchmark [-h] [--base-dir BASE_DIR]
+                                           [--out OUT]
+
+options:
+  -h, --help           show this help message and exit
+  --base-dir BASE_DIR
+  --out OUT            write failure recovery benchmark JSON

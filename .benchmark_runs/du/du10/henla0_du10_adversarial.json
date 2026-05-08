@@ -1,0 +1,11 @@
+{
+  "name": "du10_adversarial_uncertainty_tests",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "red_flags_found": 3,
+    "overconfidence_suspicion": 0.8,
+    "conflicts_detected": true
+  },
+  "policy": "DU-10 ensures that HENLA maintains epistemic humility even when presented with misleading evidence."
+}

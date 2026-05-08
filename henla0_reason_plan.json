@@ -1,0 +1,25 @@
+{
+  "start": "stat_file",
+  "depth": 2,
+  "steps": [
+    {
+      "action": "stat_file",
+      "target": "HENLA_Technical_Specification.docx",
+      "expected_result": "success",
+      "expected_valence": 0.9405,
+      "confidence": 0.95,
+      "evidence": 19,
+      "source_edge": "produces_positive::stat_file|success"
+    },
+    {
+      "action": "stat_file",
+      "target": "demo_autonomous.py",
+      "expected_result": "success",
+      "expected_valence": 0.9405,
+      "confidence": 0.95,
+      "evidence": 19,
+      "source_edge": "produces_positive::stat_file|success"
+    }
+  ],
+  "expected_valence": 1.881
+}

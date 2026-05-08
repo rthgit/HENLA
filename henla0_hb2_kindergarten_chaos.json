@@ -1,0 +1,317 @@
+{
+  "name": "hb2_kindergarten_chaos_workspace",
+  "status": "passed",
+  "passed": true,
+  "steps": 90,
+  "episode_count": 108,
+  "mutation_count": 34,
+  "failure_count": 18,
+  "recovery_successes": 18,
+  "recovery_rate": 1.0,
+  "mean_prediction_error_final": 0.1604,
+  "viability_floor_passed": true,
+  "memory_bounded": true,
+  "loop_bounded": true,
+  "final_snapshot": {
+    "step": 90,
+    "viability": 0.71,
+    "mean_prediction_error": 0.1604,
+    "mean_valence": 0.2069,
+    "recent_failures": 4,
+    "node_count": 12,
+    "edge_count": 21,
+    "edge_status": {
+      "refuted": 8,
+      "stable": 10,
+      "candidate": 2,
+      "tested": 1
+    },
+    "loop_events": 0
+  },
+  "recursive_micro": {
+    "base_pattern_count": 8,
+    "recursive_pattern_count": 5,
+    "memory_pressure": {
+      "raw_pressure": 0.325,
+      "compressed_pressure": 0.2167,
+      "active_recursive_count": 5,
+      "decayed_recursive_count": 0
+    }
+  },
+  "pruning": {
+    "decayed_count": 0,
+    "archived_count": 0,
+    "kept_count": 13
+  },
+  "snapshots": [
+    {
+      "step": 15,
+      "viability": 0.702,
+      "mean_prediction_error": 0.124,
+      "mean_valence": 0.2478,
+      "recent_failures": 2,
+      "node_count": 12,
+      "edge_count": 16,
+      "edge_status": {
+        "refuted": 2,
+        "tested": 11,
+        "candidate": 2,
+        "stable": 1
+      },
+      "loop_events": 0
+    },
+    {
+      "step": 30,
+      "viability": 0.73,
+      "mean_prediction_error": 0.1474,
+      "mean_valence": 0.213,
+      "recent_failures": 3,
+      "node_count": 12,
+      "edge_count": 21,
+      "edge_status": {
+        "refuted": 6,
+        "stable": 8,
+        "candidate": 4,
+        "tested": 3
+      },
+      "loop_events": 0
+    },
+    {
+      "step": 45,
+      "viability": 0.71,
+      "mean_prediction_error": 0.1373,
+      "mean_valence": 0.2119,
+      "recent_failures": 3,
+      "node_count": 12,
+      "edge_count": 21,
+      "edge_status": {
+        "refuted": 7,
+        "stable": 8,
+        "candidate": 2,
+        "tested": 4
+      },
+      "loop_events": 0
+    },
+    {
+      "step": 60,
+      "viability": 0.698,
+      "mean_prediction_error": 0.1597,
+      "mean_valence": 0.2068,
+      "recent_failures": 4,
+      "node_count": 12,
+      "edge_count": 21,
+      "edge_status": {
+        "refuted": 7,
+        "stable": 8,
+        "candidate": 2,
+        "tested": 4
+      },
+      "loop_events": 0
+    },
+    {
+      "step": 75,
+      "viability": 0.71,
+      "mean_prediction_error": 0.1359,
+      "mean_valence": 0.2217,
+      "recent_failures": 3,
+      "node_count": 12,
+      "edge_count": 21,
+      "edge_status": {
+        "refuted": 7,
+        "stable": 10,
+        "candidate": 2,
+        "tested": 2
+      },
+      "loop_events": 0
+    },
+    {
+      "step": 90,
+      "viability": 0.71,
+      "mean_prediction_error": 0.1604,
+      "mean_valence": 0.2069,
+      "recent_failures": 4,
+      "node_count": 12,
+      "edge_count": 21,
+      "edge_status": {
+        "refuted": 8,
+        "stable": 10,
+        "candidate": 2,
+        "tested": 1
+      },
+      "loop_events": 0
+    }
+  ],
+  "mutations": [
+    {
+      "step": 7,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 11,
+      "type": "remove",
+      "target": "config.ini"
+    },
+    {
+      "step": 13,
+      "type": "restore",
+      "target": "config.ini"
+    },
+    {
+      "step": 14,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 17,
+      "type": "create",
+      "target": "transient.txt"
+    },
+    {
+      "step": 19,
+      "type": "remove",
+      "target": "transient.txt"
+    },
+    {
+      "step": 21,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 22,
+      "type": "remove",
+      "target": "config.ini"
+    },
+    {
+      "step": 26,
+      "type": "restore",
+      "target": "config.ini"
+    },
+    {
+      "step": 28,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 33,
+      "type": "remove",
+      "target": "config.ini"
+    },
+    {
+      "step": 34,
+      "type": "create",
+      "target": "transient.txt"
+    },
+    {
+      "step": 35,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 38,
+      "type": "remove",
+      "target": "transient.txt"
+    },
+    {
+      "step": 39,
+      "type": "restore",
+      "target": "config.ini"
+    },
+    {
+      "step": 42,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 44,
+      "type": "remove",
+      "target": "config.ini"
+    },
+    {
+      "step": 49,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 51,
+      "type": "create",
+      "target": "transient.txt"
+    },
+    {
+      "step": 52,
+      "type": "restore",
+      "target": "config.ini"
+    },
+    {
+      "step": 55,
+      "type": "remove",
+      "target": "config.ini"
+    },
+    {
+      "step": 56,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 57,
+      "type": "remove",
+      "target": "transient.txt"
+    },
+    {
+      "step": 63,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 65,
+      "type": "restore",
+      "target": "config.ini"
+    },
+    {
+      "step": 66,
+      "type": "remove",
+      "target": "config.ini"
+    },
+    {
+      "step": 68,
+      "type": "create",
+      "target": "transient.txt"
+    },
+    {
+      "step": 70,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 76,
+      "type": "remove",
+      "target": "transient.txt"
+    },
+    {
+      "step": 77,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 78,
+      "type": "restore",
+      "target": "config.ini"
+    },
+    {
+      "step": 84,
+      "type": "rewrite",
+      "target": "changing.txt"
+    },
+    {
+      "step": 85,
+      "type": "create",
+      "target": "transient.txt"
+    },
+    {
+      "step": 88,
+      "type": "remove",
+      "target": "config.ini"
+    }
+  ],
+  "policy": "bounded chaos must produce recoverable failures without loop collapse or memory pressure runaway"
+}

@@ -1,0 +1,624 @@
+{
+  "nodes": {
+    "list_dir": {
+      "node_id": "list_dir",
+      "node_type": "action",
+      "activation_count": 16,
+      "mean_valence": 0.2608,
+      "first_seen": 1778058479.4865787,
+      "last_seen": 1778058479.6601815
+    },
+    ".": {
+      "node_id": ".",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2733,
+      "first_seen": 1778058479.4865787,
+      "last_seen": 1778058479.661844
+    },
+    "success": {
+      "node_id": "success",
+      "node_type": "result",
+      "activation_count": 33,
+      "mean_valence": 0.2635,
+      "first_seen": 1778058479.4865787,
+      "last_seen": 1778058479.661844
+    },
+    "filesystem": {
+      "node_id": "filesystem",
+      "node_type": "modality",
+      "activation_count": 66,
+      "mean_valence": 0.2635,
+      "first_seen": 1778058479.4865787,
+      "last_seen": 1778058479.661844
+    },
+    "stat_file": {
+      "node_id": "stat_file",
+      "node_type": "action",
+      "activation_count": 24,
+      "mean_valence": 0.2655,
+      "first_seen": 1778058479.4873962,
+      "last_seen": 1778058479.661844
+    },
+    "sample.py": {
+      "node_id": "sample.py",
+      "node_type": "object",
+      "activation_count": 30,
+      "mean_valence": 0.2709,
+      "first_seen": 1778058479.4873962,
+      "last_seen": 1778058479.6601815
+    },
+    "notes.txt": {
+      "node_id": "notes.txt",
+      "node_type": "object",
+      "activation_count": 18,
+      "mean_valence": 0.2557,
+      "first_seen": 1778058479.4884355,
+      "last_seen": 1778058479.6601815
+    },
+    "data.json": {
+      "node_id": "data.json",
+      "node_type": "object",
+      "activation_count": 15,
+      "mean_valence": 0.2729,
+      "first_seen": 1778058479.4888492,
+      "last_seen": 1778058479.6547337
+    },
+    "read_chunk": {
+      "node_id": "read_chunk",
+      "node_type": "action",
+      "activation_count": 14,
+      "mean_valence": 0.2616,
+      "first_seen": 1778058479.4892037,
+      "last_seen": 1778058479.6547337
+    },
+    "core\\module.py": {
+      "node_id": "core\\module.py",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2465,
+      "first_seen": 1778058479.4892037,
+      "last_seen": 1778058479.6601815
+    },
+    "hash_file": {
+      "node_id": "hash_file",
+      "node_type": "action",
+      "activation_count": 12,
+      "mean_valence": 0.2654,
+      "first_seen": 1778058479.4892037,
+      "last_seen": 1778058479.6601815
+    },
+    "core": {
+      "node_id": "core",
+      "node_type": "object",
+      "activation_count": 12,
+      "mean_valence": 0.2519,
+      "first_seen": 1778058479.4931736,
+      "last_seen": 1778058479.6547337
+    }
+  },
+  "edges": {
+    "produces_positive::list_dir|success": {
+      "edge_id": "produces_positive::list_dir|success",
+      "nodes": [
+        "list_dir",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.45,
+      "evidence_count": 8,
+      "predictive_gain": 0.0626,
+      "contradiction_rate": 0.0,
+      "context_count": 8,
+      "context_ids": [
+        "ep_05775b50",
+        "ep_13cc7937",
+        "ep_21a2946a",
+        "ep_4172983e",
+        "ep_5ada0802",
+        "ep_74035b96",
+        "ep_94d59ed2",
+        "ep_b2d3b83c"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::.|list_dir|success": {
+      "edge_id": "interaction_pattern::.|list_dir|success",
+      "nodes": [
+        ".",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_94d59ed2",
+        "ep_b2d3b83c"
+      ],
+      "status": "tested"
+    },
+    "reduces_uncertainty::.|list_dir": {
+      "edge_id": "reduces_uncertainty::.|list_dir",
+      "nodes": [
+        "list_dir",
+        "."
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.4,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_b2d3b83c"
+      ],
+      "status": "candidate"
+    },
+    "produces_positive::stat_file|success": {
+      "edge_id": "produces_positive::stat_file|success",
+      "nodes": [
+        "stat_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.65,
+      "evidence_count": 12,
+      "predictive_gain": 0.0784,
+      "contradiction_rate": 0.0,
+      "context_count": 12,
+      "context_ids": [
+        "ep_0b669803",
+        "ep_184cdc3f",
+        "ep_319074a1",
+        "ep_9110399e",
+        "ep_9a1c7b87",
+        "ep_a5e30ea5",
+        "ep_a740efa1",
+        "ep_ac1c5c28",
+        "ep_b0cc121c",
+        "ep_df38534e",
+        "ep_f79f65a2",
+        "ep_fffd1c39"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::sample.py|stat_file|success": {
+      "edge_id": "interaction_pattern::sample.py|stat_file|success",
+      "nodes": [
+        "sample.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.3,
+      "evidence_count": 5,
+      "predictive_gain": 0.9195,
+      "contradiction_rate": 0.0,
+      "context_count": 5,
+      "context_ids": [
+        "ep_184cdc3f",
+        "ep_319074a1",
+        "ep_9110399e",
+        "ep_a5e30ea5",
+        "ep_a740efa1"
+      ],
+      "status": "stable"
+    },
+    "reduces_uncertainty::sample.py|stat_file": {
+      "edge_id": "reduces_uncertainty::sample.py|stat_file",
+      "nodes": [
+        "stat_file",
+        "sample.py"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.3,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_319074a1",
+        "ep_9110399e"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::notes.txt|stat_file|success": {
+      "edge_id": "interaction_pattern::notes.txt|stat_file|success",
+      "nodes": [
+        "notes.txt",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9191,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_9a1c7b87",
+        "ep_b0cc121c"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::data.json|stat_file|success": {
+      "edge_id": "interaction_pattern::data.json|stat_file|success",
+      "nodes": [
+        "data.json",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9242,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_df38534e",
+        "ep_f79f65a2"
+      ],
+      "status": "tested"
+    },
+    "produces_positive::read_chunk|success": {
+      "edge_id": "produces_positive::read_chunk|success",
+      "nodes": [
+        "read_chunk",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.4,
+      "evidence_count": 7,
+      "predictive_gain": 0.0623,
+      "contradiction_rate": 0.0,
+      "context_count": 7,
+      "context_ids": [
+        "ep_306219d9",
+        "ep_591a0f7d",
+        "ep_71a774b3",
+        "ep_76053f14",
+        "ep_a9c5909b",
+        "ep_ab1d50c0",
+        "ep_f4b947a4"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::read_chunk|sample.py|success": {
+      "edge_id": "interaction_pattern::read_chunk|sample.py|success",
+      "nodes": [
+        "sample.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9387,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_71a774b3",
+        "ep_a9c5909b"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::core\\module.py|read_chunk|success": {
+      "edge_id": "interaction_pattern::core\\module.py|read_chunk|success",
+      "nodes": [
+        "core\\module.py",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9344,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_591a0f7d",
+        "ep_f4b947a4"
+      ],
+      "status": "tested"
+    },
+    "produces_positive::hash_file|success": {
+      "edge_id": "produces_positive::hash_file|success",
+      "nodes": [
+        "hash_file",
+        "success"
+      ],
+      "relation": "produces_positive",
+      "weight": 0.35,
+      "evidence_count": 6,
+      "predictive_gain": 0.0711,
+      "contradiction_rate": 0.0,
+      "context_count": 6,
+      "context_ids": [
+        "ep_05cb91fd",
+        "ep_14e9310a",
+        "ep_5f3fa745",
+        "ep_65f8c44a",
+        "ep_8e9fe9c0",
+        "ep_d6054447"
+      ],
+      "status": "stable"
+    },
+    "interaction_pattern::hash_file|sample.py|success": {
+      "edge_id": "interaction_pattern::hash_file|sample.py|success",
+      "nodes": [
+        "sample.py",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_05cb91fd",
+        "ep_14e9310a"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::hash_file|notes.txt|success": {
+      "edge_id": "interaction_pattern::hash_file|notes.txt|success",
+      "nodes": [
+        "notes.txt",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_8e9fe9c0",
+        "ep_d6054447"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::data.json|hash_file|success": {
+      "edge_id": "interaction_pattern::data.json|hash_file|success",
+      "nodes": [
+        "data.json",
+        "hash_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9387,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_5f3fa745",
+        "ep_65f8c44a"
+      ],
+      "status": "tested"
+    },
+    "interaction_pattern::core|list_dir|success": {
+      "edge_id": "interaction_pattern::core|list_dir|success",
+      "nodes": [
+        "core",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.15,
+      "evidence_count": 2,
+      "predictive_gain": 0.9387,
+      "contradiction_rate": 0.0,
+      "context_count": 2,
+      "context_ids": [
+        "ep_21a2946a",
+        "ep_4172983e"
+      ],
+      "status": "tested"
+    },
+    "reduces_uncertainty::data.json|hash_file": {
+      "edge_id": "reduces_uncertainty::data.json|hash_file",
+      "nodes": [
+        "hash_file",
+        "data.json"
+      ],
+      "relation": "reduces_uncertainty",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.2,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_5f3fa745"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::.|read_chunk|success": {
+      "edge_id": "interaction_pattern::.|read_chunk|success",
+      "nodes": [
+        ".",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9358,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_76053f14"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::list_dir|notes.txt|success": {
+      "edge_id": "interaction_pattern::list_dir|notes.txt|success",
+      "nodes": [
+        "notes.txt",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9388,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_05775b50"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core|read_chunk|success": {
+      "edge_id": "interaction_pattern::core|read_chunk|success",
+      "nodes": [
+        "core",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_306219d9"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::notes.txt|read_chunk|success": {
+      "edge_id": "interaction_pattern::notes.txt|read_chunk|success",
+      "nodes": [
+        "notes.txt",
+        "read_chunk",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9242,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_ab1d50c0"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::data.json|list_dir|success": {
+      "edge_id": "interaction_pattern::data.json|list_dir|success",
+      "nodes": [
+        "data.json",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.93,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_5ada0802"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core|stat_file|success": {
+      "edge_id": "interaction_pattern::core|stat_file|success",
+      "nodes": [
+        "core",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9125,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_fffd1c39"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\module.py|stat_file|success": {
+      "edge_id": "interaction_pattern::core\\module.py|stat_file|success",
+      "nodes": [
+        "core\\module.py",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.909,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_ac1c5c28"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::core\\module.py|list_dir|success": {
+      "edge_id": "interaction_pattern::core\\module.py|list_dir|success",
+      "nodes": [
+        "core\\module.py",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9242,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_13cc7937"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::list_dir|sample.py|success": {
+      "edge_id": "interaction_pattern::list_dir|sample.py|success",
+      "nodes": [
+        "sample.py",
+        "list_dir",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9183,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_74035b96"
+      ],
+      "status": "candidate"
+    },
+    "interaction_pattern::.|stat_file|success": {
+      "edge_id": "interaction_pattern::.|stat_file|success",
+      "nodes": [
+        ".",
+        "stat_file",
+        "success"
+      ],
+      "relation": "interaction_pattern",
+      "weight": 0.1,
+      "evidence_count": 1,
+      "predictive_gain": 0.9055,
+      "contradiction_rate": 0.0,
+      "context_count": 1,
+      "context_ids": [
+        "ep_0b669803"
+      ],
+      "status": "candidate"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "baseline_parameters": {
+    "scratchpad_depth": 3.0,
+    "reasoning_candidates": 4.0,
+    "attention_top_k": 3.0,
+    "pruning_threshold": 0.75,
+    "budding_threshold": 0.7,
+    "analogy_threshold": 0.55,
+    "risk_aversion": 0.4,
+    "exploration_weight": 0.35,
+    "consolidation_interval": 10.0
+  },
+  "recommendation_count": 3,
+  "recommendations": [
+    {
+      "parameter": "analogy_threshold",
+      "current_value": 0.55,
+      "recommended_value": 0.5,
+      "direction": "decrease",
+      "confidence": 0.73,
+      "reason": "analogy trial promoted and transfer opportunity is high"
+    },
+    {
+      "parameter": "attention_top_k",
+      "current_value": 3.0,
+      "recommended_value": 4.0,
+      "direction": "increase",
+      "confidence": 0.6,
+      "reason": "attention is already filtering many subgraphs; one more slot may reduce miss risk"
+    },
+    {
+      "parameter": "exploration_weight",
+      "current_value": 0.35,
+      "recommended_value": 0.38,
+      "direction": "increase",
+      "confidence": 0.55,
+      "reason": "open world gate passed with positive viability"
+    }
+  ],
+  "policy_rules": [
+    "change_one_parameter_at_a_time",
+    "do_not_rewrite_source_code",
+    "promote_after_observed_metric_improvement",
+    "rollback_if_contradiction_or_viability_worsens"
+  ],
+  "source_status": {
+    "current_environment": "Open World",
+    "global_viability": 0.2556,
+    "attention_avoided": 9
+  }
+}

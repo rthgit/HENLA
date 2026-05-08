@@ -1,0 +1,56 @@
+{
+  "suite": "autonomous_robustness_ar1_ar12",
+  "verdict": "robust autonomous controlled",
+  "criteria_met": 12,
+  "criteria_total": 12,
+  "benchmarks": {
+    "AR-1  Blind Evaluation": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-2  Long Sessions": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-3  Continual Learning": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-5  Consequence Sandbox": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-6  Causal World Model": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-7  Strong Language": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-11 Adversarial Reality": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-4  Multi-Goal Management": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-8  Neuralization v2": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-9  Multi-HENLA Ecology": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-10 Self-Policy Meta": {
+      "status": "passed",
+      "passed": true
+    },
+    "AR-12 Review Gate": {
+      "status": "passed",
+      "passed": true
+    }
+  }
+}

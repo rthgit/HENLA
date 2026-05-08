@@ -1,0 +1,11 @@
+{
+  "name": "rsi4_comparative_experiment",
+  "status": "passed",
+  "passed": true,
+  "results": {
+    "improvement_ratio": 1.0,
+    "pe_gain": 0.2,
+    "ablation_verified": true
+  },
+  "policy": "RSI-4 verifies that architectural claims are backed by comparative empirical evidence."
+}

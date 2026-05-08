@@ -1,0 +1,23 @@
+{
+  "name": "distributed_merge",
+  "status": "passed",
+  "passed": true,
+  "local_source": "henla_a",
+  "remote_source": "henla_b",
+  "local_pattern_signatures": 2,
+  "remote_pattern_signatures": 2,
+  "merged_count": 12,
+  "kept_separate_count": 0,
+  "raw_fields_rejected": [
+    "raw_episodes"
+  ],
+  "remote_candidate_count": 0,
+  "verification_rule_present": true,
+  "rules": [
+    "raw_experience_is_local",
+    "remote_structures_enter_as_candidates",
+    "conflicts_are_kept_separate",
+    "local_verification_required_before_promotion"
+  ],
+  "policy": "independent instances merge consolidated structures only; raw remote experience is rejected"
+}

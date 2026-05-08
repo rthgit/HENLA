@@ -1,0 +1,667 @@
+{
+  "cycle": 1,
+  "state": {
+    "energy": 0.737,
+    "uncertainty": 0.2,
+    "coherence": 0.44,
+    "predictability": 0.446,
+    "controllability": 0.53,
+    "memory_stability": 0.7,
+    "pain": 0.14,
+    "pleasure": 0.28,
+    "novelty": 0.1,
+    "fatigue": 0.08,
+    "unresolved_errors": 0,
+    "repeated_failures": 0,
+    "contradictions": 0,
+    "viability": -0.1358,
+    "timestamp": 1778090828.2114635
+  },
+  "graph": {
+    "total_nodes": 40,
+    "total_edges": 74,
+    "edge_status": {
+      "stable": 5,
+      "tested": 21,
+      "candidate": 48
+    },
+    "stable_edges": [
+      {
+        "edge_id": "produces_positive::list_dir|success",
+        "nodes": [
+          "list_dir",
+          "success"
+        ],
+        "relation": "produces_positive",
+        "weight": 0.99,
+        "evidence_count": 22,
+        "predictive_gain": 0.0746,
+        "contradiction_rate": 0.0,
+        "context_count": 22,
+        "context_ids": [
+          "ep_28a1c6c9",
+          "ep_2bf2c4db",
+          "ep_2ca6fd20",
+          "ep_3dc2faeb",
+          "ep_48c49333",
+          "ep_519eed26",
+          "ep_52d93fdc",
+          "ep_5877ab3d",
+          "ep_58d354a3",
+          "ep_64a78568",
+          "ep_674992ee",
+          "ep_73f39132",
+          "ep_74665414",
+          "ep_8bfb8dce",
+          "ep_9036c041",
+          "ep_9db12b23",
+          "ep_a9f56101",
+          "ep_dd0e8e5b",
+          "ep_e78e0ec6",
+          "ep_ea6a015d",
+          "ep_f58eb58f",
+          "ep_f827b1f6"
+        ],
+        "status": "stable"
+      },
+      {
+        "edge_id": "produces_positive::stat_file|success",
+        "nodes": [
+          "stat_file",
+          "success"
+        ],
+        "relation": "produces_positive",
+        "weight": 0.99,
+        "evidence_count": 19,
+        "predictive_gain": 0.0702,
+        "contradiction_rate": 0.0,
+        "context_count": 19,
+        "context_ids": [
+          "ep_040d5533",
+          "ep_05774050",
+          "ep_06f6ced7",
+          "ep_2319baf5",
+          "ep_24ed17b8",
+          "ep_265f7708",
+          "ep_43d9f58a",
+          "ep_4869823f",
+          "ep_4b850740",
+          "ep_4ec2c3bd",
+          "ep_579f32b4",
+          "ep_582e6921",
+          "ep_61d901b4",
+          "ep_6217ea20",
+          "ep_7870a448",
+          "ep_7a4173cd",
+          "ep_8789b674",
+          "ep_8c497660",
+          "ep_bea4e617"
+        ],
+        "status": "stable"
+      },
+      {
+        "edge_id": "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+        "nodes": [
+          "HENLA_Technical_Specification.docx",
+          "stat_file",
+          "success"
+        ],
+        "relation": "interaction_pattern",
+        "weight": 0.3,
+        "evidence_count": 5,
+        "predictive_gain": 0.8974,
+        "contradiction_rate": 0.0,
+        "context_count": 5,
+        "context_ids": [
+          "ep_265f7708",
+          "ep_4b850740",
+          "ep_4ec2c3bd",
+          "ep_6217ea20",
+          "ep_7a4173cd"
+        ],
+        "status": "stable"
+      },
+      {
+        "edge_id": "produces_positive::read_chunk|success",
+        "nodes": [
+          "read_chunk",
+          "success"
+        ],
+        "relation": "produces_positive",
+        "weight": 0.65,
+        "evidence_count": 12,
+        "predictive_gain": 0.0628,
+        "contradiction_rate": 0.0,
+        "context_count": 12,
+        "context_ids": [
+          "ep_00623759",
+          "ep_07afe441",
+          "ep_22bcea8b",
+          "ep_321d9e67",
+          "ep_3ee2e6fd",
+          "ep_3fa0d791",
+          "ep_411d314a",
+          "ep_596fe427",
+          "ep_668c70b7",
+          "ep_692049d7",
+          "ep_8ceb66ac",
+          "ep_aa2f4aee"
+        ],
+        "status": "stable"
+      },
+      {
+        "edge_id": "produces_positive::hash_file|success",
+        "nodes": [
+          "hash_file",
+          "success"
+        ],
+        "relation": "produces_positive",
+        "weight": 0.95,
+        "evidence_count": 18,
+        "predictive_gain": 0.0825,
+        "contradiction_rate": 0.0,
+        "context_count": 18,
+        "context_ids": [
+          "ep_27bf3d78",
+          "ep_57786fb7",
+          "ep_58aa6b94",
+          "ep_5b942d5a",
+          "ep_601e815b",
+          "ep_670182f2",
+          "ep_8afaded6",
+          "ep_8d181a55",
+          "ep_96e48798",
+          "ep_9c516476",
+          "ep_a5ddabdb",
+          "ep_ade0d5d9",
+          "ep_cbb37645",
+          "ep_dd9e82d0",
+          "ep_deb08013",
+          "ep_ed52b25c",
+          "ep_f942d08c",
+          "ep_fa002215"
+        ],
+        "status": "stable"
+      }
+    ]
+  },
+  "concepts": {
+    "total": 2,
+    "formed": [
+      {
+        "concept_id": "concept::produces_positive",
+        "relation": "produces_positive",
+        "formed": true,
+        "nodes": [
+          "hash_file",
+          "list_dir",
+          "read_chunk",
+          "stat_file",
+          "success"
+        ],
+        "edge_ids": [
+          "produces_positive::list_dir|success",
+          "produces_positive::stat_file|success",
+          "produces_positive::read_chunk|success",
+          "produces_positive::hash_file|success"
+        ],
+        "metrics": {
+          "stability": 0.6667,
+          "predictivity": 0.7252,
+          "transferability": 1.0,
+          "concept_score": 0.7734
+        }
+      }
+    ],
+    "candidates": [
+      {
+        "concept_id": "concept::interaction_pattern",
+        "relation": "interaction_pattern",
+        "formed": false,
+        "nodes": [
+          "HENLA_Technical_Specification.docx",
+          "stat_file",
+          "success"
+        ],
+        "edge_ids": [
+          "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success"
+        ],
+        "metrics": {
+          "stability": 1.0,
+          "predictivity": 1.0,
+          "transferability": 1.0,
+          "concept_score": 1.0
+        }
+      }
+    ]
+  },
+  "categories": {
+    "total": 3,
+    "items": [
+      {
+        "category_id": "category::success_patterns",
+        "label": "success_patterns",
+        "basis": "result_pattern",
+        "members": [
+          "HENLA_Technical_Specification.docx",
+          "hash_file",
+          "list_dir",
+          "read_chunk",
+          "stat_file"
+        ],
+        "evidence_count": 76,
+        "confidence": 1.0,
+        "source_edges": [
+          "produces_positive::list_dir|success",
+          "produces_positive::stat_file|success",
+          "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+          "produces_positive::read_chunk|success",
+          "produces_positive::hash_file|success"
+        ],
+        "source_concepts": [
+          "concept::produces_positive"
+        ]
+      },
+      {
+        "category_id": "category::empirical_02",
+        "label": "successful_action_pattern",
+        "basis": "stable_edge_signature",
+        "members": [
+          "hash_file",
+          "list_dir",
+          "read_chunk",
+          "stat_file"
+        ],
+        "evidence_count": 76,
+        "confidence": 0.9214,
+        "source_edges": [
+          "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success",
+          "produces_positive::hash_file|success",
+          "produces_positive::list_dir|success",
+          "produces_positive::read_chunk|success",
+          "produces_positive::stat_file|success"
+        ],
+        "source_concepts": []
+      },
+      {
+        "category_id": "category::empirical_01",
+        "label": "emergent_pattern",
+        "basis": "stable_edge_signature",
+        "members": [
+          "HENLA_Technical_Specification.docx"
+        ],
+        "evidence_count": 5,
+        "confidence": 0.1,
+        "source_edges": [
+          "interaction_pattern::HENLA_Technical_Specification.docx|stat_file|success"
+        ],
+        "source_concepts": []
+      }
+    ]
+  },
+  "loops": {
+    "total": 0,
+    "recent": []
+  },
+  "episode_count": 1,
+  "scratchpad": {
+    "last": {
+      "scratchpad_id": "scratchpad::0d3b679a",
+      "scope": "current_operation",
+      "active_question": "Which candidate has the best expected viability after simulation?",
+      "state_summary": {
+        "energy": 0.8,
+        "uncertainty": 0.6,
+        "coherence": 0.4,
+        "predictability": 0.4,
+        "controllability": 0.5,
+        "memory_stability": 0.7,
+        "pain": 0.2,
+        "pleasure": 0.2,
+        "novelty": 0.5,
+        "fatigue": 0.1,
+        "unresolved_errors": 0,
+        "repeated_failures": 0,
+        "contradictions": 0,
+        "viability": -0.38,
+        "timestamp": 1778090828.203732
+      },
+      "opened_at": 1778090828.2047608,
+      "closed_at": 1778090828.2140818,
+      "status": "closed",
+      "activated_nodes": [
+        "list_dir",
+        "tests",
+        "core",
+        "archive",
+        "archive\\runtime_artifacts_2026-05-06"
+      ],
+      "activated_patterns": [],
+      "retrieved_edges": [
+        {
+          "edge_id": "produces_positive::list_dir|success",
+          "nodes": [
+            "list_dir",
+            "success"
+          ],
+          "relation": "produces_positive",
+          "weight": 0.99,
+          "evidence_count": 21,
+          "predictive_gain": 0.0665,
+          "contradiction_rate": 0.0,
+          "context_count": 21,
+          "context_ids": [
+            "ep_2bf2c4db",
+            "ep_2ca6fd20",
+            "ep_3dc2faeb",
+            "ep_48c49333",
+            "ep_519eed26",
+            "ep_52d93fdc",
+            "ep_5877ab3d",
+            "ep_58d354a3",
+            "ep_64a78568",
+            "ep_674992ee",
+            "ep_73f39132",
+            "ep_74665414",
+            "ep_8bfb8dce",
+            "ep_9036c041",
+            "ep_9db12b23",
+            "ep_a9f56101",
+            "ep_dd0e8e5b",
+            "ep_e78e0ec6",
+            "ep_ea6a015d",
+            "ep_f58eb58f",
+            "ep_f827b1f6"
+          ],
+          "status": "stable"
+        },
+        {
+          "edge_id": "interaction_pattern::.|list_dir|success",
+          "nodes": [
+            ".",
+            "list_dir",
+            "success"
+          ],
+          "relation": "interaction_pattern",
+          "weight": 0.15,
+          "evidence_count": 2,
+          "predictive_gain": 0.9125,
+          "contradiction_rate": 0.0,
+          "context_count": 2,
+          "context_ids": [
+            "ep_a9f56101",
+            "ep_ea6a015d"
+          ],
+          "status": "tested"
+        },
+        {
+          "edge_id": "interaction_pattern::core|list_dir|success",
+          "nodes": [
+            "core",
+            "list_dir",
+            "success"
+          ],
+          "relation": "interaction_pattern",
+          "weight": 0.15,
+          "evidence_count": 2,
+          "predictive_gain": 0.9183,
+          "contradiction_rate": 0.0,
+          "context_count": 2,
+          "context_ids": [
+            "ep_74665414",
+            "ep_dd0e8e5b"
+          ],
+          "status": "tested"
+        },
+        {
+          "edge_id": "interaction_pattern::list_dir|success|tests",
+          "nodes": [
+            "tests",
+            "list_dir",
+            "success"
+          ],
+          "relation": "interaction_pattern",
+          "weight": 0.15,
+          "evidence_count": 2,
+          "predictive_gain": 0.9213,
+          "contradiction_rate": 0.0,
+          "context_count": 2,
+          "context_ids": [
+            "ep_2ca6fd20",
+            "ep_5877ab3d"
+          ],
+          "status": "tested"
+        },
+        {
+          "edge_id": "interaction_pattern::stat_file|success|tests",
+          "nodes": [
+            "tests",
+            "stat_file",
+            "success"
+          ],
+          "relation": "interaction_pattern",
+          "weight": 0.15,
+          "evidence_count": 2,
+          "predictive_gain": 0.8541,
+          "contradiction_rate": 0.0,
+          "context_count": 2,
+          "context_ids": [
+            "ep_582e6921",
+            "ep_bea4e617"
+          ],
+          "status": "tested"
+        },
+        {
+          "edge_id": "interaction_pattern::core|list_dir|success",
+          "nodes": [
+            "core",
+            "list_dir",
+            "success"
+          ],
+          "relation": "interaction_pattern",
+          "weight": 0.15,
+          "evidence_count": 2,
+          "predictive_gain": 0.9183,
+          "contradiction_rate": 0.0,
+          "context_count": 2,
+          "context_ids": [
+            "ep_74665414",
+            "ep_dd0e8e5b"
+          ],
+          "status": "tested"
+        },
+        {
+          "edge_id": "interaction_pattern::archive|list_dir|success",
+          "nodes": [
+            "archive",
+            "list_dir",
+            "success"
+          ],
+          "relation": "interaction_pattern",
+          "weight": 0.15,
+          "evidence_count": 2,
+          "predictive_gain": 0.9191,
+          "contradiction_rate": 0.0,
+          "context_count": 2,
+          "context_ids": [
+            "ep_674992ee",
+            "ep_f827b1f6"
+          ],
+          "status": "tested"
+        },
+        {
+          "edge_id": "interaction_pattern::archive\\runtime_artifacts_2026-05-06|list_dir|success",
+          "nodes": [
+            "archive\\runtime_artifacts_2026-05-06",
+            "list_dir",
+            "success"
+          ],
+          "relation": "interaction_pattern",
+          "weight": 0.15,
+          "evidence_count": 2,
+          "predictive_gain": 0.9029,
+          "contradiction_rate": 0.0,
+          "context_count": 2,
+          "context_ids": [
+            "ep_2bf2c4db",
+            "ep_58d354a3"
+          ],
+          "status": "tested"
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "h1",
+          "claim": "list_dir on tests has best simulated viability",
+          "confidence": 0.95,
+          "source": [
+            "deliberative_selector",
+            "reasoner"
+          ],
+          "predicted_delta_viability": 0.9405
+        }
+      ],
+      "simulations": [
+        {
+          "candidate_action": "list_dir",
+          "target": "tests",
+          "predicted_result": "success",
+          "predicted_valence": 0.9405,
+          "confidence": 0.95,
+          "risk": 0.0,
+          "decision": "accept",
+          "reason": "from stable produces_positive"
+        },
+        {
+          "candidate_action": "list_dir",
+          "target": "core",
+          "predicted_result": "success",
+          "predicted_valence": 0.9405,
+          "confidence": 0.95,
+          "risk": 0.0,
+          "decision": "accept",
+          "reason": "from stable produces_positive"
+        },
+        {
+          "candidate_action": "list_dir",
+          "target": "archive",
+          "predicted_result": "success",
+          "predicted_valence": 0.9405,
+          "confidence": 0.95,
+          "risk": 0.0,
+          "decision": "accept",
+          "reason": "from stable produces_positive"
+        },
+        {
+          "candidate_action": "list_dir",
+          "target": "archive\\runtime_artifacts_2026-05-06",
+          "predicted_result": "success",
+          "predicted_valence": 0.9405,
+          "confidence": 0.95,
+          "risk": 0.0,
+          "decision": "accept",
+          "reason": "from stable produces_positive"
+        }
+      ],
+      "selected_action": "list_dir",
+      "selected_target": "tests",
+      "rejected_actions": [
+        {
+          "candidate_action": "list_dir",
+          "target": "core",
+          "predicted_result": "success",
+          "predicted_valence": 0.9405,
+          "confidence": 0.95,
+          "risk": 0.0,
+          "decision": "accept",
+          "reason": "from stable produces_positive"
+        },
+        {
+          "candidate_action": "list_dir",
+          "target": "archive",
+          "predicted_result": "success",
+          "predicted_valence": 0.9405,
+          "confidence": 0.95,
+          "risk": 0.0,
+          "decision": "accept",
+          "reason": "from stable produces_positive"
+        },
+        {
+          "candidate_action": "list_dir",
+          "target": "archive\\runtime_artifacts_2026-05-06",
+          "predicted_result": "success",
+          "predicted_valence": 0.9405,
+          "confidence": 0.95,
+          "risk": 0.0,
+          "decision": "accept",
+          "reason": "from stable produces_positive"
+        }
+      ],
+      "observed_result": {
+        "status": "success",
+        "valence": 0.3413,
+        "prediction_error": 0.0852
+      },
+      "reflection": {
+        "predicted_result": "success",
+        "observed_result": "success",
+        "matched": true,
+        "valence_error": 0.5992,
+        "prediction_error": 0.0852,
+        "useful": true
+      },
+      "consolidation_candidates": [
+        {
+          "type": "deliberation_pattern",
+          "selected_action": "list_dir",
+          "target": "tests",
+          "reason": "simulation matched observed result"
+        }
+      ],
+      "discarded_notes": []
+    },
+    "recent_count": 2
+  },
+  "deliberation": {
+    "total": 1,
+    "recent": [
+      {
+        "cycle": 1,
+        "candidate_count": 4,
+        "selected_action": "list_dir",
+        "selected_target": "tests",
+        "predicted_valence": 0.9405,
+        "observed_valence": 0.3413,
+        "simulation_error": 0.5992,
+        "action_regret": 0.0,
+        "avoided_negative_actions": 0,
+        "deliberation_cost": 0.04,
+        "scratchpad_id": "scratchpad::0d3b679a"
+      }
+    ]
+  },
+  "episode_store": {
+    "path": ".\\henla0_episodes.jsonl",
+    "episode_count": 12,
+    "success_count": 12,
+    "failure_count": 0,
+    "mean_valence": 0.2982,
+    "mean_prediction_error": 0.0963,
+    "last_episode_id": "ep_28a1c6c9"
+  },
+  "mean_valence": 0.3413,
+  "selector": {
+    "unique_pairs_tried": 1,
+    "total_attempts": 1,
+    "failure_streaks": [],
+    "top_valences": [
+      {
+        "pair": [
+          "list_dir",
+          "tests"
+        ],
+        "valence": 0.3413
+      }
+    ]
+  }
+}

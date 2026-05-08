@@ -1,0 +1,1 @@
+Ticket 17: dashboard timeout after login

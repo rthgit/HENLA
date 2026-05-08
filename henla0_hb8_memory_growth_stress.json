@@ -1,0 +1,92 @@
+{
+  "name": "hb8_memory_growth_stress",
+  "status": "passed",
+  "passed": true,
+  "steps": 240,
+  "snapshot_interval": 60,
+  "transient_interval": 15,
+  "noise_edges": 12,
+  "episode_count": 287,
+  "failure_count": 31,
+  "recovery_successes": 31,
+  "recovery_rate": 1.0,
+  "transient_target_count": 16,
+  "mean_prediction_error_final": 0.1146,
+  "mean_valence_final": 0.2188,
+  "final_viability": 0.71,
+  "compression": {
+    "compressed_pattern_count": 8,
+    "compression_ratio": 0.0279,
+    "retrieval_growth_ratio": 0.01104503
+  },
+  "growth_trend": {
+    "compression_trend_improves": true,
+    "graph_ratio_improves": true,
+    "first_snapshot_compression_ratio": 0.1111,
+    "final_snapshot_compression_ratio": 0.0279,
+    "first_graph_edge_ratio": 0.375,
+    "final_graph_edge_ratio": 0.1359,
+    "final_graph_edge_ratio_total": 0.1777
+  },
+  "memory_bounded": true,
+  "recursive_micro": {
+    "base_pattern_count": 7,
+    "recursive_pattern_count": 4,
+    "memory_pressure": {
+      "raw_pressure": 0.275,
+      "compressed_pressure": 0.1833,
+      "active_recursive_count": 4,
+      "decayed_recursive_count": 0
+    }
+  },
+  "pruning": {
+    "noise_injected": 12,
+    "reduced_noise_count": 12,
+    "decayed_count": 12,
+    "archived_count": 0,
+    "kept_count": 35
+  },
+  "snapshots": [
+    {
+      "step": 60,
+      "episode_count": 72,
+      "mean_prediction_error": 0.1169,
+      "viability": 0.71,
+      "compression_ratio": 0.1111,
+      "compressed_pressure": 0.1833,
+      "graph_edge_ratio": 0.375,
+      "recursive_pattern_count": 4
+    },
+    {
+      "step": 120,
+      "episode_count": 144,
+      "mean_prediction_error": 0.1157,
+      "viability": 0.71,
+      "compression_ratio": 0.0556,
+      "compressed_pressure": 0.1833,
+      "graph_edge_ratio": 0.2153,
+      "recursive_pattern_count": 4
+    },
+    {
+      "step": 180,
+      "episode_count": 215,
+      "mean_prediction_error": 0.1153,
+      "viability": 0.71,
+      "compression_ratio": 0.0372,
+      "compressed_pressure": 0.1833,
+      "graph_edge_ratio": 0.1628,
+      "recursive_pattern_count": 4
+    },
+    {
+      "step": 240,
+      "episode_count": 287,
+      "mean_prediction_error": 0.1152,
+      "viability": 0.71,
+      "compression_ratio": 0.0279,
+      "compressed_pressure": 0.1833,
+      "graph_edge_ratio": 0.1359,
+      "recursive_pattern_count": 4
+    }
+  ],
+  "policy": "memory growth must compress repeated episodes, keep recursive micro pressure bounded, and prune injected low-utility noise"
+}
