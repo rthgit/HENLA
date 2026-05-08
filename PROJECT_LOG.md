@@ -227,5 +227,10 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - KS-Suite (KS-1..KS-19): Passed (Internal Consistency).
 - Laboratory Exit Phase Complete: `CLAIM_BOUNDARY.md`, `evidence_pack/`, `README_REPRODUCIBILITY.md` creati.
 - Core Code Frozen: `evidence_pack/core_manifest.txt` generato.
-- Nuova roadmap approvata: `EXTERNAL_VALIDATION_PROTOCOL.md` v1.0.
-- Prossimo passo operativo: Invio `evidence_pack/` a reviewer esterni per fase `EXT-1`.
+- GitHub Release: `v0.1.0-internal-pass` pubblicata.
+- Licenza: `Non-Commercial Research License` applicata.
+- Implementazione moduli core NN-1..NN-14 conclusa.
+- Eseguita suite `benchmarks/run_neural_civilization_suite.py`.
+- Risultato: `passed`, criteri `5/5`, verdetto finale `NEURAL_CIVILIZATION_READY`.
+- Nuova roadmap approvata: `EXT_NN_PROTOCOL.md`.
+- Prossimo passo operativo: Blind Test S vs N su repository esterni (EXT-NN).

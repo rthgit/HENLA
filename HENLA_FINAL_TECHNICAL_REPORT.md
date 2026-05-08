@@ -4,10 +4,10 @@
 **Date:** 2026-05-08
 
 ## Abstract
-We present HENLA, a symbolic-experiential cognitive architecture centered on episodic memory, viability signals, prediction error, evidence-based hypergraph promotion, deliberative scratchpads, specialized subgraphs, and structured claim verification. This report documents the completion of the internal construction phase and defines a rigorous external validation protocol (EXT) for blind, adversarial, non-author-controlled evaluation.
+We present HENLA, a symbolic-experiential cognitive architecture centered on episodic memory, viability signals, prediction error, evidence-based hypergraph promotion, and a **Federated Neuro-Symbolic Layer**. This layer organizes cognition into area-specific neuralized subgraphs (Episodic, Procedural, Semantic, etc.) that integrate symbolic evidence with local neural models for prediction and selection. This report documents the completion of the internal construction phase and defines a rigorous external validation protocol (EXT).
 
-## 1. Executive Summary: Construction Phase Complete
-HENLA is an original cognitive architecture based on a symbolic-experiential foundation. This report documents the successful completion of the internal construction and hardening phase. After ten intensive roadmap cycles, the architecture has achieved its target internal state. 
+## 1. Executive Summary: The Neuro-Symbolic Transition
+HENLA is an original cognitive architecture that has evolved from a symbolic foundation into a federated neural civilization. After ten intensive roadmap cycles, the architecture has achieved its target state: a modular system where each cognitive domain operates its own local neural model while remaining grounded in a traceable symbolic hypergraph.
 
 **"HENLA does not go back. It leaves the laboratory."**
 
