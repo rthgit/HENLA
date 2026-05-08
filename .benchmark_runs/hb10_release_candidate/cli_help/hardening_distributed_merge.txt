@@ -1,9 +1,0 @@
-usage: henla.py hardening-distributed-merge [-h] [--base-dir BASE_DIR]
-                                            [--train-cycles TRAIN_CYCLES]
-                                            [--out OUT]
-
-options:
-  -h, --help            show this help message and exit
-  --base-dir BASE_DIR
-  --train-cycles TRAIN_CYCLES
-  --out OUT             write HB-9 JSON report

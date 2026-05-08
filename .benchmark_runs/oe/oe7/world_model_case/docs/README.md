@@ -1,2 +1,0 @@
-# Docs
-Service uses config.
