@@ -17,13 +17,25 @@ class NeuroSymbolicArbitrator:
         self.message_buffer.append(msg)
 
     def decide_action(self) -> dict[str, Any]:
-        """Synthesize messages into a final decision."""
-        # Check for safety warnings first
+        """Synthesize messages into a final decision, prioritizing analogies for OOD."""
+        # 1. Safety first
         safety_warnings = [m for m in self.message_buffer if m.message_type == "risk_warning"]
         if safety_warnings:
             return {"decision": "abort", "reason": "safety_risk", "source": safety_warnings[0].from_area}
             
-        # Check for metacognitive strategy shifts
+        # 2. Check for analogies (OOD Bridge)
+        analogies = [m for m in self.message_buffer if m.message_type == "analogy_found"]
+        if analogies:
+            best_ana = max(analogies, key=lambda m: m.confidence)
+            return {
+                "decision": "execute_analogical_transfer",
+                "pattern": best_ana.content["matched_pattern"],
+                "suggested_action": best_ana.content["suggested_action_type"],
+                "confidence": best_ana.confidence,
+                "source": "analogical_area"
+            }
+            
+        # 3. Metacognitive shifts
         meta_shifts = [m for m in self.message_buffer if m.message_type == "strategy_shift_required"]
         if meta_shifts:
             return {"decision": "change_strategy", "reason": "drift_detected"}

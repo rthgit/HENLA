@@ -7,6 +7,9 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from core.procedural_neural_area import ProceduralNeuralArea
+from core.analogical_neural_area import AnalogicalNeuralArea
+from core.neural_arbitration import NeuroSymbolicArbitrator
 from core.analogical_retriever import AnalogicalRetriever
 from benchmarks.open_ended_common import write_benchmark
 
@@ -15,39 +18,43 @@ def run_gpu8_benchmark(base_dir: str | Path):
     root = Path(base_dir)
     root.mkdir(parents=True, exist_ok=True)
     
-    # Setup mock APHM v2 if not present
-    aphm_path = root / "aphm_v2_test.json"
-    mock_aphm = [
-        {"id": "abstract_read_loop", "roles": ["reader", "target"], "confidence": 0.95},
-        {"id": "abstract_write_error", "roles": ["writer", "target", "error"], "confidence": 0.88}
-    ]
-    with open(aphm_path, "w") as f:
-        json.dump(mock_aphm, f, indent=2)
-        
-    retriever = AnalogicalRetriever(aphm_path)
+    # 1. Procedural Area detects OOD (unknown action)
+    procedural = ProceduralNeuralArea("pro_001")
+    m_request = procedural.process_input({
+        "observation": "Accessing remote database...",
+        "candidates": ["query_db", "fetch_db"]
+    })
     
-    # Test case: OOD observation (unseen text, but similar structure)
-    # "Retrieve data from database" -> similar to "read file"
-    ood_obs = "Retrieve data from database"
-    analogies = retriever.find_analogies(ood_obs)
+    # 2. Analogical Area receives the request (simulated)
+    analogical = AnalogicalNeuralArea("ana_001")
+    m_analogy = analogical.process_input({
+        "msg_type": "analogy_request",
+        "observation": m_request.content["observation"]
+    })
+    
+    # 3. Arbitration receives and decides
+    arbitrator = NeuroSymbolicArbitrator()
+    arbitrator.receive_message(m_request) # The request itself
+    arbitrator.receive_message(m_analogy) # The result
+    decision = arbitrator.decide_action()
     
     # Verification
-    # Our simple extractor maps 'read'/'get' to 'reader' and 'file' to 'target'.
-    # For OOD, it might fail or find partial matches.
-    # Let's adjust mock extractor to be slightly more flexible for the test.
-    
-    passed = len(analogies) > 0 and analogies[0]["pattern_id"] == "abstract_read_loop"
+    passed = (
+        m_request.message_type == "analogy_request"
+        and m_analogy.message_type == "analogy_found"
+        and decision["decision"] == "execute_analogical_transfer"
+    )
     
     report = {
-        "name": "gpu8_analogical_bridge",
+        "name": "gpu8_integrated_analogical_bridge",
         "status": "passed" if passed else "failed",
         "passed": passed,
         "results": {
-            "analogy_found": len(analogies) > 0,
-            "top_match": analogies[0]["pattern_id"] if analogies else None,
-            "similarity": analogies[0]["similarity"] if analogies else 0
+            "ood_detected": m_request.message_type == "analogy_request",
+            "analogy_found": m_analogy.message_type == "analogy_found",
+            "final_decision": decision["decision"]
         },
-        "policy": "GPU-8 attempts to bridge the OOD gap by finding abstract structural similarities."
+        "policy": "GPU-8 validates the complete neuro-symbolic bridge from OOD detection to analogical execution."
     }
     
     write_benchmark(root / "henla0_gpu8_results.json", report)

@@ -20,24 +20,30 @@ class ProceduralNeuralArea(CognitiveArea):
         }
 
     def process_input(self, data: dict[str, Any]) -> NeuralMessage | None:
-        """Rank candidate actions based on local policy."""
+        """Rank candidate actions based on local policy or request an analogy if OOD."""
         candidates = data.get("candidates", [])
+        observation = data.get("observation", "")
         if not candidates: return None
         
-        # Simple ranking based on mock policy
-        ranked = sorted(
-            candidates, 
-            key=lambda a: self.action_policy.get(a, 0.5), 
-            reverse=True
-        )
+        # Calculate scores based on local policy
+        scores = {a: self.action_policy.get(a, 0.5) for a in candidates}
+        top_action = max(scores, key=scores.get)
+        confidence = scores[top_action]
         
-        top_action = ranked[0]
-        confidence = self.action_policy.get(top_action, 0.5)
+        # OOD Detection: if confidence is low, request an analogy
+        if confidence <= 0.5:
+            return NeuralMessage(
+                from_area=self.area_id,
+                to_area="analogical",
+                msg_type="analogy_request",
+                content={"observation": observation, "candidates": candidates},
+                confidence=1.0 # High confidence in the NEED for an analogy
+            )
         
         return NeuralMessage(
             from_area=self.area_id,
             to_area="arbitration",
             msg_type="action_recommendation",
-            content={"top_action": top_action, "ranked": ranked},
+            content={"top_action": top_action, "ranked": sorted(candidates, key=lambda a: scores[a], reverse=True)},
             confidence=confidence
         )
