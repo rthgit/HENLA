@@ -1,0 +1,16 @@
+{
+  "name": "gpu9_ood_generalization_gate",
+  "status": "passed",
+  "passed": true,
+  "metrics": {
+    "procedural_only": {
+      "success_rate": 0.5,
+      "mean_error": 0.05
+    },
+    "analogical_bridge": {
+      "success_rate": 0.75,
+      "mean_error": 0.025
+    }
+  },
+  "delta_improvement": 0.25
+}
