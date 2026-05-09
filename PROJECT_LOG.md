@@ -263,3 +263,12 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - Test EXT-9: Validazione dell'intera pipeline (Ingestion, Extraction, Consolidation, Reasoning, Contradiction) eseguita con successo su dataset esterno simulato (Incident Reports). Il sistema generalizza fuori dal dominio HENLA.
 - HENLA-EXT-10 (Independent Review Packet) completata: `HENLA_EXT_INDEPENDENT_REVIEW_PACKET.md` e `run_ext_suite.py` creati.
 - Chiusura fase: Programma HENLA-EXT completato con successo. Il sistema è ora sottoponibile a falsificazione pubblica.
+
+## Fase 11: HENLA-MoC-SCALE (Federated Cognitive LLMs)
+
+- Approvata la transizione verso i Language Models cognitivi.
+- Creato `HENLA_MOC_SCALE_ROADMAP.md` (10 step).
+- Principio: 8 LLM area-specifiche + 1 scratchbook condiviso + 1 hypergraph + 1 arbitratore.
+- Nessun transformer monolitico. Ottimizzazione differenziata per ogni area cognitiva sullo stesso "experience stream" testuale.
+- Dataset target iniziale: HuggingFaceFW/fineweb-edu (ODC-By / CommonCrawl).
+- Prossimo passo operativo: `SCALE-1` (Preparazione pipeline FineWeb-Edu subset -> Experience Stream strutturato).

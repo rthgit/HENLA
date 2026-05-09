@@ -1847,4 +1847,10 @@ Aggiornamento 2026-05-09:
 | EXT-9 | External Evaluation | Done | Test end-to-end su mock dataset esterno passato. |
 | EXT-10| Review Packet | Done | Review packet indipendente creato. Suite unificata operativa. |
 
-Prossima azione: Inviare il Review Packet per audit pubblico e congelare il repository.
+Aggiornamento 2026-05-10:
+- Programma `HENLA-EXT` concluso con successo.
+- Approvata e lanciata la nuova roadmap `HENLA_MOC_SCALE_ROADMAP.md`.
+- Nuovo obiettivo: **HENLA-MoC-SCALE** (Federazione di LLM area-specifiche + scratchbook + ipergrafo condiviso).
+- Dataset target iniziale: FineWeb-Edu.
+
+Prossima azione: Iniziare `SCALE-1 — FineWeb/FineWeb-Edu Massive Corpus`.
