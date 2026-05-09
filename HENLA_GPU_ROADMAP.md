@@ -9,7 +9,9 @@ Sfruttare infrastruttura GPU (NVIDIA A40 48GB) per addestrare, validare e confro
 ---
 
 ## FASE 1: Setup & Riproducibilità (GPU-0, GPU-1)
-- **GPU-0 — Cloud Machine Setup**: Installazione ambiente CUDA/PyTorch su Ubuntu (A40).
+- **GPU-0 — Cloud Machine Setup**: Installazione ambiente CUDA/PyTorch su Ubuntu (RunPod A40 o Kaggle T4/P100).
+  - Vedi [setup_a40_ubuntu.md](cloud/setup_a40_ubuntu.md) per RunPod.
+  - Vedi [setup_kaggle.md](cloud/setup_kaggle.md) per Kaggle.
 - **GPU-1 — Cloud Reproducibility Snapshot**: Generazione di `GPU_ENVIRONMENT_REPORT.json` e freeze dell'ambiente.
 
 ## FASE 2: Data Engineering (GPU-2)
