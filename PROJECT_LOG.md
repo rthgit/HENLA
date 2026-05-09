@@ -241,3 +241,25 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - Sfida aperta: OOD (Out-Of-Distribution) cross-workspace generalization non risolta.
 - Lanciato `GPU-8 Analogical Bridge`: implementazione `AnalogicalRetriever` per mappare task ignoti su pattern APHM v2.
 - Prossimo passo operativo: Test di generalizzazione OOD con recupero analogico.
+- HENLA-7 congelata: `henla-7-final-internal-validation` pushato.
+- Lanciata roadmap `HENLA-EXT`: External Validation & Large-Text Generalization.
+- HENLA-EXT-1 (Reproducibility Packet) completata: `HENLA_EXT_REPRODUCIBILITY_PACKET.md` creato.
+- HENLA-EXT-2 (Large Text Ingestion) completata: `LTECIngestor` implementato.
+- Test EXT-2: Ingestione dell'intero repository HENLA eseguita (5431 chunk da 400 documenti).
+- LTEC-1 (Large Text Experience Corpus) inizializzato in `.benchmark_runs/ext2/corpus/`.
+- HENLA-EXT-3 (Text-to-Hypergraph Pipeline) completata: `TextToHypergraphPipeline` implementato.
+- Test EXT-3: Trasformazione di LTEC-1 in ipergrafo eseguita (218 iperarchi estratti).
+- HENLA-EXT-4 (Knowledge Consolidation) completata: `KnowledgeConsolidator` implementato.
+- Test EXT-4: Consolidamento ipergrafo LTEC-1 eseguito (168 archi consolidati, 30 promossi a `stable`).
+- HENLA-EXT-5 (Open-Book Reasoning) completata: `OpenBookReasoner` implementato.
+- Test EXT-5: Ragionamento auditabile eseguito con successo su LTEC-1 (provenance e catena di evidenza verificate).
+- HENLA-EXT-6 (Contradiction & Uncertainty Stress Test) completata: `ContradictionDetector` implementato.
+- Test EXT-6: Rilevate 19 contraddizioni reali nel corpus.
+- HENLA-EXT-7 (Analogical Transfer on Text) completata: `TextAnalogicalTransfer` implementato.
+- Test EXT-7: Trasferimento analogico su testo OOD riuscito (mappatura di un errore di streaming su un pattern di lettura astratto).
+- HENLA-EXT-8 (Long-Horizon Memory) completata: `LongHorizonMemory` implementato.
+- Test EXT-8: Gestione temporale validata (decadimento, archiviazione obsoleti, e aggiornamento evidenze nel tempo).
+- HENLA-EXT-9 (External Corpus Evaluation) completata: Benchmark end-to-end implementato.
+- Test EXT-9: Validazione dell'intera pipeline (Ingestion, Extraction, Consolidation, Reasoning, Contradiction) eseguita con successo su dataset esterno simulato (Incident Reports). Il sistema generalizza fuori dal dominio HENLA.
+- HENLA-EXT-10 (Independent Review Packet) completata: `HENLA_EXT_INDEPENDENT_REVIEW_PACKET.md` e `run_ext_suite.py` creati.
+- Chiusura fase: Programma HENLA-EXT completato con successo. Il sistema è ora sottoponibile a falsificazione pubblica.

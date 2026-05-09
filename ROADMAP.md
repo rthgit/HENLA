@@ -1826,24 +1826,25 @@ Prossima direzione:
 - possibile direzione: packaging/release dello stato HENLA ready;
 - possibile direzione: iniziare una nuova roadmap post-PR-18 per ambienti Open World reali.
 
-Aggiornamento 2026-05-08:
+Aggiornamento 2026-05-09:
 
-- `HARDENING_BENCHMARK_ROADMAP.md` completata;
-- `OPEN_WORLD_REAL_ROADMAP.md` completata fino a `OW-6`;
-- limite esplicito emerso: alta dipendenza da prior consolidati iniziali;
-- nuova fase approvata: `OPEN_ENDED_INTELLIGENCE_ROADMAP.md`;
-- nuovo obiettivo: passare da generalizzazione limitata a adattamento open-ended controllato.
+- `HENLA-7 Final Internal Validation` completata e taggata.
+- Lanciata roadmap `HENLA-EXT`: External Validation & Large-Text Generalization.
+- Obiettivo: stress-test su corpora testuali GB-scale.
 
-File previsti:
+### HENLA-EXT Roadmap
 
-- `benchmarks/transfer.py`
-- `benchmarks/large_scale.py`
-- `benchmarks/failure_recovery.py`
-- `benchmarks/scratchpad_ablation.py`
-- `benchmarks/pruning_safety.py`
-- `benchmarks/distributed_merge.py`
-- `core/readiness.py`
-- `henla.py`
-- `tests/test_henla0.py`
-- `PROJECT_LOG.md`
-- `ROADMAP.md`
+| Fase | Nome | Stato | Note |
+| --- | --- | --- | --- |
+| EXT-1 | Reproducibility Packet | Done | Identificativi e comandi per riproducibilità totale. |
+| EXT-2 | Large Text Ingestion | Done | Creazione LTEC-1 e Ingestor implementato. |
+| EXT-3 | Text-to-Hypergraph | Done | Pipeline per estrazione claim operante. |
+| EXT-4 | Consolidation | Done | Consolidatore attivo con unificazione e evidence check. |
+| EXT-5 | Open-Book Reasoning | Done | Ragionatore con auditabilità implementato. |
+| EXT-6 | Stress Test | Done | Detector per contraddizioni in produzione. |
+| EXT-7 | Analogical Transfer | Done | Transfer OOD testuale validato con successo. |
+| EXT-8 | Long-Horizon Memory | Done | Meccanismi temporali di decadimento attivi. |
+| EXT-9 | External Evaluation | Done | Test end-to-end su mock dataset esterno passato. |
+| EXT-10| Review Packet | Done | Review packet indipendente creato. Suite unificata operativa. |
+
+Prossima azione: Inviare il Review Packet per audit pubblico e congelare il repository.

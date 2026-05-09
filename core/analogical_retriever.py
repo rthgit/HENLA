@@ -42,10 +42,17 @@ class AnalogicalRetriever:
         return sorted(matches, key=lambda x: x["similarity"], reverse=True)
 
     def _extract_structure(self, text: str) -> list[str]:
-        """Extract roles from text (mock)."""
+        """Extract roles from text with more robust semantic cues."""
         roles = []
-        if "file" in text: roles.append("target")
-        if "read" in text or "get" in text: roles.append("reader")
+        text_lower = text.lower()
+        if any(w in text_lower for w in ["file", "target", "stream", "database", "resource"]): 
+            roles.append("target")
+        if any(w in text_lower for w in ["read", "get", "access", "fetch", "retrieve"]): 
+            roles.append("reader")
+        if any(w in text_lower for w in ["write", "put", "send", "save"]): 
+            roles.append("writer")
+        if any(w in text_lower for w in ["error", "drop", "failure", "fail", "lost"]): 
+            roles.append("error")
         return roles
 
     def _calculate_structural_similarity(self, s1: list[str], s2: list[str]) -> float:
