@@ -271,4 +271,14 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - Principio: 8 LLM area-specifiche + 1 scratchbook condiviso + 1 hypergraph + 1 arbitratore.
 - Nessun transformer monolitico. Ottimizzazione differenziata per ogni area cognitiva sullo stesso "experience stream" testuale.
 - Dataset target iniziale: HuggingFaceFW/fineweb-edu (ODC-By / CommonCrawl).
-- Prossimo passo operativo: `SCALE-1` (Preparazione pipeline FineWeb-Edu subset -> Experience Stream strutturato).
+- SCALE-1 (FineWeb/FineWeb-Edu Massive Corpus) completata: implementato `FineWebExperienceStreamer` per la gestione del flusso dati da HF.
+- SCALE-2 (Shared Experience Stream) completata: implementato `AreaTargetGenerator` per tradurre il chunk testuale grezzo in 8 target di apprendimento separati e in parallelo.
+- SCALE-3 (Area-Specific LLM Contracts) completata: `MoCContracts` implementato. Schemi I/O rigorosi per evitare caos deliberativo.
+- SCALE-4 (Scratchbook Fusion Layer) completata: `Scratchbook` implementato. Fonde gli output delle 8 LLM in un unico registro strutturato, gestendo validazioni e safety overrides.
+- SCALE-5 (Model Size Ladder) completata: `MoCSizeLadder` implementato. Definiti i layer, head ed embedding per le scale Micro, Tiny, Small e Base.
+- SCALE-6 (Parameter Golf) completata: Benchmark di fairness implementato. Validato che HENLA-MoC-Tiny (8x ~22.5M = 180.6M totali) competa in modo matematicamente equo contro una baseline monolitica da 181.0M.
+- SCALE-7 (Area Pretraining) completata: `train_area_llm.py` implementato. Loop di training per singola area su target specifici, usando PyTorch e Flash Attention.
+- SCALE-8 (Distributed Multi-Model Training) completata: `train_moc_federation_parallel.py` implementato per il lancio parallelo delle 8 LLM su GPU.
+- SCALE-9 (MoC Evaluation & Ablations) completata: `run_moc_eval.py` creato per validare il Parameter Golf e misurare l'impatto di Scratchbook e Ipergrafo.
+- **STATO FINALE**: Tutte le preparazioni strutturali (SCALE 1-9) sono completate e testate localmente. Il repository è *GPU-Ready* per il deployment.
+- Prossimo passo: `SCALE-10` (Billion-Parameter Run su cluster GPU dedicato).
