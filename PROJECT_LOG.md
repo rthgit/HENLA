@@ -239,4 +239,5 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - Strutture create: `Pattern Hypergraph (PHM) v1` e `Abstract Pattern Hypergraph (APHM) v2`.
 - Verdetto: In-domain learning su `goal_progress` e `prediction_error` VALIDATO (UEC v4.1).
 - Sfida aperta: OOD (Out-Of-Distribution) cross-workspace generalization non risolta.
-- Prossimo passo operativo: Implementazione `Analogical Pattern Retrieval` (GPU-8).
+- Lanciato `GPU-8 Analogical Bridge`: implementazione `AnalogicalRetriever` per mappare task ignoti su pattern APHM v2.
+- Prossimo passo operativo: Test di generalizzazione OOD con recupero analogico.
