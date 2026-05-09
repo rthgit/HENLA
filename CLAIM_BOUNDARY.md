@@ -6,6 +6,7 @@ This document defines the strictly enforced boundaries for claims regarding the 
 - **Symbolic-Experiential Foundation**: The architecture is built on episodic memory and evidence-based hypergraphs.
 - **Architectural Completeness**: The platform implements episodic storage, viability signaling, prediction error detection, deliberative scratchpads, and specialized domain subgraphs.
 - **Area-Specific Neuralized Subgraphs**: Each cognitive area (Episodic, Procedural, Semantic, etc.) integrates symbolic memory with a local neural module interface.
+- **In-Domain Neural Learning**: Validated ability to learn `goal_progress` and `prediction_error` on unified datasets (UEC v4.1) using PHM v1 and APHM v2 structures.
 - **Inter-Area Messaging**: Areas communicate via structured cognitive messages (novelty, risk, analogy candidates).
 - **Neuro-Symbolic Arbitration**: A dedicated layer integrates neural suggestions with symbolic safety and ethics constraints.
 - **Internal Consistency**: The system successfully passes internal benchmarks for both symbolic and neural civilization suites.

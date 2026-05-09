@@ -234,4 +234,9 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - Risultato: `passed`, criteri `5/5`, verdetto finale `NEURAL_CIVILIZATION_READY`.
 - Nuova roadmap approvata: `EXT_NN_PROTOCOL.md`.
 - Nuova roadmap approvata: `HENLA_GPU_ROADMAP.md` (A40 48GB).
-- Prossimo passo operativo: setup ambiente cloud e `GPU-2 Dataset Extraction`.
+- Sessione Kaggle GPU (T4 x2) conclusa con successo.
+- Addestramento completati: `TargetPredictor`, `ViewPredictor`, `PatternMemoryPredictor`, `AbstractPatternPredictor`.
+- Strutture create: `Pattern Hypergraph (PHM) v1` e `Abstract Pattern Hypergraph (APHM) v2`.
+- Verdetto: In-domain learning su `goal_progress` e `prediction_error` VALIDATO (UEC v4.1).
+- Sfida aperta: OOD (Out-Of-Distribution) cross-workspace generalization non risolta.
+- Prossimo passo operativo: Implementazione `Analogical Pattern Retrieval` (GPU-8).

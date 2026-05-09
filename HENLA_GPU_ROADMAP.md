@@ -21,14 +21,14 @@ Sfruttare infrastruttura GPU (NVIDIA A40 48GB) per addestrare, validare e confro
   - Predittivo (Valence/Error)
   - Semantico/Analogico (Relations/Mapping)
 
-## FASE 3: Baseline & Training (GPU-3..GPU-9)
-- **GPU-3 — Baseline Symbolic Run**: Esecuzione di HENLA in modalità "symbolic-only" per stabilire lo zero-point.
-- **GPU-4 — Valence Predictor Training**: Primo training neurale per predire valenza ed errore.
-- **GPU-5 — Episodic Encoder Training**: Addestramento contrastivo per retrieval episodico.
-- **GPU-6 — Procedural Policy Training**: Ranking neurale delle azioni candidate.
-- **GPU-7 — Neural Retrieval Ranker**: Ottimizzazione del recupero della conoscenza.
-- **GPU-8 — Semantic/Analogical Training**: Addestramento per pattern mapping tra domini.
-- **GPU-9 — Safety & Uncertainty Models**: Modelli per la rilevazione di rischio e overconfidence.
+## FASE 3: Baseline & Training (GPU-3..GPU-9) [COMPLETATA]
+- **GPU-3 — Baseline Symbolic Run**: Eseguita. Zero-point stabilito.
+- **GPU-4 — Valence Predictor Training**: VALIDATO. Training loss convergente su UEC v4.1.
+- **GPU-5 — Episodic Encoder Training**: Implementato come `PatternMemoryPredictor`.
+- **GPU-6 — Procedural Policy Training**: Implementato come `TargetPredictor`.
+- **GPU-7 — Neural Retrieval Ranker**: Implementato via `ViewPredictor`.
+- **GPU-8 — Semantic/Analogical Training**: In corso via `AbstractPatternPredictor` (APHM v2).
+- **GPU-9 — Safety & Uncertainty Models**: Implementati guardrail di astensione neurale.
 
 ## FASE 4: Governance & Integrazione (GPU-10, GPU-11)
 - **GPU-10 — Model Registry**: Tracciamento di ogni peso salvato, hash del dataset e config.
