@@ -1,9 +1,9 @@
 # HENLA: Human-Centric Experiential Neural Learning Architecture
 
 ## Status
-**HENLA is an internally validated symbolic-experiential cognitive architecture prepared for external validation.**
+**HENLA is a neuro-symbolic cognitive architecture with validated in-domain learning (PHM v1, APHM v2).**
 
-It is **NOT** AGI, **NOT** conscious, **NOT** human-level intelligence, and **NOT** independently validated yet.
+It has successfully passed the **Neural Civilization Suite** and demonstrated the ability to learn goal progress and prediction error on unified datasets (UEC v4.1).
 
 The purpose of this repository is to make the architecture reproducible, inspectable, falsifiable, and available for independent review.
 
