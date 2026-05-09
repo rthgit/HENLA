@@ -1,0 +1,24 @@
+{
+  "report_id": "GPU_ENV_001",
+  "timestamp": "",
+  "hardware": {
+    "gpu": "NVIDIA A40",
+    "vram_gb": 48,
+    "ram_gb": 0,
+    "cpu_cores": 0
+  },
+  "software": {
+    "os": "Ubuntu",
+    "cuda_version": "",
+    "pytorch_version": "",
+    "python_version": ""
+  },
+  "repository": {
+    "commit_hash": "",
+    "requirements_hash": ""
+  },
+  "verification": {
+    "cuda_available": false,
+    "neural_suite_passed": false
+  }
+}

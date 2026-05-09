@@ -1,0 +1,38 @@
+{
+  "episodic_train": {
+    "path": "artifacts\\neural\\datasets\\episodic_train.jsonl",
+    "count": 70
+  },
+  "episodic_val": {
+    "path": "artifacts\\neural\\datasets\\episodic_val.jsonl",
+    "count": 15
+  },
+  "episodic_test": {
+    "path": "artifacts\\neural\\datasets\\episodic_test.jsonl",
+    "count": 15
+  },
+  "procedural_train": {
+    "path": "artifacts\\neural\\datasets\\procedural_train.jsonl",
+    "count": 70
+  },
+  "procedural_val": {
+    "path": "artifacts\\neural\\datasets\\procedural_val.jsonl",
+    "count": 15
+  },
+  "procedural_test": {
+    "path": "artifacts\\neural\\datasets\\procedural_test.jsonl",
+    "count": 15
+  },
+  "semantic_train": {
+    "path": "artifacts\\neural\\datasets\\semantic_train.jsonl",
+    "count": 1
+  },
+  "semantic_val": {
+    "path": "artifacts\\neural\\datasets\\semantic_val.jsonl",
+    "count": 0
+  },
+  "semantic_test": {
+    "path": "artifacts\\neural\\datasets\\semantic_test.jsonl",
+    "count": 1
+  }
+}

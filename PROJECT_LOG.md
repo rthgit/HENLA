@@ -233,4 +233,5 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - Eseguita suite `benchmarks/run_neural_civilization_suite.py`.
 - Risultato: `passed`, criteri `5/5`, verdetto finale `NEURAL_CIVILIZATION_READY`.
 - Nuova roadmap approvata: `EXT_NN_PROTOCOL.md`.
-- Prossimo passo operativo: Blind Test S vs N su repository esterni (EXT-NN).
+- Nuova roadmap approvata: `HENLA_GPU_ROADMAP.md` (A40 48GB).
+- Prossimo passo operativo: setup ambiente cloud e `GPU-2 Dataset Extraction`.
