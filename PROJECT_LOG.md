@@ -281,4 +281,5 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - SCALE-8 (Distributed Multi-Model Training) completata: `train_moc_federation_parallel.py` implementato per il lancio parallelo delle 8 LLM su GPU.
 - SCALE-9 (MoC Evaluation & Ablations) completata: `run_moc_eval.py` creato per validare il Parameter Golf e misurare l'impatto di Scratchbook e Ipergrafo.
 - **STATO FINALE**: Tutte le preparazioni strutturali (SCALE 1-9) sono completate e testate localmente. Il repository è *GPU-Ready* per il deployment.
-- Prossimo passo: `SCALE-10` (Billion-Parameter Run su cluster GPU dedicato).
+- Preparazione Deployment (RunPod): Creati `Dockerfile`, `Makefile`, `requirements-scale.txt` e gli script di avvio (`scripts/`).
+- Prossimo passo: Esecuzione su cluster GPU (NVIDIA A40) e recupero artefatti.
