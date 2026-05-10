@@ -36,6 +36,9 @@ tiny1000:
 	python train_moc_federation_parallel.py --scale tiny --steps 1000
 	python run_moc_eval.py
 
+baseline:
+	python train_monolithic_baseline.py --scale tiny --steps 1000
+
 eval:
 	python run_moc_eval.py
 

@@ -302,3 +302,6 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 
 **Packaging:**
 - Shell zip failed because `zip` command was unavailable. Python zip packaging should be used on this pod.
+
+**Preparazione MOC-EVAL-REAL-1:**
+- Creato `train_monolithic_baseline.py` e aggiunto target `baseline` al `Makefile`. Questo permetterà l'addestramento empirico del Transformer Monolitico con 181M parametri per il confronto diretto.
