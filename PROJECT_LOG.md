@@ -282,4 +282,23 @@ Il progetto implementa HENLA-0, una prima versione della Hypergraph Embodied Neu
 - SCALE-9 (MoC Evaluation & Ablations) completata: `run_moc_eval.py` creato per validare il Parameter Golf e misurare l'impatto di Scratchbook e Ipergrafo.
 - **STATO FINALE**: Tutte le preparazioni strutturali (SCALE 1-9) sono completate e testate localmente. Il repository è *GPU-Ready* per il deployment.
 - Preparazione Deployment (RunPod): Creati `Dockerfile`, `Makefile`, `requirements-scale.txt` e gli script di avvio (`scripts/`).
-- Prossimo passo: Esecuzione su cluster GPU (NVIDIA A40) e recupero artefatti.
+
+## Risultati Prima Run su NVIDIA A40 (HENLA-MoC A40 First Run)
+
+**Environment:**
+- NVIDIA A40 detected, CUDA available.
+- Torch CUDA functional.
+
+**Training:**
+- Micro smoke showed intermittent process aborts with exit code -6.
+- Tiny 100-step run completed successfully for all 8 cognitive areas.
+- Tiny 1000-step run completed successfully for all 8 cognitive areas.
+- Federation parallel launcher is operational at tiny scale.
+
+**Evaluation:**
+- `run_moc_eval.py` completed and returned PASSED.
+- Current eval appears static or fixture-based because scores are identical across smoke/micro/tiny runs.
+- **Next required improvement:** `MOC-EVAL-REAL-1` (Checkpoint-derived evaluation comparing trained MoC checkpoints against a real single-model baseline).
+
+**Packaging:**
+- Shell zip failed because `zip` command was unavailable. Python zip packaging should be used on this pod.
